@@ -1,0 +1,1449 @@
+{
+  "trip": {
+    "name": "Roteiro Euro 2026",
+    "who": "Casal viajante",
+    "span": "13/10 a 02/11",
+    "route": "São Paulo → Casablanca → Paris → Amsterdã → Zagreb → Bled/Liubliana → Copenhague → Malmö → Liverpool → Manchester → Madri → Casablanca/Rabat → São Paulo"
+  },
+  "principles": [
+    "Pré-maratona (até 18/10 em Amsterdã): ritmo mais lento, menos km por dia, priorizando transporte público em vez de caminhadas longas.",
+    "Pós-maratona: liberdade total para explorar a pé.",
+    "Hospedagens e passeios priorizam nota alta (8.5+), com bom custo-benefício.",
+    "Em cada cidade: ingressos principais com preço aproximado, pratos típicos para provar, e onde comer bem gastando pouco.",
+    "Valores em euros/libras/dirrãns são aproximados (pesquisa de 2026) e podem variar — confirmem sempre perto da viagem."
+  ],
+  "legs": [
+    [
+      "Amsterdã → Zagreb",
+      "Avião",
+      "2h",
+      "KLM, 14:35–16:25"
+    ],
+    [
+      "Zagreb → Ljubljana",
+      "Ônibus",
+      "2h30",
+      "R$ 90–140 (casal)"
+    ],
+    [
+      "Ljubljana ↔ Lago Bled",
+      "Ônibus",
+      "1h15 cada",
+      "R$ 120 (casal, ida/volta)"
+    ],
+    [
+      "Ljubljana → Copenhague",
+      "Avião",
+      "1h50",
+      "Norwegian D8 3755, 20:30–22:20"
+    ],
+    [
+      "Malmö → Copenhague",
+      "Trem",
+      "40 min",
+      "R$ 120–180 (casal)"
+    ],
+    [
+      "Copenhague → Liverpool",
+      "Avião",
+      "2h15",
+      "R$ 700–1.100 (casal)"
+    ],
+    [
+      "Liverpool → Manchester",
+      "Trem",
+      "40 min",
+      "R$ 120–200 (casal)"
+    ],
+    [
+      "Manchester → Madri",
+      "Avião",
+      "2h40",
+      "R$ 500–900 (casal)"
+    ],
+    [
+      "Madri → Casablanca",
+      "Avião",
+      "1h45",
+      "AT973, 13:00–14:45"
+    ]
+  ],
+  "places": [
+    {
+      "id": 1,
+      "name": "Casablanca",
+      "country": "Marrocos",
+      "dates": "13/10 · 30/10–02/11",
+      "colorTag": 0,
+      "description": "Conexão na ida e os últimos dias na volta. Mesquita Hassan II, Marina Royale e a Antiga Medina.",
+      "lat": 33.5731,
+      "lng": -7.5898,
+      "cur": "MAD",
+      "logistics": [
+        [
+          "Chegada (ida)",
+          "13/10, 13:25 — Casablanca Mohammed V (T2)"
+        ],
+        [
+          "Saída (ida)",
+          "14/10, 08:00 — AT778 → Paris CDG (T1), chega 11:55"
+        ],
+        [
+          "Chegada (volta)",
+          "30/10, 14:45 — Mohammed V (T2)"
+        ],
+        [
+          "Saída final",
+          "02/11, 16:35 — AT215 (T1) → Guarulhos, chega 22:25"
+        ]
+      ],
+      "days": [
+        {
+          "when": "13/10",
+          "title": "Conexão",
+          "bullets": [
+            "Ao desembarcar, sigam para a migração e depois à Lodging Agency, para informações de transporte e hotel"
+          ],
+          "note": "Nos petit taxis e táxis vermelhos, sempre peçam para ligar o taxímetro."
+        },
+        {
+          "when": "30/10 e 31/10",
+          "title": "Casablanca",
+          "bullets": [
+            "Mesquita Hassan II — à beira do Atlântico, aberta a não muçulmanos em tour guiado",
+            "Boulevard des Almohades e a Marina Royale",
+            "Sqala Café Maure — restaurante dentro de fortaleza do século 18, com música ao vivo",
+            "Antiga Medina — compras e clima local"
+          ]
+        },
+        {
+          "when": "02/11",
+          "title": "Retorno ao Brasil",
+          "bullets": [
+            "Cheguem ao aeroporto com antecedência para o voo das 16h35 rumo a Guarulhos"
+          ]
+        }
+      ],
+      "tickets": [
+        {
+          "name": "Mesquita Hassan II (tour guiado)",
+          "price": "~130 MAD (~12€) por pessoa",
+          "each": 130
+        }
+      ],
+      "food": [
+        "Tagine — ensopado lento em panela de barro, de frango, cordeiro ou legumes",
+        "Couscous — tradicionalmente servido às sextas-feiras",
+        "Pastilla — folhado doce-salgado com canela e açúcar",
+        "Chá de menta marroquino — onipresente e sempre bem-vindo",
+        "Harira — sopa densa de lentilha, grão-de-bico e tomate"
+      ],
+      "eats": [
+        {
+          "where": "Barracas da Medina",
+          "what": "Tagine ou espetinhos + chá",
+          "price": "~150-200 MAD (~14-19€)"
+        },
+        {
+          "where": "Sqala Café Maure",
+          "what": "Prato típico + bebida, para dois",
+          "price": "~300-400 MAD (~28-37€)"
+        },
+        {
+          "where": "Marjane ou Carrefour Market",
+          "what": "Pão, queijo, frutas e água",
+          "price": "~40-60 MAD (~4-6€)",
+          "cheap": true
+        },
+        {
+          "where": "Padaria/pastelaria local",
+          "what": "Msemen ou pastel + chá de menta",
+          "price": "~20-30 MAD (~2-3€)",
+          "cheap": true
+        }
+      ],
+      "ticketsTotal": {
+        "text": "~260 MAD o casal",
+        "hasOptional": false
+      }
+    },
+    {
+      "id": 2,
+      "name": "Paris",
+      "country": "França",
+      "dates": "14–16/10",
+      "colorTag": 1,
+      "tag": "Resguardo pré-maratona",
+      "description": "Ritmo reduzido: priorizem o metrô entre os pontos e caminhadas curtas.",
+      "lat": 48.8566,
+      "lng": 2.3522,
+      "cur": "EUR",
+      "logistics": [
+        [
+          "Hospedagem",
+          "Hôtel Aviatic — 0 Rue Brézin, Paris 75014 (com café da manhã)"
+        ],
+        [
+          "Chegada",
+          "14/10, 11:55 — CDG (T2B)"
+        ],
+        [
+          "Transporte aeroporto",
+          "Metrô (~16€)"
+        ],
+        [
+          "Saída p/ Amsterdã",
+          "16/10, trem a partir de ~06:22 (Eurostar), chega ~10h — Gare du Nord (Uber até lá)"
+        ]
+      ],
+      "days": [
+        {
+          "when": "14/10",
+          "title": "Quarta-feira: Montmartre",
+          "bullets": [
+            "Estação Abbesses — arquitetura art nouveau e escada em espiral",
+            "Muro 'Je t'aime' e Place des Abbesses",
+            "Rue Lepic — Café des Deux Moulins (nº 15) e a casa de Van Gogh (nº 54)",
+            "Place du Tertre e o restaurante Le Consulat",
+            "La Maison Rose e Rue de l'Abreuvoir",
+            "Sacré-Cœur ao entardecer, para o pôr do sol"
+          ]
+        },
+        {
+          "when": "14/10",
+          "title": "Fim de tarde: Canal Saint-Martin (19h–20h30)",
+          "bullets": [
+            "Comportas e pontes metálicas do canal",
+            "Quai de Valmy e Quai de Jemmapes",
+            "Cafés, bares e lojas independentes"
+          ],
+          "note": "Jantem por ali mesmo, em vez de voltar ao centro turístico."
+        },
+        {
+          "when": "15/10",
+          "title": "Quinta-feira: dia de museu, poupa as pernas",
+          "bullets": [
+            "Museu do Louvre — reservem com antecedência",
+            "Galeries Lafayette Haussmann — rooftop com vista, sem caminhar muito",
+            "Avenue de Camoëns — vista lateral da Torre Eiffel, sem fila",
+            "Panthéon rooftop (ingresso 'Panoramic')"
+          ],
+          "note": "Reservem a Catedral de Notre-Dame com 2 dias de antecedência: a entrada é gratuita, mas a fila é longa sem reserva."
+        }
+      ],
+      "tickets": [
+        {
+          "name": "Museu do Louvre (não residente UE)",
+          "price": "32€/pessoa",
+          "each": 32
+        },
+        {
+          "name": "Cúpula do Sacré-Cœur (300 degraus, vista 360°)",
+          "price": "5€/pessoa",
+          "each": 5
+        },
+        {
+          "name": "Panthéon rooftop 'Panoramic'",
+          "price": "~3€/pessoa",
+          "each": 3
+        },
+        {
+          "name": "Catedral de Notre-Dame",
+          "price": "Grátis (reservar com antecedência)",
+          "each": 0
+        },
+        {
+          "name": "Museu Carnavalet (história de Paris)",
+          "price": "Grátis",
+          "each": 0
+        }
+      ],
+      "food": [
+        "Croissant e pain au chocolat — de padaria de bairro, não de ponto turístico",
+        "Crêpe (doce) e galette (salgada, de trigo sarraceno)",
+        "Steak-frites e escargots de Bourgogne",
+        "Macarons e queijos franceses (brie, camembert)",
+        "Falafel do Marais — herança judaica do bairro"
+      ],
+      "eats": [
+        {
+          "where": "L'As du Falafel (Marais)",
+          "what": "Sanduíche de falafel completo",
+          "price": "~16-20€"
+        },
+        {
+          "where": "Creperia em Montmartre",
+          "what": "Galette + crêpe de sobremesa",
+          "price": "~24-30€"
+        },
+        {
+          "where": "Bistrô no Canal Saint-Martin",
+          "what": "Prato principal + vinho da casa",
+          "price": "~40-55€"
+        },
+        {
+          "where": "Café des Deux Moulins (Rue Lepic)",
+          "what": "Café + pastel",
+          "price": "~12-15€"
+        },
+        {
+          "where": "Monoprix ou Franprix",
+          "what": "Sanduíche pronto + fruta + água",
+          "price": "~8-10€",
+          "cheap": true
+        },
+        {
+          "where": "Boulangerie de bairro",
+          "what": "Baguete recheada + pastel",
+          "price": "~10-12€",
+          "cheap": true
+        }
+      ],
+      "ticketsTotal": {
+        "text": "~80 € o casal",
+        "hasOptional": false
+      }
+    },
+    {
+      "id": 3,
+      "name": "Amsterdã",
+      "country": "Países Baixos",
+      "dates": "16–20/10",
+      "colorTag": 2,
+      "star": true,
+      "tag": "Maratona em 18/10",
+      "description": "Antes da prova, pernas leves. Depois, a cidade liberada.",
+      "lat": 52.3676,
+      "lng": 4.9041,
+      "cur": "EUR",
+      "logistics": [
+        [
+          "Hospedagem",
+          "Vienna House Easy by Wyndham Amsterdam Airport (com café da manhã)"
+        ],
+        [
+          "Chegada",
+          "16/10 de trem, ~10h em Amsterdam Centraal"
+        ],
+        [
+          "Saída",
+          "20/10, 14:35 — voo KLM KL1967 → Zagreb, chega 16:25"
+        ]
+      ],
+      "days": [
+        {
+          "when": "16/10 e 17/10",
+          "title": "Pré-maratona: pernas leves",
+          "bullets": [
+            "Passeio curto de bike (ou a pé, devagar) pelos canais do centro",
+            "17/10 — Moinhos de Zaanse Schans, passeio tranquilo, com paradas frequentes"
+          ]
+        },
+        {
+          "when": "18/10",
+          "title": "Domingo: dia da Maratona",
+          "bullets": [],
+          "star": true,
+          "note": "Reservem o dia inteiro para a prova e a recuperação: hidratação, alongamento leve e uma refeição bem reforçada no almoço."
+        },
+        {
+          "when": "19/10",
+          "title": "Segunda: liberado! Comemorem com calma",
+          "bullets": [
+            "Manhã tranquila no Foodhallen, mercado gastronômico com várias opções baratas",
+            "16h — Heineken Experience, com 2 bebidas incluídas",
+            "Cannibale Royale para um jantar informal"
+          ]
+        },
+        {
+          "when": "20/10",
+          "title": "Terça: checkout e voo para Zagreb",
+          "bullets": []
+        }
+      ],
+      "tickets": [
+        {
+          "name": "Zaanse Schans (vila dos moinhos)",
+          "price": "Grátis para passear; interior de moinho ~5-8€",
+          "each": 6.5
+        },
+        {
+          "name": "Heineken Experience (com 2 bebidas)",
+          "price": "~23€/pessoa",
+          "each": 23
+        }
+      ],
+      "food": [
+        "Stroopwafel — bolacha com caramelo, melhor recém-feita em barraca de rua",
+        "Bitterballen — bolinho frito, tira-gosto de bar",
+        "Kibbeling (peixe frito) e haring (arenque cru com cebola)",
+        "Poffertjes — mini panquecas com manteiga e açúcar",
+        "Batata frita com maionese (patatje oorlog)"
+      ],
+      "eats": [
+        {
+          "where": "Foodhallen",
+          "what": "2 pratos variados + bebida",
+          "price": "~35-45€"
+        },
+        {
+          "where": "Fabel Friet",
+          "what": "Porção de batata frita especial",
+          "price": "~8-10€ (a dois)"
+        },
+        {
+          "where": "Soepenzo",
+          "what": "Sopa + pão, para os dois",
+          "price": "~18-20€"
+        },
+        {
+          "where": "Barraca de rua (haring/kibbeling)",
+          "what": "Porção de peixe frito",
+          "price": "~12-16€"
+        },
+        {
+          "where": "Albert Heijn (supermercado)",
+          "what": "Broodje/salada pronta + fruta",
+          "price": "~8-10€",
+          "cheap": true
+        },
+        {
+          "where": "HEMA (lanchonete popular)",
+          "what": "Broodje kroket + café",
+          "price": "~7-9€",
+          "cheap": true
+        }
+      ],
+      "ticketsTotal": {
+        "text": "~59 € o casal",
+        "hasOptional": false
+      }
+    },
+    {
+      "id": 4,
+      "name": "Zagreb",
+      "country": "Croácia",
+      "dates": "20–22/10",
+      "colorTag": 3,
+      "description": "Cidade Alta e Cidade Baixa ligadas por um funicular histórico.",
+      "lat": 45.815,
+      "lng": 15.9819,
+      "cur": "EUR",
+      "logistics": [
+        [
+          "Hospedagem",
+          "Livris Hotel — Rapska 12, Zagreb (com café)"
+        ],
+        [
+          "Chegada",
+          "20/10, 16:25"
+        ],
+        [
+          "Saída",
+          "22/10, ônibus para Ljubljana (~2h30), após o café da manhã"
+        ]
+      ],
+      "days": [
+        {
+          "when": "20/10",
+          "title": "Noite de chegada",
+          "bullets": [
+            "Rua Tkalčićeva ao entardecer — rua boêmia, ótima para o primeiro jantar"
+          ]
+        },
+        {
+          "when": "21/10",
+          "title": "Dia inteiro em Zagreb",
+          "bullets": [
+            "Catedral de Zagreb (grátis) e Praça Ban Jelačić",
+            "Igreja de São Marcos, do telhado colorido",
+            "Portão de Pedra e Torre de Lotrščak — o canhão dispara ao meio-dia",
+            "Funicular histórico até a Cidade Baixa",
+            "Mercado Dolac — guarda-sóis vermelhos, frutas e comida típica",
+            "Museus baratos: dos Relacionamentos Terminados e dos Anos 80"
+          ]
+        }
+      ],
+      "tickets": [
+        {
+          "name": "Catedral de Zagreb",
+          "price": "Grátis",
+          "each": 0
+        },
+        {
+          "name": "Funicular (Cidade Alta ↔ Baixa)",
+          "price": "~1€/pessoa (trajeto)",
+          "each": 1
+        },
+        {
+          "name": "Museu dos Relacionamentos Terminados",
+          "price": "~8€/pessoa",
+          "each": 8
+        },
+        {
+          "name": "Museu dos Anos 80 de Zagreb",
+          "price": "~7-8€/pessoa",
+          "each": 7.5
+        }
+      ],
+      "food": [
+        "Štrukli — massa com queijo, cozida ou assada, o prato mais tradicional da região",
+        "Ćevapi — linguicinhas grelhadas com pão e cebola",
+        "Sarma — charuto de repolho recheado",
+        "Burek — folhado salgado de carne ou queijo"
+      ],
+      "eats": [
+        {
+          "where": "Barracas do Mercado Dolac",
+          "what": "Frutas, queijo e petiscos",
+          "price": "~8-10€",
+          "cheap": true
+        },
+        {
+          "where": "Restaurante na Tkalčićeva",
+          "what": "Prato principal croata + bebida",
+          "price": "~28-35€"
+        },
+        {
+          "where": "Lanchonete de ćevapi no centro",
+          "what": "Porção de ćevapi com pão",
+          "price": "~14-18€"
+        },
+        {
+          "where": "Konzum ou Studenac",
+          "what": "Burek pronto + iogurte + fruta",
+          "price": "~7-9€",
+          "cheap": true
+        },
+        {
+          "where": "Pekarnica (padaria de bairro)",
+          "what": "Burek ou štrukli para viagem",
+          "price": "~6-8€",
+          "cheap": true
+        }
+      ],
+      "ticketsTotal": {
+        "text": "~33 € o casal",
+        "hasOptional": false
+      }
+    },
+    {
+      "id": 5,
+      "name": "Ljubljana",
+      "country": "Eslovênia",
+      "dates": "22–23/10",
+      "colorTag": 4,
+      "description": "Centro histórico às margens do rio Ljubljanica.",
+      "lat": 46.0569,
+      "lng": 14.5058,
+      "cur": "EUR",
+      "logistics": [
+        [
+          "Chegada",
+          "22/10, de ônibus (~2h30 de Zagreb)"
+        ],
+        [
+          "Deslocamento a Bled",
+          "Ônibus local (~1h10) — verificar forma de pagamento"
+        ]
+      ],
+      "days": [
+        {
+          "when": "22/10",
+          "title": "Chegada e noite em Ljubljana",
+          "bullets": [
+            "Passeio tranquilo pelo centro histórico, às margens do Ljubljanica",
+            "Castelo de Ljubljana — visto de longe ou de funicular",
+            "Jantar em bistrô charmoso do centro"
+          ]
+        }
+      ],
+      "tickets": [
+        {
+          "name": "Castelo de Ljubljana + funicular",
+          "price": "~19€/pessoa",
+          "each": 19
+        }
+      ],
+      "food": [
+        "Štruklji — versão eslovena, doce ou salgada",
+        "Potica — pão doce enrolado com nozes"
+      ],
+      "eats": [
+        {
+          "where": "Odprta Kuhna (mercado de rua, sáb.)",
+          "what": "Pratos variados de food trucks",
+          "price": "~20-25€"
+        },
+        {
+          "where": "Bistrô no centro de Ljubljana",
+          "what": "Prato principal + bebida",
+          "price": "~30-38€"
+        },
+        {
+          "where": "Mercator ou Spar",
+          "what": "Sanduíche pronto + fruta + água",
+          "price": "~8-10€",
+          "cheap": true
+        },
+        {
+          "where": "Padaria local (burek/pecivo)",
+          "what": "Salgado assado para viagem",
+          "price": "~6-8€",
+          "cheap": true
+        }
+      ],
+      "ticketsTotal": {
+        "text": "~38 € o casal",
+        "hasOptional": false
+      }
+    },
+    {
+      "id": 6,
+      "name": "Lago Bled",
+      "country": "Eslovênia",
+      "dates": "23/10",
+      "colorTag": 5,
+      "description": "O dia no lago, e à noite já é aeroporto.",
+      "lat": 46.3683,
+      "lng": 14.1146,
+      "cur": "EUR",
+      "logistics": [
+        [
+          "Ida",
+          "Ônibus local de Ljubljana (~1h10)"
+        ],
+        [
+          "Saída",
+          "23/10, 20h30 — voo Norwegian D8 3755 → Copenhague, chega 22h20"
+        ]
+      ],
+      "days": [
+        {
+          "when": "23/10",
+          "title": "Dia no Lago Bled, depois aeroporto",
+          "bullets": [
+            "Ônibus local até Bled (~1h10)",
+            "Passeio de barco (pletna) até a Ilha de Bled, para tocar o sino",
+            "Caminhada parcial pela orla — a volta completa são 6 km, sem exagerar",
+            "Provem a Kremna Rezina, a torta de creme e baunilha de Bled"
+          ],
+          "note": "Voltem a tempo do checkout e do aeroporto: o voo é às 20h30."
+        }
+      ],
+      "tickets": [
+        {
+          "name": "Barco pletna até a Ilha de Bled (ida e volta)",
+          "price": "~15€/pessoa",
+          "each": 15
+        },
+        {
+          "name": "Castelo de Bled",
+          "price": "~11€/pessoa (opcional — dá para ver de fora)",
+          "each": 11,
+          "optional": true
+        }
+      ],
+      "food": [
+        "Kremna Rezina — a 'torta de Bled', de creme de baunilha e massa folhada"
+      ],
+      "eats": [
+        {
+          "where": "Café à beira do lago em Bled",
+          "what": "Kremna rezina + café, para dois",
+          "price": "~14-16€"
+        }
+      ],
+      "ticketsTotal": {
+        "text": "~30 € o casal",
+        "hasOptional": true
+      }
+    },
+    {
+      "id": 7,
+      "name": "Copenhague",
+      "country": "Dinamarca",
+      "dates": "23–25/10",
+      "colorTag": 6,
+      "description": "Canais, palácios e o polo gastronômico de Kødbyen.",
+      "lat": 55.6761,
+      "lng": 12.5683,
+      "cur": "DKK",
+      "logistics": [
+        [
+          "Chegada",
+          "23/10, 22h20"
+        ],
+        [
+          "Saída para Malmö",
+          "25/10, final do dia, de trem (~40 min)"
+        ]
+      ],
+      "days": [
+        {
+          "when": "24/10",
+          "title": "Dia inteiro em Copenhague",
+          "bullets": [
+            "Nyhavn — canal colorido, ótimo para o café da manhã",
+            "Castelo de Rosenborg e o parque Kongens Have",
+            "Palácio Real de Amalienborg — troca da guarda ~11h30",
+            "Vesterbro e o Meatpacking District (Kødbyen) — polo gastronômico descolado",
+            "Christianshavn — canais charmosos, a 'pequena Amsterdã'",
+            "Christiania — comuna autogerida, arte de rua e vida cultural intensa"
+          ]
+        }
+      ],
+      "tickets": [
+        {
+          "name": "Castelo de Rosenborg",
+          "price": "~100 DKK (~13€) por pessoa",
+          "each": 100
+        },
+        {
+          "name": "Christiania",
+          "price": "Entrada grátis",
+          "each": 0
+        },
+        {
+          "name": "Igreja do Redentor + subida à torre",
+          "price": "~60 DKK (~8€) por pessoa",
+          "each": 60
+        }
+      ],
+      "food": [
+        "Smørrebrød — sanduíche aberto de centeio com peixe, carne ou queijo",
+        "Frikadeller (almôndegas) e flæskesteg (barriga de porco assada)",
+        "Wienerbrød — o 'pastel dinamarquês', a verdadeira 'Danish'",
+        "Pølser — hot dog de rua, um clássico noturno"
+      ],
+      "eats": [
+        {
+          "where": "Torvehallerne (mercado central)",
+          "what": "2 smørrebrød + café",
+          "price": "~180-220 DKK (~24-30€)"
+        },
+        {
+          "where": "Reffen (mercado de food trucks)",
+          "what": "2 pratos variados",
+          "price": "~220-260 DKK (~30-35€)"
+        },
+        {
+          "where": "Carrinho de pølser de rua",
+          "what": "Hot dog completo, para dois",
+          "price": "~90-110 DKK (~12-15€)"
+        },
+        {
+          "where": "Netto, Rema 1000 ou Fakta",
+          "what": "Smørrebrød pronto + fruta",
+          "price": "~60-80 DKK (~8-11€)",
+          "cheap": true
+        },
+        {
+          "where": "Padaria de bairro (bageri)",
+          "what": "Wienerbrød + café, para dois",
+          "price": "~50-70 DKK (~7-9€)",
+          "cheap": true
+        }
+      ],
+      "ticketsTotal": {
+        "text": "~320 DKK o casal",
+        "hasOptional": false
+      }
+    },
+    {
+      "id": 8,
+      "name": "Malmö",
+      "country": "Suécia",
+      "dates": "25–26/10",
+      "colorTag": 7,
+      "description": "Bate-volta de trem, do outro lado do Öresund.",
+      "lat": 55.605,
+      "lng": 13.0038,
+      "cur": "SEK",
+      "logistics": [
+        [
+          "Chegada",
+          "25/10, final do dia, de trem desde Copenhague"
+        ],
+        [
+          "Saída",
+          "26/10, trem de volta a Copenhague — levar comida e calcular o horário do voo"
+        ]
+      ],
+      "days": [
+        {
+          "when": "25 e 26/10",
+          "title": "Malmö a pé",
+          "bullets": [
+            "Stortorget e Lilla Torg — praças históricas do centro",
+            "Södergatan — a primeira rua pedestre de Malmö",
+            "Castelo de Malmö e o Slottsträdgården, o jardim do castelo",
+            "Turning Torso — não tem mirante público, mas vale ver de fora",
+            "Fika (café + doce) em alguma cafeteria local"
+          ]
+        }
+      ],
+      "tickets": [
+        {
+          "name": "Castelo de Malmö",
+          "price": "~60 SEK (~5-6€) por pessoa",
+          "each": 60
+        },
+        {
+          "name": "Slottsträdgården (jardim do castelo)",
+          "price": "Grátis",
+          "each": 0
+        }
+      ],
+      "food": [
+        "Kanelbullar — rolinho de canela sueco, o par perfeito da fika",
+        "Köttbullar — almôndegas suecas com geleia de lingonberry",
+        "Räksmörgås — sanduíche aberto de camarão"
+      ],
+      "eats": [
+        {
+          "where": "Cafeteria local (fika)",
+          "what": "Café + kanelbulle, para dois",
+          "price": "~110-130 SEK (~10-12€)",
+          "cheap": true
+        },
+        {
+          "where": "Restaurante de 'dagens lunch'",
+          "what": "Almoço completo, cada",
+          "price": "~110-140 SEK (~10-13€/pessoa)"
+        },
+        {
+          "where": "ICA ou Coop",
+          "what": "Salada/sanduíche pronto + fruta",
+          "price": "~70-90 SEK (~6-8€)",
+          "cheap": true
+        },
+        {
+          "where": "Padaria de bairro",
+          "what": "Kanelbulle + café, para dois",
+          "price": "~60-80 SEK (~5-7€)",
+          "cheap": true
+        }
+      ],
+      "ticketsTotal": {
+        "text": "~120 SEK o casal",
+        "hasOptional": false
+      }
+    },
+    {
+      "id": 9,
+      "name": "Liverpool",
+      "country": "Reino Unido",
+      "dates": "26–28/10",
+      "colorTag": 8,
+      "tag": "Precisa de ETA",
+      "description": "Albert Dock, museus gratuitos e a Mathew Street dos Beatles.",
+      "lat": 53.4084,
+      "lng": -2.9916,
+      "cur": "GBP",
+      "warn": "Brasileiros precisam de ETA (Autorização Eletrônica de Viagem) para entrar no Reino Unido — verifiquem se já está feita.",
+      "logistics": [
+        [
+          "Chegada",
+          "26/10, voo de Copenhague (~2h15), chegada ~20h30"
+        ],
+        [
+          "Saída",
+          "28/10, trem para Manchester (~40 min)"
+        ]
+      ],
+      "days": [
+        {
+          "when": "26–28/10",
+          "title": "Liverpool",
+          "bullets": [
+            "Albert Dock — zona portuária revitalizada, gratuita, com museus e restaurantes",
+            "Museum of Liverpool e Tate Liverpool — ambos gratuitos",
+            "The Beatles Story e o Cavern Club, na Mathew Street",
+            "Passeio de barco pelo Rio Mersey — saídas a cada hora, das 10h às 16h"
+          ]
+        }
+      ],
+      "tickets": [
+        {
+          "name": "Museum of Liverpool / Tate Liverpool",
+          "price": "Grátis",
+          "each": 0
+        },
+        {
+          "name": "The Beatles Story",
+          "price": "~17 GBP/pessoa",
+          "each": 17
+        },
+        {
+          "name": "Cruzeiro no Rio Mersey",
+          "price": "~12-15 GBP/pessoa",
+          "each": 13.5
+        }
+      ],
+      "food": [
+        "Fish and chips — melhor em pub à beira do porto",
+        "Scouse — ensopado de carne típico da cidade, que deu o apelido 'Scousers'",
+        "Sunday roast, se o passeio cair num domingo"
+      ],
+      "eats": [
+        {
+          "where": "Pub perto do Albert Dock",
+          "what": "Fish and chips + bebida, cada",
+          "price": "~14-18 GBP/pessoa"
+        },
+        {
+          "where": "Casa de Scouse no centro",
+          "what": "Tigela de scouse + pão",
+          "price": "~10-12 GBP/pessoa"
+        },
+        {
+          "where": "Greggs",
+          "what": "Salgado assado + café, cada",
+          "price": "~3-5 GBP/pessoa",
+          "cheap": true
+        },
+        {
+          "where": "Tesco ou Sainsbury's 'Meal Deal'",
+          "what": "Sanduíche + bebida + snack, cada",
+          "price": "~3,50-4 GBP/pessoa",
+          "cheap": true
+        }
+      ],
+      "ticketsTotal": {
+        "text": "~61 GBP o casal",
+        "hasOptional": false
+      }
+    },
+    {
+      "id": 10,
+      "name": "Manchester",
+      "country": "Reino Unido",
+      "dates": "28–29/10",
+      "colorTag": 9,
+      "description": "Northern Quarter, futebol e o Curry Mile.",
+      "lat": 53.4808,
+      "lng": -2.2426,
+      "cur": "GBP",
+      "logistics": [
+        [
+          "Chegada",
+          "28/10, de trem (40 min desde Liverpool)"
+        ],
+        [
+          "Saída",
+          "29/10, voo para Madri (12h ou 14h35, a confirmar)"
+        ]
+      ],
+      "days": [
+        {
+          "when": "28–29/10",
+          "title": "Manchester",
+          "bullets": [
+            "Northern Quarter — bairro alternativo com arte de rua, brechós, cafés e bares descolados",
+            "Albert Square e a Manchester Town Hall",
+            "Catedral de Manchester e Shambles Square",
+            "National Football Museum (gratuito)",
+            "Opcional: visita externa a Old Trafford, sem gastar com ingresso"
+          ]
+        }
+      ],
+      "tickets": [
+        {
+          "name": "National Football Museum",
+          "price": "Grátis",
+          "each": 0
+        },
+        {
+          "name": "Old Trafford (tour guiado)",
+          "price": "~28 GBP/pessoa (opcional)",
+          "each": 28,
+          "optional": true
+        }
+      ],
+      "food": [
+        "Manchester tart — torta de coco e geleia, o doce típico",
+        "Curry no 'Curry Mile' (Rusholme) — herança da forte comunidade sul-asiática",
+        "Full English breakfast, para começar o dia com energia"
+      ],
+      "eats": [
+        {
+          "where": "Federal Cafe Bar (brunch)",
+          "what": "Prato de brunch + café, cada",
+          "price": "~10-13 GBP/pessoa"
+        },
+        {
+          "where": "Restaurante no Curry Mile",
+          "what": "Curry + arroz/naan, para dois",
+          "price": "~25-30 GBP"
+        },
+        {
+          "where": "Cafés do Northern Quarter",
+          "what": "Sanduíche/prato leve, cada",
+          "price": "~8-10 GBP/pessoa"
+        },
+        {
+          "where": "Greggs",
+          "what": "Salgado assado + café, cada",
+          "price": "~3-5 GBP/pessoa",
+          "cheap": true
+        },
+        {
+          "where": "M&S Food ou Tesco 'Meal Deal'",
+          "what": "Sanduíche + bebida + snack, cada",
+          "price": "~3,50-4,50 GBP/pessoa",
+          "cheap": true
+        }
+      ],
+      "ticketsTotal": {
+        "text": "tudo grátis",
+        "hasOptional": true
+      }
+    },
+    {
+      "id": 11,
+      "name": "Madri",
+      "country": "Espanha",
+      "dates": "29–30/10",
+      "colorTag": 10,
+      "description": "Um dia curto e cheio: Plaza Mayor, Retiro e a rota de tapas da Cava Baja.",
+      "lat": 40.4168,
+      "lng": -3.7038,
+      "cur": "EUR",
+      "logistics": [
+        [
+          "Saída para Casablanca",
+          "30/10, 13:00 — AT973 (T4S), chegada 14:45 em Casablanca (T2)"
+        ]
+      ],
+      "days": [
+        {
+          "when": "29–30/10",
+          "title": "Madri",
+          "bullets": [
+            "Palácio Real e Plaza Mayor — bons para fotos, mas evitem comer ali",
+            "Mercado de San Miguel — tapas variadas",
+            "Parque do Retiro — caminhada tranquila à tarde",
+            "Bairro de La Latina, na Cava Baja — a rota de tapas mais tradicional",
+            "Malasaña ou Chueca à noite — bairros descolados"
+          ]
+        }
+      ],
+      "tickets": [
+        {
+          "name": "Museu do Prado",
+          "price": "15€/pessoa (grátis para menores de 18 e estudantes 18-25)",
+          "each": 15
+        },
+        {
+          "name": "Palácio Real",
+          "price": "~13€/pessoa",
+          "each": 13
+        },
+        {
+          "name": "Parque do Retiro",
+          "price": "Grátis",
+          "each": 0
+        }
+      ],
+      "food": [
+        "Tortilla española — omelete de batata",
+        "Jamón ibérico e croquetas caseiras",
+        "Churros con chocolate — ótimo café da manhã ou lanche noturno",
+        "Cocido madrileño — ensopado de grão-de-bico, tradicional de inverno"
+      ],
+      "eats": [
+        {
+          "where": "Mercado de San Miguel",
+          "what": "2-3 tapas + vinho, para dois",
+          "price": "~35-45€"
+        },
+        {
+          "where": "Bares da Cava Baja (La Latina)",
+          "what": "Caña + tapa, por parada",
+          "price": "~6-8€ (a dois)"
+        },
+        {
+          "where": "El Tigre (Malasaña)",
+          "what": "Ração generosa + cerveja",
+          "price": "~20-25€ (a dois)"
+        },
+        {
+          "where": "Mercadona",
+          "what": "Bocadillo + salada + fruta",
+          "price": "~8-10€",
+          "cheap": true
+        },
+        {
+          "where": "Panadería/Churrería de bairro",
+          "what": "Churros con chocolate, para dois",
+          "price": "~6-8€",
+          "cheap": true
+        }
+      ],
+      "ticketsTotal": {
+        "text": "~56 € o casal",
+        "hasOptional": false
+      }
+    },
+    {
+      "id": 12,
+      "name": "Rabat",
+      "country": "Marrocos",
+      "dates": "01/11",
+      "colorTag": 11,
+      "tag": "Bate-volta opcional",
+      "description": "Mais arborizada e tranquila que Casablanca, a ~1h de trem.",
+      "lat": 34.0209,
+      "lng": -6.8416,
+      "cur": "MAD",
+      "logistics": [
+        [
+          "Ida e volta",
+          "01/11, de trem desde Casablanca (~1h cada trecho)"
+        ]
+      ],
+      "days": [
+        {
+          "when": "01/11",
+          "title": "Bate-volta a Rabat (opcional)",
+          "bullets": [
+            "Avenida Mohammed V — mais arborizada e tranquila que Casablanca",
+            "Kasbah des Oudaias e o Jardim Andaluz",
+            "Restaurante Bahia — tajine de legumes"
+          ]
+        }
+      ],
+      "tickets": [
+        {
+          "name": "Kasbah des Oudaias",
+          "price": "Grátis para passear",
+          "each": 0
+        }
+      ],
+      "food": [],
+      "eats": [
+        {
+          "where": "Restaurante Bahia",
+          "what": "Tajine de legumes, para dois",
+          "price": "~102 MAD (~9-10€)",
+          "cheap": true
+        }
+      ],
+      "ticketsTotal": {
+        "text": "tudo grátis",
+        "hasOptional": false
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": 101,
+      "title": "Voo AT214 · Guarulhos T2 → Casablanca",
+      "notes": "13/10, 00:30",
+      "type": "RESERVATION",
+      "placeId": 1,
+      "done": true
+    },
+    {
+      "id": 102,
+      "title": "Voo AT778 · Casablanca → Paris CDG",
+      "notes": "14/10, 08:00 — chega 11:55",
+      "type": "RESERVATION",
+      "placeId": 2,
+      "done": true
+    },
+    {
+      "id": 103,
+      "title": "Hôtel Aviatic — Rue Brézin, Paris 75014",
+      "notes": "Com café da manhã",
+      "type": "RESERVATION",
+      "placeId": 2,
+      "done": true
+    },
+    {
+      "id": 104,
+      "title": "Eurostar Paris → Amsterdã",
+      "notes": "16/10, a partir de ~06:22, Gare du Nord (Uber até lá)",
+      "type": "RESERVATION",
+      "placeId": 3,
+      "done": true
+    },
+    {
+      "id": 105,
+      "title": "Vienna House Easy by Wyndham Amsterdam Airport",
+      "notes": "Com café da manhã",
+      "type": "RESERVATION",
+      "placeId": 3,
+      "done": true
+    },
+    {
+      "id": 106,
+      "title": "Voo KLM KL1967 · Amsterdã → Zagreb",
+      "notes": "20/10, 14:35 — chega 16:25",
+      "type": "RESERVATION",
+      "placeId": 4,
+      "done": true
+    },
+    {
+      "id": 107,
+      "title": "Livris Hotel — Rapska 12, Zagreb",
+      "notes": "Com café da manhã",
+      "type": "RESERVATION",
+      "placeId": 4,
+      "done": true
+    },
+    {
+      "id": 108,
+      "title": "Voo Norwegian D8 3755 · Ljubljana → Copenhague",
+      "notes": "23/10, 20:30 — chega 22:20",
+      "type": "RESERVATION",
+      "placeId": 6,
+      "done": true
+    },
+    {
+      "id": 109,
+      "title": "Voo AT973 · Madri T4S → Casablanca",
+      "notes": "30/10, 13:00 — chega 14:45",
+      "type": "RESERVATION",
+      "placeId": 11,
+      "done": true
+    },
+    {
+      "id": 110,
+      "title": "Voo AT215 · Casablanca T1 → Guarulhos",
+      "notes": "02/11, 16:35 — chega 22:25",
+      "type": "RESERVATION",
+      "placeId": 1,
+      "done": true
+    },
+    {
+      "id": 111,
+      "title": "Studio 410 — R. Paim, 189, Bela Vista",
+      "notes": "São Paulo, 07/10 a 13/10, antes de embarcar",
+      "type": "RESERVATION",
+      "placeId": null,
+      "done": true
+    },
+    {
+      "id": 120,
+      "title": "Hospedagem em Copenhague",
+      "notes": "Não definida no planejamento original",
+      "type": "RESERVATION",
+      "placeId": 7,
+      "done": false,
+      "flag": true
+    },
+    {
+      "id": 121,
+      "title": "Hospedagem em Ljubljana",
+      "notes": "Não definida no planejamento original",
+      "type": "RESERVATION",
+      "placeId": 5,
+      "done": false,
+      "flag": true
+    },
+    {
+      "id": 122,
+      "title": "Voos do trecho Zagreb–Malmö",
+      "notes": "Ainda marcados como 'a comprar'",
+      "type": "RESERVATION",
+      "placeId": 4,
+      "done": false,
+      "flag": true
+    },
+    {
+      "id": 123,
+      "title": "Voo Manchester → Madri",
+      "notes": "29/10, 12h ou 14h35 — a confirmar e comprar",
+      "type": "RESERVATION",
+      "placeId": 10,
+      "done": false,
+      "flag": true
+    },
+    {
+      "id": 124,
+      "title": "ETA do Reino Unido",
+      "notes": "Brasileiros precisam da autorização eletrônica para entrar",
+      "type": "REMINDER",
+      "placeId": 9,
+      "done": false,
+      "flag": true
+    },
+    {
+      "id": 130,
+      "title": "Museu do Louvre",
+      "notes": "Reservar com antecedência · 32€/pessoa",
+      "type": "RESERVATION",
+      "placeId": 2,
+      "done": false
+    },
+    {
+      "id": 131,
+      "title": "Catedral de Notre-Dame",
+      "notes": "Reservar com 2 dias de antecedência — grátis, mas fila longa sem reserva",
+      "type": "RESERVATION",
+      "placeId": 2,
+      "done": false
+    },
+    {
+      "id": 132,
+      "title": "Ônibus Zagreb → Ljubljana",
+      "notes": "22/10 após o café, ~2h30 · 90–140 R$ o casal",
+      "type": "RESERVATION",
+      "placeId": 5,
+      "done": false
+    },
+    {
+      "id": 133,
+      "title": "Ônibus Ljubljana ↔ Lago Bled",
+      "notes": "~1h10 cada trecho — verificar forma de pagamento",
+      "type": "RESERVATION",
+      "placeId": 6,
+      "done": false
+    },
+    {
+      "id": 134,
+      "title": "Barco pletna até a Ilha de Bled",
+      "notes": "~15€/pessoa, ida e volta",
+      "type": "RESERVATION",
+      "placeId": 6,
+      "done": false
+    },
+    {
+      "id": 135,
+      "title": "Trem Copenhague → Malmö",
+      "notes": "25/10, final do dia, ~40 min",
+      "type": "RESERVATION",
+      "placeId": 8,
+      "done": false
+    },
+    {
+      "id": 136,
+      "title": "Voo Copenhague → Liverpool",
+      "notes": "26/10, ~2h15 — chegada ~20h30",
+      "type": "RESERVATION",
+      "placeId": 9,
+      "done": false
+    },
+    {
+      "id": 137,
+      "title": "Trem Liverpool → Manchester",
+      "notes": "28/10, ~40 min",
+      "type": "RESERVATION",
+      "placeId": 10,
+      "done": false
+    },
+    {
+      "id": 138,
+      "title": "Heineken Experience",
+      "notes": "19/10 às 16h, com 2 bebidas · ~23€/pessoa",
+      "type": "RESERVATION",
+      "placeId": 3,
+      "done": false
+    },
+    {
+      "id": 150,
+      "title": "Passaporte + cópias digitais na nuvem",
+      "type": "REMINDER",
+      "placeId": null,
+      "done": false
+    },
+    {
+      "id": 151,
+      "title": "Cartão Wise e um cartão reserva",
+      "notes": "Caso um seja bloqueado",
+      "type": "REMINDER",
+      "placeId": null,
+      "done": false
+    },
+    {
+      "id": 152,
+      "title": "Euros em espécie",
+      "notes": "Para taxas de turismo e gorjetas",
+      "type": "REMINDER",
+      "placeId": null,
+      "done": false
+    },
+    {
+      "id": 153,
+      "title": "Tênis confortável e já calçado",
+      "notes": "Essencial pela maratona e pelas muitas caminhadas",
+      "type": "REMINDER",
+      "placeId": null,
+      "done": false
+    },
+    {
+      "id": 154,
+      "title": "Roupas em camadas",
+      "notes": "De 30°C no Marrocos a ~10°C na Escandinávia",
+      "type": "REMINDER",
+      "placeId": null,
+      "done": false
+    },
+    {
+      "id": 155,
+      "title": "Remédio antialérgico e kit básico",
+      "notes": "Analgésico, antitérmico, band-aid",
+      "type": "REMINDER",
+      "placeId": null,
+      "done": false
+    },
+    {
+      "id": 156,
+      "title": "Frascos de viagem e cadeado para a mala",
+      "notes": "Shampoo, condicionador, sabonete, pasta de dente",
+      "type": "REMINDER",
+      "placeId": null,
+      "done": false
+    },
+    {
+      "id": 157,
+      "title": "Bandeira do Brasil para a torcida",
+      "type": "REMINDER",
+      "placeId": null,
+      "done": false
+    },
+    {
+      "id": 160,
+      "title": "Descansar as pernas até 18/10",
+      "notes": "Nada de treino longo nem comida nova na reta final do tapering",
+      "type": "REMINDER",
+      "placeId": null,
+      "done": false
+    },
+    {
+      "id": 161,
+      "title": "Maratona de Amsterdã — dia inteiro",
+      "notes": "18/10. Hidratação, alongamento leve e almoço reforçado",
+      "type": "REMINDER",
+      "placeId": 3,
+      "done": false
+    },
+    {
+      "id": 162,
+      "title": "Nos táxis, peça o taxímetro",
+      "notes": "Petit taxis e táxis vermelhos de Casablanca",
+      "type": "REMINDER",
+      "placeId": 1,
+      "done": false
+    },
+    {
+      "id": 163,
+      "title": "Voltar de Bled a tempo do checkout e do voo",
+      "notes": "A volta completa da orla são 6 km — não exagerar",
+      "type": "REMINDER",
+      "placeId": 6,
+      "done": false
+    },
+    {
+      "id": 164,
+      "title": "Provar a Kremna Rezina em Bled",
+      "notes": "A torta de creme e baunilha da região",
+      "type": "REMINDER",
+      "placeId": 6,
+      "done": false
+    }
+  ],
+  "seq": 200
+}
