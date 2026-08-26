@@ -162,6 +162,45 @@
           "cheap": true
         }
       ],
+      "markets": {
+        "cheap": [
+          "BIM (rede de desconto, a mais barata)",
+          "Marjane",
+          "Acima",
+          "Carrefour Market"
+        ],
+        "snacks": [
+          [
+            "Msemen ou harcha de barraca",
+            "3-5 MAD"
+          ],
+          [
+            "Baguete",
+            "1,50-3 MAD"
+          ],
+          [
+            "Água 1,5 L",
+            "6-8 MAD"
+          ],
+          [
+            "Suco de laranja na rua",
+            "5-10 MAD"
+          ],
+          [
+            "Laranjas",
+            "10-15 MAD/kg"
+          ],
+          [
+            "Queijo Vache qui rit (8 porções)",
+            "12-16 MAD"
+          ]
+        ],
+        "tip": "Piquenique de pão, queijo, azeitonas e fruta sai por 40-60 MAD para os dois — o mesmo que o documento já anotou no Marjane."
+      },
+      "takeaway": {
+        "when": "02/11 — voo das 16:35",
+        "text": "Comprem a água só depois do raio-X: o limite de 100 ml vale igual na volta. Levem tâmaras e amêndoas da Medina para o voo."
+      },
       "ticketsTotal": {
         "text": "~260 MAD o casal",
         "hasOptional": false
@@ -299,6 +338,105 @@
           "cheap": true
         }
       ],
+      "markets": {
+        "cheap": [
+          "Lidl e Aldi (os mais baratos)",
+          "Franprix",
+          "G20",
+          "Monoprix",
+          "Picard (congelados)"
+        ],
+        "snacks": [
+          [
+            "Baguete de padaria",
+            "1,10-1,40 €"
+          ],
+          [
+            "Pain au chocolat / croissant",
+            "1,30-1,90 €"
+          ],
+          [
+            "Sanduíche jambon-beurre de padaria",
+            "4,50-6 €"
+          ],
+          [
+            "Sanduíche pronto de supermercado",
+            "3-5 €"
+          ],
+          [
+            "Água 1,5 L",
+            "0,40-0,90 €"
+          ],
+          [
+            "Formule de padaria (sanduíche + bebida + doce)",
+            "7-9 €"
+          ]
+        ],
+        "tip": "Fujam das lojas 'City' e 'Express' coladas nos pontos turísticos — os mesmos produtos custam 20-30% mais. Um Franprix duas ruas adiante resolve."
+      },
+      "takeaway": {
+        "when": "16/10 — Eurostar das 6h22",
+        "text": "Comprem o café da manhã na véspera, dia 15 à noite. Nenhuma padaria abre a tempo de um trem às 6h22, e o que se vende na Gare du Nord a essa hora é caro e ruim."
+      },
+      "transport": {
+        "verdict": "Não compensa comprar passe diário para o dia do aeroporto — desde 2025 o Navigo Jour não vale para CDG nem Orly. Vale no dia 15/10, o dia de museu.",
+        "rule": "A conta é simples: o passe diário custa 12,30 € e cada viagem de metrô custa 2,55 €. A partir de 5 viagens no mesmo dia, o passe compensa. Abaixo disso, saem mais barato os bilhetes avulsos.",
+        "fares": [
+          [
+            "Bilhete Métro-Train-RER",
+            "2,55 €",
+            "vale em toda a Île-de-France, menos aeroportos"
+          ],
+          [
+            "Bilhete Bus-Tram",
+            "2,05 €",
+            ""
+          ],
+          [
+            "Navigo Jour (passe diário)",
+            "12,30 €",
+            "todas as zonas — mas NÃO vale para CDG/Orly"
+          ],
+          [
+            "Ticket Aéroports (CDG ↔ Paris)",
+            "14 €",
+            "obrigatório no RER B do aeroporto"
+          ],
+          [
+            "Navigo Semaine",
+            "32,40 €",
+            "esse cobre aeroporto, mas só vale de segunda a domingo"
+          ],
+          [
+            "Cartão Navigo Easy",
+            "2 €",
+            "o cartão em si, recarregável"
+          ]
+        ],
+        "plan": [
+          [
+            "14/10 — chegada",
+            "2 × Ticket Aéroports (28 €) + avulsos",
+            "O RER B vai direto de CDG a Denfert-Rochereau, a um passo do hotel. Depois são ~3 viagens (Montmartre, Canal Saint-Martin, volta): 7,65 € por pessoa. Total ~21,65 € cada — menos que 14 € + 12,30 € do passe."
+          ],
+          [
+            "15/10 — dia de museu",
+            "2 × Navigo Jour (24,60 €)",
+            "Louvre, Galeries Lafayette, Avenue de Camoëns e Panthéon dão umas 5 viagens: 12,75 € em avulsos contra 12,30 € do passe. Empata no preço e ganha na liberdade de pular em qualquer metrô ou ônibus sem contar."
+          ],
+          [
+            "16/10 — saída",
+            "Uber, como já está no roteiro",
+            "O primeiro metrô sai por volta das 5h30 e o Eurostar é 6h22. Com malas, o Uber é a escolha certa."
+          ]
+        ],
+        "gotchas": [
+          "Um cartão Navigo Easy não guarda o bilhete de aeroporto e bilhetes comuns ao mesmo tempo. Ou levam dois cartões, ou compram tudo pelo app Île-de-France Mobilités no celular — que também evita a fila do guichê na chegada.",
+          "O Navigo Semaine sairia por 32,40 € e cobriria o aeroporto, mas exige o cartão Navigo Découverte (5 € a mais, com foto 3x4) e vence no domingo mesmo comprado na quarta. Para 2 dias e meio, não compensa.",
+          "Táxi de CDG para a margem esquerda tem preço fixo de 65 € o carro (a Rue Brézin fica no 14º, margem esquerda). São 37 € a mais que os dois bilhetes de RER — mas é porta a porta, sem escada com mala, logo depois de um voo noturno e na semana de poupar as pernas. A escolha é de vocês."
+        ],
+        "total": "Somando: ~68 € o casal nos três dias, contra ~76 € se comprassem passe diário todo dia."
+      },
       "ticketsTotal": {
         "text": "~80 € o casal",
         "hasOptional": false
@@ -414,6 +552,46 @@
           "cheap": true
         }
       ],
+      "markets": {
+        "cheap": [
+          "Dirk van den Broek (bem mais barato)",
+          "Lidl",
+          "Aldi",
+          "Jumbo",
+          "Albert Heijn"
+        ],
+        "snacks": [
+          [
+            "Broodje / sanduíche do Albert Heijn",
+            "2,50-4 €"
+          ],
+          [
+            "Salada pronta",
+            "3,50-5 €"
+          ],
+          [
+            "Stroopwafel — pacote de supermercado",
+            "1,50-2,50 €"
+          ],
+          [
+            "Stroopwafel fresco de barraca",
+            "2-3 € a unidade"
+          ],
+          [
+            "Broodje kroket do HEMA",
+            "2-3 €"
+          ],
+          [
+            "Água 1,5 L",
+            "0,60-1 €"
+          ]
+        ],
+        "tip": "O Albert Heijn da Centraal é o mais caro da cidade. Um Dirk van den Broek a 10 minutos economiza uns 25% na mesma cesta — e vale a pena no dia anterior à maratona, para montar o jantar de carboidrato sem gastar."
+      },
+      "takeaway": {
+        "when": "20/10 — voo das 14:35 para Zagreb",
+        "text": "Montem o almoço no Albert Heijn ou no HEMA antes de ir ao aeroporto: dentro de Schiphol o mesmo broodje custa o dobro."
+      },
       "ticketsTotal": {
         "text": "~59 € o casal",
         "hasOptional": false
@@ -522,6 +700,42 @@
           "cheap": true
         }
       ],
+      "markets": {
+        "cheap": [
+          "Lidl",
+          "Kaufland",
+          "Plodine",
+          "Konzum",
+          "Studenac (conveniência)"
+        ],
+        "snacks": [
+          [
+            "Burek de pekarnica (Mlinar, Pan-Pek)",
+            "2-3,50 €"
+          ],
+          [
+            "Sanduíche de padaria",
+            "2-3,50 €"
+          ],
+          [
+            "Croissant",
+            "1-1,50 €"
+          ],
+          [
+            "Água 1,5 L",
+            "0,60-0,90 €"
+          ],
+          [
+            "Fruta e queijo no Mercado Dolac",
+            "8-10 € para dois"
+          ]
+        ],
+        "tip": "Pekarnica é padaria, e em Zagreb é onde se come bem por menos. O burek quentinho da manhã custa menos de 3 € e segura até a tarde."
+      },
+      "takeaway": {
+        "when": "22/10 — ônibus de 2h30 para Ljubljana",
+        "text": "Passem numa pekarnica antes da rodoviária: burek e água para os dois saem por 6-8 € e o ônibus não tem serviço de bordo."
+      },
       "ticketsTotal": {
         "text": "~33 € o casal",
         "hasOptional": false
@@ -593,6 +807,34 @@
           "cheap": true
         }
       ],
+      "markets": {
+        "cheap": [
+          "Hofer (o Aldi local)",
+          "Lidl",
+          "Mercator",
+          "Spar",
+          "Tuš"
+        ],
+        "snacks": [
+          [
+            "Burek de padaria",
+            "2,50-3,50 €"
+          ],
+          [
+            "Fatia de potica",
+            "2-3 €"
+          ],
+          [
+            "Sanduíche pronto de mercado",
+            "3-4,50 €"
+          ],
+          [
+            "Água 1,5 L",
+            "0,50-0,90 €"
+          ]
+        ],
+        "tip": "Comprem aqui o que forem levar para Bled. Na beira do lago, os mesmos itens custam de 30% a 50% mais — é o preço da vista."
+      },
       "ticketsTotal": {
         "text": "~38 € o casal",
         "hasOptional": false
@@ -654,6 +896,31 @@
           "price": "~14-16€"
         }
       ],
+      "markets": {
+        "cheap": [
+          "Mercator (centro de Bled)",
+          "Spar"
+        ],
+        "snacks": [
+          [
+            "Kremna rezina no café à beira do lago",
+            "5-8 € a fatia"
+          ],
+          [
+            "Sanduíche pronto do Mercator",
+            "3-4,50 €"
+          ],
+          [
+            "Água 1,5 L",
+            "0,70-1,20 €"
+          ]
+        ],
+        "tip": "A kremna rezina vale ser comida ali, sentada, olhando o lago — essa é a única que não vale economizar. O resto do dia, o que veio de Ljubljana resolve."
+      },
+      "takeaway": {
+        "when": "23/10 — voo das 20h30",
+        "text": "Jantem em Bled ou em Ljubljana antes de seguir. O aeroporto de Ljubljana é pequeno, com poucas opções e preço de aeroporto."
+      },
       "ticketsTotal": {
         "text": "~30 € o casal",
         "hasOptional": true
@@ -745,6 +1012,42 @@
           "cheap": true
         }
       ],
+      "markets": {
+        "cheap": [
+          "Netto",
+          "Rema 1000",
+          "Lidl",
+          "Føtex",
+          "Bilka"
+        ],
+        "snacks": [
+          [
+            "Smørrebrød pronto de supermercado",
+            "25-45 DKK"
+          ],
+          [
+            "Wienerbrød de padaria",
+            "20-35 DKK"
+          ],
+          [
+            "Sanduíche de rugbrød",
+            "30-50 DKK"
+          ],
+          [
+            "Pølser (hot dog de rua)",
+            "30-45 DKK"
+          ],
+          [
+            "Água 1,5 L",
+            "8-15 DKK"
+          ]
+        ],
+        "tip": "Duas economias que somam muito na Dinamarca: a água da torneira é excelente, então uma garrafa reutilizável poupa dezenas de coroas por dia; e toda garrafa comprada tem pant (depósito de 1 a 3 DKK) que volta na máquina do supermercado. Evitem 7-Eleven, é o dobro de tudo."
+      },
+      "takeaway": {
+        "when": "25/10 — trem para Malmö",
+        "text": "Comprem no Netto ou Rema 1000 antes da estação. Do lado sueco tudo fica mais caro ainda."
+      },
       "ticketsTotal": {
         "text": "~320 DKK o casal",
         "hasOptional": false
@@ -825,6 +1128,38 @@
           "cheap": true
         }
       ],
+      "markets": {
+        "cheap": [
+          "Willys (o mais barato)",
+          "Lidl",
+          "ICA Maxi",
+          "Coop",
+          "Hemköp"
+        ],
+        "snacks": [
+          [
+            "Kanelbulle (rolinho de canela)",
+            "15-30 SEK"
+          ],
+          [
+            "Sanduíche pronto",
+            "35-60 SEK"
+          ],
+          [
+            "Räksmörgås de supermercado",
+            "45-70 SEK"
+          ],
+          [
+            "Água 1,5 L",
+            "10-20 SEK"
+          ]
+        ],
+        "tip": "O 'dagens lunch' que o documento já cita é de longe o melhor negócio da Suécia: prato, salada, pão e café por 110-140 SEK, mas só no almoço de dia útil. Jantar custa o dobro pelo mesmo prato. ICA Nära é a versão pequena e cara; ICA Maxi é a grande e barata."
+      },
+      "takeaway": {
+        "when": "26/10 — trem de volta e voo para Liverpool",
+        "text": "O documento já avisa para levar comida nesse trecho. Willys ou Lidl antes da estação, e a água só depois do raio-X em Copenhague."
+      },
       "ticketsTotal": {
         "text": "~120 SEK o casal",
         "hasOptional": false
@@ -910,6 +1245,39 @@
           "cheap": true
         }
       ],
+      "markets": {
+        "cheap": [
+          "Aldi",
+          "Lidl",
+          "Asda",
+          "Tesco",
+          "Sainsbury's",
+          "Morrisons"
+        ],
+        "snacks": [
+          [
+            "Meal Deal (sanduíche + snack + bebida)",
+            "3,60-4,50 GBP"
+          ],
+          [
+            "Greggs — sausage roll",
+            "1,30-1,75 GBP"
+          ],
+          [
+            "Greggs — bacon roll",
+            "~2,50 GBP"
+          ],
+          [
+            "Café de padaria",
+            "1,50-2 GBP"
+          ],
+          [
+            "Água 2 L",
+            "0,50-0,90 GBP"
+          ]
+        ],
+        "tip": "O Meal Deal é o melhor truque do Reino Unido: sanduíche + salgadinho + bebida por menos de 4 libras, em qualquer Tesco, Sainsbury's ou Boots. Almoçar assim os dois sai por ~8 GBP, contra 30 GBP num pub. Com o cartão Clubcard do Tesco cai ainda mais, e é grátis de fazer na hora."
+      },
       "ticketsTotal": {
         "text": "~61 GBP o casal",
         "hasOptional": false
@@ -995,6 +1363,39 @@
           "cheap": true
         }
       ],
+      "markets": {
+        "cheap": [
+          "Aldi",
+          "Lidl",
+          "Asda",
+          "Tesco",
+          "Sainsbury's",
+          "M&S Food (mais caro)"
+        ],
+        "snacks": [
+          [
+            "Meal Deal",
+            "3,60-4,50 GBP"
+          ],
+          [
+            "Greggs — salgado assado",
+            "1,30-1,75 GBP"
+          ],
+          [
+            "Curry Mile — porção para dividir",
+            "8-12 GBP"
+          ],
+          [
+            "Água 2 L",
+            "0,50-0,90 GBP"
+          ]
+        ],
+        "tip": "No Northern Quarter os cafés são bonitos e caros. O mesmo café a duas quadras, fora do circuito, custa metade — e o Curry Mile, em Rusholme, é onde se come muito por pouco."
+      },
+      "takeaway": {
+        "when": "29/10 — voo para Madri",
+        "text": "Meal Deal no Tesco antes do aeroporto: dentro do terminal o mesmo sanduíche custa 3 vezes mais."
+      },
       "ticketsTotal": {
         "text": "tudo grátis",
         "hasOptional": true
@@ -1081,6 +1482,43 @@
           "cheap": true
         }
       ],
+      "markets": {
+        "cheap": [
+          "Dia (o mais barato)",
+          "Mercadona",
+          "Lidl",
+          "Aldi",
+          "Ahorramás",
+          "Carrefour Express (mais caro)"
+        ],
+        "snacks": [
+          [
+            "Bocadillo pronto do Mercadona",
+            "2,50-3,50 €"
+          ],
+          [
+            "Porção de tortilla española",
+            "2-3 €"
+          ],
+          [
+            "Churros con chocolate",
+            "3-4 € por pessoa"
+          ],
+          [
+            "Água 1,5 L",
+            "0,40-0,70 €"
+          ],
+          [
+            "Menú del día (almoço completo)",
+            "12-15 € por pessoa"
+          ]
+        ],
+        "tip": "O menú del día é a melhor refeição por real da viagem inteira: entrada, prato, sobremesa, pão e bebida por 12-15 €, no almoço de dia útil. E a regra de ouro de Madri, que o próprio roteiro já dá: não comam na Plaza Mayor."
+      },
+      "takeaway": {
+        "when": "30/10 — voo das 13:00",
+        "text": "Bocadillo do Mercadona antes de ir para Barajas. O voo é curto e sem refeição decente."
+      },
       "ticketsTotal": {
         "text": "~56 € o casal",
         "hasOptional": false
@@ -1130,6 +1568,33 @@
           "cheap": true
         }
       ],
+      "markets": {
+        "cheap": [
+          "Marjane",
+          "Carrefour Market",
+          "BIM",
+          "Acima"
+        ],
+        "snacks": [
+          [
+            "Msemen recheado de barraca",
+            "5-8 MAD"
+          ],
+          [
+            "Chá de menta em café local",
+            "8-15 MAD"
+          ],
+          [
+            "Água 1,5 L",
+            "6-8 MAD"
+          ],
+          [
+            "Pastéis marroquinos",
+            "3-6 MAD a unidade"
+          ]
+        ],
+        "tip": "O Restaurante Bahia que o documento indica, com tajine de legumes por ~102 MAD para dois, já é dos melhores negócios da viagem — difícil bater."
+      },
       "ticketsTotal": {
         "text": "tudo grátis",
         "hasOptional": false
