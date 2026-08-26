@@ -1,0 +1,10 @@
+# Copy this file to "local.properties" (in the project root, next to settings.gradle.kts)
+# and fill in the values below. local.properties is git-ignored — never commit real keys.
+
+# Path to your Android SDK (Android Studio fills this in automatically).
+sdk.dir=/path/to/Android/sdk
+
+# Google Maps SDK for Android API key.
+# Create one at https://console.cloud.google.com/google/maps-apis/credentials
+# (enable the "Maps SDK for Android" API for the project first).
+MAPS_API_KEY=YOUR_API_KEY_HERE
