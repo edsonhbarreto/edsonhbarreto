@@ -1,0 +1,1228 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Roteiro Euro 2026 — 12 paradas, passeios dia a dia, ingressos, onde comer e checklist.">
+<meta name="theme-color" content="#0c2830" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#08171c" media="(prefers-color-scheme: dark)">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧭</text></svg>">
+<style>
+  /* the artifact host normally supplies a reset; standalone needs its own */
+  *,*::before,*::after{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0}
+  img,svg,canvas{max-width:100%}
+</style>
+</head>
+<body>
+<title>Roteiro Euro 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+
+<style>
+:root{
+  --ground:#e8eef1; --paper:#f7fafb; --paper-2:#eef4f6;
+  --ink:#0c2830; --ink-2:#3c5c66; --ink-3:#6e8b95;
+  --rule:#cbd9df; --rule-soft:#dde7eb;
+  --sea:#dce7ec; --sea-2:#cfdee5; --contour:#bcd0d9;
+  --coral:#d1502a; --teal:#0a8d7c; --amber:#b5791a; --green:#2f7d4f; --done:#7f9aa4;
+  --shadow:0 1px 2px rgba(12,40,48,.06), 0 8px 24px rgba(12,40,48,.07);
+  --shadow-sm:0 1px 2px rgba(12,40,48,.08);
+  --focus:#0a8d7c;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ground:#08171c; --paper:#0e2229; --paper-2:#122b33;
+    --ink:#e4eef1; --ink-2:#a7c0c8; --ink-3:#6d8b95;
+    --rule:#22434e; --rule-soft:#1a353e;
+    --sea:#0b1f26; --sea-2:#0d262e; --contour:#1c3d47;
+    --coral:#ff7d4d; --teal:#2bc4ac; --amber:#e9ad46; --green:#4ec27f; --done:#5c7882;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 30px rgba(0,0,0,.35);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4);
+    --focus:#2bc4ac;
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#08171c; --paper:#0e2229; --paper-2:#122b33;
+  --ink:#e4eef1; --ink-2:#a7c0c8; --ink-3:#6d8b95;
+  --rule:#22434e; --rule-soft:#1a353e;
+  --sea:#0b1f26; --sea-2:#0d262e; --contour:#1c3d47;
+  --coral:#ff7d4d; --teal:#2bc4ac; --amber:#e9ad46; --green:#4ec27f; --done:#5c7882;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 30px rgba(0,0,0,.35);
+  --shadow-sm:0 1px 2px rgba(0,0,0,.4);
+  --focus:#2bc4ac;
+}
+
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--ink);
+  font-family:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased}
+h1,h2,h3{margin:0;text-wrap:balance}
+p{margin:0}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:4px}
+.mono{font-family:"IBM Plex Mono",ui-monospace,monospace;font-variant-numeric:tabular-nums}
+.label{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:10.5px;
+  letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3)}
+.shell{max-width:940px;margin:0 auto;padding:0 16px 90px}
+
+/* header */
+.topbar{display:flex;align-items:flex-end;justify-content:space-between;gap:18px;
+  padding:22px 0 15px;border-bottom:1px solid var(--rule);flex-wrap:wrap}
+.brand{display:flex;flex-direction:column;gap:4px;min-width:0}
+.brand h1{font-family:Fraunces,Georgia,serif;font-weight:700;
+  font-size:clamp(25px,5vw,36px);line-height:1.04;letter-spacing:-.015em}
+.brand .sub{font-size:12.5px;color:var(--ink-3)}
+.brand .sub b{color:var(--ink-2);font-weight:500}
+.route{font-size:11.5px;color:var(--ink-3);line-height:1.45;max-width:62ch}
+.gauge{display:flex;align-items:center;gap:11px}
+.gauge svg{display:block;flex:none}
+.gauge .g-txt{display:flex;flex-direction:column;line-height:1.25}
+.gauge .g-num{font-family:"IBM Plex Mono",monospace;font-size:17px;font-weight:500;font-variant-numeric:tabular-nums}
+.gauge .g-lab{font-size:11px;color:var(--ink-3)}
+
+/* tabs */
+.tabs{display:flex;gap:4px;padding:14px 0 16px;flex-wrap:wrap}
+.tab{border:1px solid var(--rule);background:var(--paper);border-radius:999px;
+  padding:7px 15px;font-size:13.5px;font-weight:500;color:var(--ink-2);
+  display:inline-flex;align-items:center;gap:7px;transition:background .14s,border-color .14s,color .14s}
+.tab:hover{border-color:var(--ink-3)}
+.tab[aria-selected="true"]{background:var(--ink);color:var(--ground);border-color:var(--ink)}
+.tab .cnt{font-family:"IBM Plex Mono",monospace;font-size:11px;opacity:.62;font-variant-numeric:tabular-nums}
+.view[hidden]{display:none}
+
+/* ---------- itinerary ---------- */
+.intro{border:1px solid var(--rule);border-radius:13px;background:var(--paper);
+  padding:14px 15px;margin-bottom:16px}
+.intro summary{cursor:pointer;font-weight:500;font-size:13.5px;color:var(--ink-2);list-style:none}
+.intro summary::-webkit-details-marker{display:none}
+.intro summary::before{content:"▸ ";color:var(--ink-3)}
+.intro[open] summary::before{content:"▾ "}
+.intro ul{margin:11px 0 0;padding-left:18px;display:flex;flex-direction:column;gap:7px;
+  font-size:13px;color:var(--ink-2)}
+
+.toolbar{display:flex;justify-content:space-between;align-items:center;gap:10px;
+  margin-bottom:12px;flex-wrap:wrap}
+
+.city{border:1px solid var(--rule);border-radius:14px;background:var(--paper);
+  overflow:hidden;box-shadow:var(--shadow-sm);margin-bottom:11px;scroll-margin-top:12px}
+.city.star{border-color:var(--teal)}
+.city-hd{display:flex;align-items:center;gap:12px;width:100%;padding:12px 14px;
+  background:none;border:none;text-align:left}
+.city-hd:hover{background:var(--paper-2)}
+.city-num{flex:none;width:26px;height:26px;border-radius:999px;display:grid;place-items:center;
+  font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:#fff}
+.city-t{flex:1;min-width:0;display:flex;flex-direction:column;gap:1px}
+.city-t .n{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:19px;line-height:1.15}
+.city-t .m{font-size:11.5px;color:var(--ink-3);display:flex;gap:7px;flex-wrap:wrap;align-items:center}
+.city-t .m .d{font-family:"IBM Plex Mono",monospace;color:var(--teal)}
+.pill{border:1px solid var(--rule);border-radius:999px;padding:1px 8px;font-size:10.5px;color:var(--ink-2)}
+.pill.hot{border-color:var(--teal);color:var(--teal)}
+.pill.warn{border-color:var(--coral);color:var(--coral)}
+.chev{flex:none;color:var(--ink-3);transition:transform .18s}
+.city[open] .chev, .city.open .chev{transform:rotate(90deg)}
+
+.city-bd{padding:0 14px 16px;display:flex;flex-direction:column;gap:16px}
+.city-bd[hidden]{display:none}
+.banner{aspect-ratio:4/1;border-radius:10px;overflow:hidden;background:var(--sea-2)}
+.banner canvas{display:block;width:100%;height:100%}
+.warnbox{border:1px solid var(--coral);border-radius:9px;padding:9px 11px;font-size:12.5px;
+  color:var(--ink-2);background:color-mix(in srgb,var(--coral) 8%,var(--paper))}
+
+.sec{display:flex;flex-direction:column;gap:8px}
+.sec > .label{margin:0}
+
+.logi{display:grid;grid-template-columns:auto 1fr;gap:5px 12px;font-size:13px}
+.logi dt{color:var(--ink-3);font-size:11.5px;white-space:nowrap}
+.logi dd{margin:0;color:var(--ink-2)}
+
+.day{border-left:2px solid var(--rule);padding:2px 0 2px 12px;display:flex;flex-direction:column;gap:5px}
+.day.star{border-left-color:var(--teal)}
+.day-h{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.day-h .w{font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--teal);font-weight:500}
+.day-h .t{font-size:14px;font-weight:500}
+.day ul{margin:0;padding-left:17px;display:flex;flex-direction:column;gap:4px;
+  font-size:13.5px;color:var(--ink-2);line-height:1.45}
+.day .note{font-size:12.5px;color:var(--ink-3);font-style:italic;padding-left:1px}
+
+table{width:100%;border-collapse:collapse;font-size:13px}
+.tblwrap{overflow-x:auto}
+th{text-align:left;font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink-3);font-weight:400;padding:0 8px 5px 0;border-bottom:1px solid var(--rule-soft)}
+td{padding:7px 8px 7px 0;border-bottom:1px solid var(--rule-soft);color:var(--ink-2);vertical-align:top}
+tr:last-child td{border-bottom:none}
+/* Prices wrap rather than nowrap: a long one like "Grátis para passear; interior
+   de moinho ~5-8€" would otherwise crush the name column on a phone. */
+td.price{text-align:right;font-family:"IBM Plex Mono",monospace;
+  font-variant-numeric:tabular-nums;font-size:11.5px;color:var(--ink);
+  padding-right:0;min-width:106px}
+td.name{color:var(--ink);min-width:34%}
+.opt{font-size:10.5px;color:var(--ink-3)}
+.cheapmark{display:inline-flex;align-items:center;gap:5px}
+.cheapmark::before{content:"";width:7px;height:7px;border-radius:2px;background:var(--green);flex:none}
+tr.cheap td.name{color:var(--ink)}
+.subtotal{display:flex;justify-content:space-between;gap:10px;font-size:12px;
+  padding-top:8px;color:var(--ink-3)}
+.subtotal b{font-family:"IBM Plex Mono",monospace;color:var(--ink);font-weight:500}
+
+.foodlist{display:flex;flex-direction:column;gap:6px;margin:0;padding-left:17px;
+  font-size:13.5px;color:var(--ink-2);line-height:1.45}
+
+/* content added on top of the document — flagged so provenance stays clear */
+.added{border:1px solid var(--rule);border-left:3px solid var(--teal);border-radius:10px;
+  padding:12px 13px;display:flex;flex-direction:column;gap:11px;background:var(--paper-2)}
+.added > .label{margin:0}
+.added .src{font-size:11px;color:var(--ink-3);font-style:italic}
+
+.verdict{font-size:14px;line-height:1.5;color:var(--ink)}
+.verdict b{color:var(--teal)}
+.rule{border-left:2px solid var(--teal);padding-left:11px;font-size:13px;color:var(--ink-2)}
+
+.plan{display:flex;flex-direction:column;gap:9px}
+.planrow{display:flex;flex-direction:column;gap:3px;padding-bottom:9px;border-bottom:1px solid var(--rule-soft)}
+.planrow:last-child{border-bottom:none;padding-bottom:0}
+.planrow .ph{display:flex;gap:9px;align-items:baseline;flex-wrap:wrap}
+.planrow .pw{font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--teal);font-weight:500}
+.planrow .pd{font-size:13.5px;font-weight:500}
+.planrow .pt{font-size:12.5px;color:var(--ink-2);line-height:1.45}
+
+.gotchas{margin:0;padding-left:17px;display:flex;flex-direction:column;gap:7px;
+  font-size:12.5px;color:var(--ink-2);line-height:1.45}
+.totalline{font-size:13px;color:var(--ink);padding-top:2px}
+.totalline b{font-family:"IBM Plex Mono",monospace;font-weight:500}
+
+.chains{display:flex;flex-wrap:wrap;gap:6px}
+.chain{border:1px solid var(--rule);border-radius:999px;padding:4px 10px;font-size:12px;
+  color:var(--ink-2);background:var(--paper);text-decoration:none;
+  display:inline-flex;align-items:center;gap:5px;
+  transition:border-color .14s,color .14s,background .14s}
+.chain:hover{border-color:var(--green);color:var(--green);background:color-mix(in srgb,var(--green) 8%,var(--paper))}
+.chain:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.chain::after{content:"↗";font-size:10px;opacity:.45}
+.chain:hover::after{opacity:1}
+.chain.first{border-color:var(--green);color:var(--green)}
+.chain.copied{border-color:var(--green);color:var(--green);
+  background:color-mix(in srgb,var(--green) 14%,var(--paper))}
+.chain.copied::after{content:"✓";opacity:1}
+.chainhint{font-size:11.5px;color:var(--ink-3)}
+/* shown only if the clipboard is blocked too: long-press selects the whole term */
+.manual{display:none;margin-top:2px;font-family:"IBM Plex Mono",monospace;font-size:12.5px;
+  border:1px dashed var(--green);border-radius:8px;padding:7px 10px;color:var(--ink);
+  background:var(--paper);user-select:all;-webkit-user-select:all}
+.manual.show{display:block}
+
+.tip{font-size:12.5px;color:var(--ink-2);line-height:1.45;
+  border-left:2px solid var(--green);padding-left:11px}
+.takeaway{border:1px dashed var(--amber);border-radius:10px;padding:10px 12px;
+  display:flex;flex-direction:column;gap:3px}
+.takeaway .tw{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--amber)}
+.takeaway .tt{font-size:13px;color:var(--ink-2);line-height:1.45}
+
+.citylinks{display:flex;gap:8px;flex-wrap:wrap;padding-top:2px}
+
+/* map */
+.mapwrap{position:relative;border:1px solid var(--rule);border-radius:14px;overflow:hidden;
+  background:var(--sea);box-shadow:var(--shadow)}
+#chart{display:block;width:100%;height:auto;touch-action:manipulation}
+.pin-hit{cursor:pointer}
+.pin-hit:hover .pin-ring{opacity:1}
+.pin-hit:focus-visible{outline:none}
+.pin-hit:focus-visible .pin-ring{opacity:1;stroke-width:2.6}
+.mapfoot{display:flex;gap:22px;flex-wrap:wrap;padding:13px 2px 0}
+.stat{display:flex;flex-direction:column;gap:1px}
+.stat .v{font-family:"IBM Plex Mono",monospace;font-size:15px;font-variant-numeric:tabular-nums}
+.hint{margin:14px 0 0;padding:11px 13px;border:1px dashed var(--rule);border-radius:10px;
+  font-size:12.5px;color:var(--ink-2);background:var(--paper)}
+
+/* checklist */
+.filters{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
+.chip{border:1px solid var(--rule);background:var(--paper);border-radius:999px;
+  padding:5px 13px;font-size:12.5px;color:var(--ink-2);transition:background .14s,border-color .14s}
+.chip:hover{border-color:var(--ink-3)}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--ground);border-color:var(--ink)}
+.list{display:flex;flex-direction:column;gap:8px;margin:0;padding:0;list-style:none}
+.item{display:flex;align-items:flex-start;gap:11px;padding:12px 13px;
+  border:1px solid var(--rule);border-left-width:3px;border-radius:11px;background:var(--paper);
+  transition:opacity .18s,background .18s}
+.item.type-RESERVATION{border-left-color:var(--teal)}
+.item.type-REMINDER{border-left-color:var(--amber)}
+.item.done{opacity:.56;background:var(--paper-2)}
+.item.done .it-t{text-decoration:line-through;text-decoration-thickness:1px;color:var(--done)}
+.item.flag{border-color:var(--coral);border-left-color:var(--coral);
+  background:color-mix(in srgb,var(--coral) 7%,var(--paper))}
+.item.flag.done{background:var(--paper-2)}
+.box{flex:none;width:21px;height:21px;margin-top:1px;border-radius:6px;
+  border:1.6px solid var(--ink-3);background:transparent;display:grid;place-items:center;padding:0;
+  transition:background .14s,border-color .14s}
+.box:hover{border-color:var(--ink)}
+.box svg{width:13px;height:13px;opacity:0;transform:scale(.6);transition:opacity .16s,transform .16s}
+.item.done .box{background:var(--teal);border-color:var(--teal)}
+.item.done .box svg{opacity:1;transform:scale(1)}
+.it-main{flex:1;min-width:0;display:flex;flex-direction:column;gap:3px}
+.it-t{font-size:14.5px;line-height:1.35}
+.it-n{font-size:12px;color:var(--ink-3);line-height:1.4}
+.it-m{display:flex;gap:8px;flex-wrap:wrap;align-items:center;font-size:11px;color:var(--ink-3)}
+.it-m .kind{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.09em;text-transform:uppercase}
+.it-m .kind.RESERVATION{color:var(--teal)}
+.it-m .kind.REMINDER{color:var(--amber)}
+.it-m .where{display:inline-flex;align-items:center;gap:5px}
+.it-m .dot{width:7px;height:7px;border-radius:50%;flex:none}
+.it-m .warn{color:var(--coral);font-weight:500}
+.del{flex:none;border:none;background:none;color:var(--ink-3);padding:3px;border-radius:6px;
+  opacity:.5;transition:opacity .14s,color .14s}
+.del:hover{opacity:1;color:var(--coral)}
+.empty{border:1px dashed var(--rule);border-radius:12px;padding:26px 20px;text-align:center;
+  color:var(--ink-3);font-size:13.5px;background:var(--paper)}
+
+.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
+.btn{border:1px solid var(--ink);background:var(--ink);color:var(--ground);border-radius:9px;
+  padding:9px 15px;font-size:13.5px;font-weight:500;display:inline-flex;align-items:center;gap:7px;
+  transition:opacity .14s}
+.btn:hover{opacity:.86}
+.btn.sm{padding:6px 12px;font-size:12.5px;border-radius:8px}
+.btn.ghost{background:transparent;color:var(--ink-2);border-color:var(--rule)}
+.btn.ghost:hover{border-color:var(--ink-3);opacity:1}
+
+/* dialogs */
+.scrim{position:fixed;inset:0;background:rgba(6,22,28,.5);backdrop-filter:blur(2px);
+  display:grid;place-items:center;padding:16px;z-index:40}
+.scrim[hidden]{display:none}
+.panel{background:var(--paper);border:1px solid var(--rule);border-radius:16px;
+  width:min(490px,100%);max-height:min(88vh,800px);overflow:auto;box-shadow:var(--shadow)}
+.panel-hd{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;
+  padding:15px 16px 12px;border-bottom:1px solid var(--rule-soft);position:sticky;top:0;background:var(--paper);z-index:1}
+.panel-hd h2{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:21px;line-height:1.15}
+.panel-bd{padding:15px 16px 18px;display:flex;flex-direction:column;gap:14px}
+.x{border:none;background:none;color:var(--ink-3);font-size:22px;line-height:1;padding:2px 6px;border-radius:6px}
+.x:hover{color:var(--ink)}
+.field{display:flex;flex-direction:column;gap:5px}
+.field > span{font-size:12px;color:var(--ink-2);font-weight:500}
+input[type=text],textarea,select{font:inherit;font-size:14px;color:var(--ink);background:var(--paper-2);
+  border:1px solid var(--rule);border-radius:9px;padding:9px 11px;width:100%}
+input[type=text]:focus,textarea:focus,select:focus{outline:2px solid var(--focus);outline-offset:-1px;border-color:transparent}
+textarea{resize:vertical;min-height:58px}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.seg{display:flex;gap:6px}
+.seg button{flex:1;border:1px solid var(--rule);background:var(--paper-2);border-radius:9px;padding:8px;
+  font-size:13px;color:var(--ink-2)}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--ground);border-color:var(--ink)}
+.err{font-size:12px;color:var(--coral)}
+
+.foot{margin-top:32px;padding-top:16px;border-top:1px solid var(--rule);
+  font-size:12px;color:var(--ink-3);display:flex;flex-direction:column;gap:5px}
+.foot code{font-family:"IBM Plex Mono",monospace;font-size:11.5px;background:var(--paper-2);
+  border:1px solid var(--rule-soft);border-radius:5px;padding:1px 5px}
+.sync{font-size:11.5px;color:var(--ink-3);min-height:16px}
+
+@media (max-width:560px){
+  .topbar{align-items:flex-start}
+  .row2{grid-template-columns:1fr}
+  .logi{grid-template-columns:1fr;gap:2px}
+  .logi dt{margin-top:6px}
+  .city-t .n{font-size:17px}
+}
+@media (prefers-reduced-motion:reduce){*{transition-duration:.01ms !important;animation-duration:.01ms !important}}
+</style>
+
+<script id="trip-state" type="application/json">{"trip":{"name":"Roteiro Euro 2026","who":"Casal viajante","span":"13/10 a 02/11","route":"São Paulo → Casablanca → Paris → Amsterdã → Zagreb → Bled/Liubliana → Copenhague → Malmö → Liverpool → Manchester → Madri → Casablanca/Rabat → São Paulo"},"principles":["Pré-maratona (até 18/10 em Amsterdã): ritmo mais lento, menos km por dia, priorizando transporte público em vez de caminhadas longas.","Pós-maratona: liberdade total para explorar a pé.","Hospedagens e passeios priorizam nota alta (8.5+), com bom custo-benefício.","Em cada cidade: ingressos principais com preço aproximado, pratos típicos para provar, e onde comer bem gastando pouco.","Valores em euros/libras/dirrãns são aproximados (pesquisa de 2026) e podem variar — confirmem sempre perto da viagem."],"legs":[["Amsterdã → Zagreb","Avião","2h","KLM, 14:35–16:25"],["Zagreb → Ljubljana","Ônibus","2h30","R$ 90–140 (casal)"],["Ljubljana ↔ Lago Bled","Ônibus","1h15 cada","R$ 120 (casal, ida/volta)"],["Ljubljana → Copenhague","Avião","1h50","Norwegian D8 3755, 20:30–22:20"],["Malmö → Copenhague","Trem","40 min","R$ 120–180 (casal)"],["Copenhague → Liverpool","Avião","2h15","R$ 700–1.100 (casal)"],["Liverpool → Manchester","Trem","40 min","R$ 120–200 (casal)"],["Manchester → Madri","Avião","2h40","R$ 500–900 (casal)"],["Madri → Casablanca","Avião","1h45","AT973, 13:00–14:45"]],"places":[{"id":1,"name":"Casablanca","country":"Marrocos","dates":"13/10 · 30/10–02/11","colorTag":0,"description":"Conexão na ida e os últimos dias na volta. Mesquita Hassan II, Marina Royale e a Antiga Medina.","lat":33.5731,"lng":-7.5898,"cur":"MAD","logistics":[["Chegada (ida)","13/10, 13:25 — Casablanca Mohammed V (T2)"],["Saída (ida)","14/10, 08:00 — AT778 → Paris CDG (T1), chega 11:55"],["Chegada (volta)","30/10, 14:45 — Mohammed V (T2)"],["Saída final","02/11, 16:35 — AT215 (T1) → Guarulhos, chega 22:25"]],"days":[{"when":"13/10","title":"Conexão","bullets":["Ao desembarcar, sigam para a migração e depois à Lodging Agency, para informações de transporte e hotel"],"note":"Nos petit taxis e táxis vermelhos, sempre peçam para ligar o taxímetro."},{"when":"30/10 e 31/10","title":"Casablanca","bullets":["Mesquita Hassan II — à beira do Atlântico, aberta a não muçulmanos em tour guiado","Boulevard des Almohades e a Marina Royale","Sqala Café Maure — restaurante dentro de fortaleza do século 18, com música ao vivo","Antiga Medina — compras e clima local"]},{"when":"02/11","title":"Retorno ao Brasil","bullets":["Cheguem ao aeroporto com antecedência para o voo das 16h35 rumo a Guarulhos"]}],"tickets":[{"name":"Mesquita Hassan II (tour guiado)","price":"~130 MAD (~12€) por pessoa","each":130}],"food":["Tagine — ensopado lento em panela de barro, de frango, cordeiro ou legumes","Couscous — tradicionalmente servido às sextas-feiras","Pastilla — folhado doce-salgado com canela e açúcar","Chá de menta marroquino — onipresente e sempre bem-vindo","Harira — sopa densa de lentilha, grão-de-bico e tomate"],"eats":[{"where":"Barracas da Medina","what":"Tagine ou espetinhos + chá","price":"~150-200 MAD (~14-19€)"},{"where":"Sqala Café Maure","what":"Prato típico + bebida, para dois","price":"~300-400 MAD (~28-37€)"},{"where":"Marjane ou Carrefour Market","what":"Pão, queijo, frutas e água","price":"~40-60 MAD (~4-6€)","cheap":true},{"where":"Padaria/pastelaria local","what":"Msemen ou pastel + chá de menta","price":"~20-30 MAD (~2-3€)","cheap":true}],"markets":{"cheap":["BIM (rede de desconto, a mais barata)","Marjane","Acima","Carrefour Market"],"snacks":[["Msemen ou harcha de barraca","3-5 MAD"],["Baguete","1,50-3 MAD"],["Água 1,5 L","6-8 MAD"],["Suco de laranja na rua","5-10 MAD"],["Laranjas","10-15 MAD/kg"],["Queijo Vache qui rit (8 porções)","12-16 MAD"]],"tip":"Piquenique de pão, queijo, azeitonas e fruta sai por 40-60 MAD para os dois — o mesmo que o documento já anotou no Marjane."},"takeaway":{"when":"02/11 — voo das 16:35","text":"Comprem a água só depois do raio-X: o limite de 100 ml vale igual na volta. Levem tâmaras e amêndoas da Medina para o voo."},"ticketsTotal":{"text":"~260 MAD o casal","hasOptional":false}},{"id":2,"name":"Paris","country":"França","dates":"14–16/10","colorTag":1,"tag":"Resguardo pré-maratona","description":"Ritmo reduzido: priorizem o metrô entre os pontos e caminhadas curtas.","lat":48.8566,"lng":2.3522,"cur":"EUR","logistics":[["Hospedagem","Hôtel Aviatic — 0 Rue Brézin, Paris 75014 (com café da manhã)"],["Chegada","14/10, 11:55 — CDG (T2B)"],["Transporte aeroporto","Metrô (~16€)"],["Saída p/ Amsterdã","16/10, trem a partir de ~06:22 (Eurostar), chega ~10h — Gare du Nord (Uber até lá)"]],"days":[{"when":"14/10","title":"Quarta-feira: Montmartre","bullets":["Estação Abbesses — arquitetura art nouveau e escada em espiral","Muro 'Je t'aime' e Place des Abbesses","Rue Lepic — Café des Deux Moulins (nº 15) e a casa de Van Gogh (nº 54)","Place du Tertre e o restaurante Le Consulat","La Maison Rose e Rue de l'Abreuvoir","Sacré-Cœur ao entardecer, para o pôr do sol"]},{"when":"14/10","title":"Fim de tarde: Canal Saint-Martin (19h–20h30)","bullets":["Comportas e pontes metálicas do canal","Quai de Valmy e Quai de Jemmapes","Cafés, bares e lojas independentes"],"note":"Jantem por ali mesmo, em vez de voltar ao centro turístico."},{"when":"15/10","title":"Quinta-feira: dia de museu, poupa as pernas","bullets":["Museu do Louvre — reservem com antecedência","Galeries Lafayette Haussmann — rooftop com vista, sem caminhar muito","Avenue de Camoëns — vista lateral da Torre Eiffel, sem fila","Panthéon rooftop (ingresso 'Panoramic')"],"note":"Reservem a Catedral de Notre-Dame com 2 dias de antecedência: a entrada é gratuita, mas a fila é longa sem reserva."}],"tickets":[{"name":"Museu do Louvre (não residente UE)","price":"32€/pessoa","each":32},{"name":"Cúpula do Sacré-Cœur (300 degraus, vista 360°)","price":"5€/pessoa","each":5},{"name":"Panthéon rooftop 'Panoramic'","price":"~3€/pessoa","each":3},{"name":"Catedral de Notre-Dame","price":"Grátis (reservar com antecedência)","each":0},{"name":"Museu Carnavalet (história de Paris)","price":"Grátis","each":0}],"food":["Croissant e pain au chocolat — de padaria de bairro, não de ponto turístico","Crêpe (doce) e galette (salgada, de trigo sarraceno)","Steak-frites e escargots de Bourgogne","Macarons e queijos franceses (brie, camembert)","Falafel do Marais — herança judaica do bairro"],"eats":[{"where":"L'As du Falafel (Marais)","what":"Sanduíche de falafel completo","price":"~16-20€"},{"where":"Creperia em Montmartre","what":"Galette + crêpe de sobremesa","price":"~24-30€"},{"where":"Bistrô no Canal Saint-Martin","what":"Prato principal + vinho da casa","price":"~40-55€"},{"where":"Café des Deux Moulins (Rue Lepic)","what":"Café + pastel","price":"~12-15€"},{"where":"Monoprix ou Franprix","what":"Sanduíche pronto + fruta + água","price":"~8-10€","cheap":true},{"where":"Boulangerie de bairro","what":"Baguete recheada + pastel","price":"~10-12€","cheap":true}],"markets":{"cheap":["Lidl (o mais barato)","Aldi","Franprix","G20","Monoprix","Picard (congelados)"],"snacks":[["Baguete de padaria","1,10-1,40 €"],["Pain au chocolat / croissant","1,30-1,90 €"],["Sanduíche jambon-beurre de padaria","4,50-6 €"],["Sanduíche pronto de supermercado","3-5 €"],["Água 1,5 L","0,40-0,90 €"],["Formule de padaria (sanduíche + bebida + doce)","7-9 €"]],"tip":"Fujam das lojas 'City' e 'Express' coladas nos pontos turísticos — os mesmos produtos custam 20-30% mais. Um Franprix duas ruas adiante resolve."},"takeaway":{"when":"16/10 — Eurostar das 6h22","text":"Comprem o café da manhã na véspera, dia 15 à noite. Nenhuma padaria abre a tempo de um trem às 6h22, e o que se vende na Gare du Nord a essa hora é caro e ruim."},"transport":{"verdict":"Não compensa comprar passe diário para o dia do aeroporto — desde 2025 o Navigo Jour não vale para CDG nem Orly. Vale no dia 15/10, o dia de museu.","rule":"A conta é simples: o passe diário custa 12,30 € e cada viagem de metrô custa 2,55 €. A partir de 5 viagens no mesmo dia, o passe compensa. Abaixo disso, saem mais barato os bilhetes avulsos.","fares":[["Bilhete Métro-Train-RER","2,55 €","vale em toda a Île-de-France, menos aeroportos"],["Bilhete Bus-Tram","2,05 €",""],["Navigo Jour (passe diário)","12,30 €","todas as zonas — mas NÃO vale para CDG/Orly"],["Ticket Aéroports (CDG ↔ Paris)","14 €","obrigatório no RER B do aeroporto"],["Navigo Semaine","32,40 €","esse cobre aeroporto, mas só vale de segunda a domingo"],["Cartão Navigo Easy","2 €","o cartão em si, recarregável"]],"plan":[["14/10 — chegada","2 × Ticket Aéroports (28 €) + avulsos","O RER B vai direto de CDG a Denfert-Rochereau, a um passo do hotel. Depois são ~3 viagens (Montmartre, Canal Saint-Martin, volta): 7,65 € por pessoa. Total ~21,65 € cada — menos que 14 € + 12,30 € do passe."],["15/10 — dia de museu","2 × Navigo Jour (24,60 €)","Louvre, Galeries Lafayette, Avenue de Camoëns e Panthéon dão umas 5 viagens: 12,75 € em avulsos contra 12,30 € do passe. Empata no preço e ganha na liberdade de pular em qualquer metrô ou ônibus sem contar."],["16/10 — saída","Uber, como já está no roteiro","O primeiro metrô sai por volta das 5h30 e o Eurostar é 6h22. Com malas, o Uber é a escolha certa."]],"gotchas":["Um cartão Navigo Easy não guarda o bilhete de aeroporto e bilhetes comuns ao mesmo tempo. Ou levam dois cartões, ou compram tudo pelo app Île-de-France Mobilités no celular — que também evita a fila do guichê na chegada.","O Navigo Semaine sairia por 32,40 € e cobriria o aeroporto, mas exige o cartão Navigo Découverte (5 € a mais, com foto 3x4) e vence no domingo mesmo comprado na quarta. Para 2 dias e meio, não compensa.","Táxi de CDG para a margem esquerda tem preço fixo de 65 € o carro (a Rue Brézin fica no 14º, margem esquerda). São 37 € a mais que os dois bilhetes de RER — mas é porta a porta, sem escada com mala, logo depois de um voo noturno e na semana de poupar as pernas. A escolha é de vocês."],"total":"Somando: ~68 € o casal nos três dias, contra ~76 € se comprassem passe diário todo dia."},"ticketsTotal":{"text":"~80 € o casal","hasOptional":false}},{"id":3,"name":"Amsterdã","country":"Países Baixos","dates":"16–20/10","colorTag":2,"star":true,"tag":"Maratona em 18/10","description":"Antes da prova, pernas leves. Depois, a cidade liberada.","lat":52.3676,"lng":4.9041,"cur":"EUR","logistics":[["Hospedagem","Vienna House Easy by Wyndham Amsterdam Airport (com café da manhã)"],["Chegada","16/10 de trem, ~10h em Amsterdam Centraal"],["Saída","20/10, 14:35 — voo KLM KL1967 → Zagreb, chega 16:25"]],"days":[{"when":"16/10 e 17/10","title":"Pré-maratona: pernas leves","bullets":["Passeio curto de bike (ou a pé, devagar) pelos canais do centro","17/10 — Moinhos de Zaanse Schans, passeio tranquilo, com paradas frequentes"]},{"when":"18/10","title":"Domingo: dia da Maratona","bullets":[],"star":true,"note":"Reservem o dia inteiro para a prova e a recuperação: hidratação, alongamento leve e uma refeição bem reforçada no almoço."},{"when":"19/10","title":"Segunda: liberado! Comemorem com calma","bullets":["Manhã tranquila no Foodhallen, mercado gastronômico com várias opções baratas","16h — Heineken Experience, com 2 bebidas incluídas","Cannibale Royale para um jantar informal"]},{"when":"20/10","title":"Terça: checkout e voo para Zagreb","bullets":[]}],"tickets":[{"name":"Zaanse Schans (vila dos moinhos)","price":"Grátis para passear; interior de moinho ~5-8€","each":6.5},{"name":"Heineken Experience (com 2 bebidas)","price":"~23€/pessoa","each":23}],"food":["Stroopwafel — bolacha com caramelo, melhor recém-feita em barraca de rua","Bitterballen — bolinho frito, tira-gosto de bar","Kibbeling (peixe frito) e haring (arenque cru com cebola)","Poffertjes — mini panquecas com manteiga e açúcar","Batata frita com maionese (patatje oorlog)"],"eats":[{"where":"Foodhallen","what":"2 pratos variados + bebida","price":"~35-45€"},{"where":"Fabel Friet","what":"Porção de batata frita especial","price":"~8-10€ (a dois)"},{"where":"Soepenzo","what":"Sopa + pão, para os dois","price":"~18-20€"},{"where":"Barraca de rua (haring/kibbeling)","what":"Porção de peixe frito","price":"~12-16€"},{"where":"Albert Heijn (supermercado)","what":"Broodje/salada pronta + fruta","price":"~8-10€","cheap":true},{"where":"HEMA (lanchonete popular)","what":"Broodje kroket + café","price":"~7-9€","cheap":true}],"markets":{"cheap":["Dirk van den Broek (bem mais barato)","Lidl","Aldi","Jumbo","Albert Heijn"],"snacks":[["Broodje / sanduíche do Albert Heijn","2,50-4 €"],["Salada pronta","3,50-5 €"],["Stroopwafel — pacote de supermercado","1,50-2,50 €"],["Stroopwafel fresco de barraca","2-3 € a unidade"],["Broodje kroket do HEMA","2-3 €"],["Água 1,5 L","0,60-1 €"]],"tip":"O Albert Heijn da Centraal é o mais caro da cidade. Um Dirk van den Broek a 10 minutos economiza uns 25% na mesma cesta — e vale a pena no dia anterior à maratona, para montar o jantar de carboidrato sem gastar."},"takeaway":{"when":"20/10 — voo das 14:35 para Zagreb","text":"Montem o almoço no Albert Heijn ou no HEMA antes de ir ao aeroporto: dentro de Schiphol o mesmo broodje custa o dobro."},"ticketsTotal":{"text":"~59 € o casal","hasOptional":false}},{"id":4,"name":"Zagreb","country":"Croácia","dates":"20–22/10","colorTag":3,"description":"Cidade Alta e Cidade Baixa ligadas por um funicular histórico.","lat":45.815,"lng":15.9819,"cur":"EUR","logistics":[["Hospedagem","Livris Hotel — Rapska 12, Zagreb (com café)"],["Chegada","20/10, 16:25"],["Saída","22/10, ônibus para Ljubljana (~2h30), após o café da manhã"]],"days":[{"when":"20/10","title":"Noite de chegada","bullets":["Rua Tkalčićeva ao entardecer — rua boêmia, ótima para o primeiro jantar"]},{"when":"21/10","title":"Dia inteiro em Zagreb","bullets":["Catedral de Zagreb (grátis) e Praça Ban Jelačić","Igreja de São Marcos, do telhado colorido","Portão de Pedra e Torre de Lotrščak — o canhão dispara ao meio-dia","Funicular histórico até a Cidade Baixa","Mercado Dolac — guarda-sóis vermelhos, frutas e comida típica","Museus baratos: dos Relacionamentos Terminados e dos Anos 80"]}],"tickets":[{"name":"Catedral de Zagreb","price":"Grátis","each":0},{"name":"Funicular (Cidade Alta ↔ Baixa)","price":"~1€/pessoa (trajeto)","each":1},{"name":"Museu dos Relacionamentos Terminados","price":"~8€/pessoa","each":8},{"name":"Museu dos Anos 80 de Zagreb","price":"~7-8€/pessoa","each":7.5}],"food":["Štrukli — massa com queijo, cozida ou assada, o prato mais tradicional da região","Ćevapi — linguicinhas grelhadas com pão e cebola","Sarma — charuto de repolho recheado","Burek — folhado salgado de carne ou queijo"],"eats":[{"where":"Barracas do Mercado Dolac","what":"Frutas, queijo e petiscos","price":"~8-10€","cheap":true},{"where":"Restaurante na Tkalčićeva","what":"Prato principal croata + bebida","price":"~28-35€"},{"where":"Lanchonete de ćevapi no centro","what":"Porção de ćevapi com pão","price":"~14-18€"},{"where":"Konzum ou Studenac","what":"Burek pronto + iogurte + fruta","price":"~7-9€","cheap":true},{"where":"Pekarnica (padaria de bairro)","what":"Burek ou štrukli para viagem","price":"~6-8€","cheap":true}],"markets":{"cheap":["Lidl","Kaufland","Plodine","Konzum","Studenac (conveniência)"],"snacks":[["Burek de pekarnica (Mlinar, Pan-Pek)","2-3,50 €"],["Sanduíche de padaria","2-3,50 €"],["Croissant","1-1,50 €"],["Água 1,5 L","0,60-0,90 €"],["Fruta e queijo no Mercado Dolac","8-10 € para dois"]],"tip":"Pekarnica é padaria, e em Zagreb é onde se come bem por menos. O burek quentinho da manhã custa menos de 3 € e segura até a tarde."},"takeaway":{"when":"22/10 — ônibus de 2h30 para Ljubljana","text":"Passem numa pekarnica antes da rodoviária: burek e água para os dois saem por 6-8 € e o ônibus não tem serviço de bordo."},"ticketsTotal":{"text":"~33 € o casal","hasOptional":false}},{"id":5,"name":"Ljubljana","country":"Eslovênia","dates":"22–23/10","colorTag":4,"description":"Centro histórico às margens do rio Ljubljanica.","lat":46.0569,"lng":14.5058,"cur":"EUR","logistics":[["Chegada","22/10, de ônibus (~2h30 de Zagreb)"],["Deslocamento a Bled","Ônibus local (~1h10) — verificar forma de pagamento"]],"days":[{"when":"22/10","title":"Chegada e noite em Ljubljana","bullets":["Passeio tranquilo pelo centro histórico, às margens do Ljubljanica","Castelo de Ljubljana — visto de longe ou de funicular","Jantar em bistrô charmoso do centro"]}],"tickets":[{"name":"Castelo de Ljubljana + funicular","price":"~19€/pessoa","each":19}],"food":["Štruklji — versão eslovena, doce ou salgada","Potica — pão doce enrolado com nozes"],"eats":[{"where":"Odprta Kuhna (mercado de rua, sáb.)","what":"Pratos variados de food trucks","price":"~20-25€"},{"where":"Bistrô no centro de Ljubljana","what":"Prato principal + bebida","price":"~30-38€"},{"where":"Mercator ou Spar","what":"Sanduíche pronto + fruta + água","price":"~8-10€","cheap":true},{"where":"Padaria local (burek/pecivo)","what":"Salgado assado para viagem","price":"~6-8€","cheap":true}],"markets":{"cheap":["Hofer (o Aldi local)","Lidl","Mercator","Spar","Tuš"],"snacks":[["Burek de padaria","2,50-3,50 €"],["Fatia de potica","2-3 €"],["Sanduíche pronto de mercado","3-4,50 €"],["Água 1,5 L","0,50-0,90 €"]],"tip":"Comprem aqui o que forem levar para Bled. Na beira do lago, os mesmos itens custam de 30% a 50% mais — é o preço da vista."},"ticketsTotal":{"text":"~38 € o casal","hasOptional":false}},{"id":6,"name":"Lago Bled","country":"Eslovênia","dates":"23/10","colorTag":5,"mapName":"Bled","description":"O dia no lago, e à noite já é aeroporto.","lat":46.3683,"lng":14.1146,"cur":"EUR","logistics":[["Ida","Ônibus local de Ljubljana (~1h10)"],["Saída","23/10, 20h30 — voo Norwegian D8 3755 → Copenhague, chega 22h20"]],"days":[{"when":"23/10","title":"Dia no Lago Bled, depois aeroporto","bullets":["Ônibus local até Bled (~1h10)","Passeio de barco (pletna) até a Ilha de Bled, para tocar o sino","Caminhada parcial pela orla — a volta completa são 6 km, sem exagerar","Provem a Kremna Rezina, a torta de creme e baunilha de Bled"],"note":"Voltem a tempo do checkout e do aeroporto: o voo é às 20h30."}],"tickets":[{"name":"Barco pletna até a Ilha de Bled (ida e volta)","price":"~15€/pessoa","each":15},{"name":"Castelo de Bled","price":"~11€/pessoa (opcional — dá para ver de fora)","each":11,"optional":true}],"food":["Kremna Rezina — a 'torta de Bled', de creme de baunilha e massa folhada"],"eats":[{"where":"Café à beira do lago em Bled","what":"Kremna rezina + café, para dois","price":"~14-16€"}],"markets":{"cheap":["Mercator (centro de Bled)","Spar"],"snacks":[["Kremna rezina no café à beira do lago","5-8 € a fatia"],["Sanduíche pronto do Mercator","3-4,50 €"],["Água 1,5 L","0,70-1,20 €"]],"tip":"A kremna rezina vale ser comida ali, sentada, olhando o lago — essa é a única que não vale economizar. O resto do dia, o que veio de Ljubljana resolve."},"takeaway":{"when":"23/10 — voo das 20h30","text":"Jantem em Bled ou em Ljubljana antes de seguir. O aeroporto de Ljubljana é pequeno, com poucas opções e preço de aeroporto."},"ticketsTotal":{"text":"~30 € o casal","hasOptional":true}},{"id":7,"name":"Copenhague","country":"Dinamarca","dates":"23–25/10","colorTag":6,"description":"Canais, palácios e o polo gastronômico de Kødbyen.","lat":55.6761,"lng":12.5683,"cur":"DKK","logistics":[["Chegada","23/10, 22h20"],["Saída para Malmö","25/10, final do dia, de trem (~40 min)"]],"days":[{"when":"24/10","title":"Dia inteiro em Copenhague","bullets":["Nyhavn — canal colorido, ótimo para o café da manhã","Castelo de Rosenborg e o parque Kongens Have","Palácio Real de Amalienborg — troca da guarda ~11h30","Vesterbro e o Meatpacking District (Kødbyen) — polo gastronômico descolado","Christianshavn — canais charmosos, a 'pequena Amsterdã'","Christiania — comuna autogerida, arte de rua e vida cultural intensa"]}],"tickets":[{"name":"Castelo de Rosenborg","price":"~100 DKK (~13€) por pessoa","each":100},{"name":"Christiania","price":"Entrada grátis","each":0},{"name":"Igreja do Redentor + subida à torre","price":"~60 DKK (~8€) por pessoa","each":60}],"food":["Smørrebrød — sanduíche aberto de centeio com peixe, carne ou queijo","Frikadeller (almôndegas) e flæskesteg (barriga de porco assada)","Wienerbrød — o 'pastel dinamarquês', a verdadeira 'Danish'","Pølser — hot dog de rua, um clássico noturno"],"eats":[{"where":"Torvehallerne (mercado central)","what":"2 smørrebrød + café","price":"~180-220 DKK (~24-30€)"},{"where":"Reffen (mercado de food trucks)","what":"2 pratos variados","price":"~220-260 DKK (~30-35€)"},{"where":"Carrinho de pølser de rua","what":"Hot dog completo, para dois","price":"~90-110 DKK (~12-15€)"},{"where":"Netto, Rema 1000 ou Fakta","what":"Smørrebrød pronto + fruta","price":"~60-80 DKK (~8-11€)","cheap":true},{"where":"Padaria de bairro (bageri)","what":"Wienerbrød + café, para dois","price":"~50-70 DKK (~7-9€)","cheap":true}],"markets":{"cheap":["Netto","Rema 1000","Lidl","Føtex","Bilka"],"snacks":[["Smørrebrød pronto de supermercado","25-45 DKK"],["Wienerbrød de padaria","20-35 DKK"],["Sanduíche de rugbrød","30-50 DKK"],["Pølser (hot dog de rua)","30-45 DKK"],["Água 1,5 L","8-15 DKK"]],"tip":"Duas economias que somam muito na Dinamarca: a água da torneira é excelente, então uma garrafa reutilizável poupa dezenas de coroas por dia; e toda garrafa comprada tem pant (depósito de 1 a 3 DKK) que volta na máquina do supermercado. Evitem 7-Eleven, é o dobro de tudo."},"takeaway":{"when":"25/10 — trem para Malmö","text":"Comprem no Netto ou Rema 1000 antes da estação. Do lado sueco tudo fica mais caro ainda."},"ticketsTotal":{"text":"~320 DKK o casal","hasOptional":false}},{"id":8,"name":"Malmö","country":"Suécia","dates":"25–26/10","colorTag":7,"description":"Bate-volta de trem, do outro lado do Öresund.","lat":55.605,"lng":13.0038,"cur":"SEK","logistics":[["Chegada","25/10, final do dia, de trem desde Copenhague"],["Saída","26/10, trem de volta a Copenhague — levar comida e calcular o horário do voo"]],"days":[{"when":"25 e 26/10","title":"Malmö a pé","bullets":["Stortorget e Lilla Torg — praças históricas do centro","Södergatan — a primeira rua pedestre de Malmö","Castelo de Malmö e o Slottsträdgården, o jardim do castelo","Turning Torso — não tem mirante público, mas vale ver de fora","Fika (café + doce) em alguma cafeteria local"]}],"tickets":[{"name":"Castelo de Malmö","price":"~60 SEK (~5-6€) por pessoa","each":60},{"name":"Slottsträdgården (jardim do castelo)","price":"Grátis","each":0}],"food":["Kanelbullar — rolinho de canela sueco, o par perfeito da fika","Köttbullar — almôndegas suecas com geleia de lingonberry","Räksmörgås — sanduíche aberto de camarão"],"eats":[{"where":"Cafeteria local (fika)","what":"Café + kanelbulle, para dois","price":"~110-130 SEK (~10-12€)","cheap":true},{"where":"Restaurante de 'dagens lunch'","what":"Almoço completo, cada","price":"~110-140 SEK (~10-13€/pessoa)"},{"where":"ICA ou Coop","what":"Salada/sanduíche pronto + fruta","price":"~70-90 SEK (~6-8€)","cheap":true},{"where":"Padaria de bairro","what":"Kanelbulle + café, para dois","price":"~60-80 SEK (~5-7€)","cheap":true}],"markets":{"cheap":["Willys (o mais barato)","Lidl","ICA Maxi","Coop","Hemköp"],"snacks":[["Kanelbulle (rolinho de canela)","15-30 SEK"],["Sanduíche pronto","35-60 SEK"],["Räksmörgås de supermercado","45-70 SEK"],["Água 1,5 L","10-20 SEK"]],"tip":"O 'dagens lunch' que o documento já cita é de longe o melhor negócio da Suécia: prato, salada, pão e café por 110-140 SEK, mas só no almoço de dia útil. Jantar custa o dobro pelo mesmo prato. ICA Nära é a versão pequena e cara; ICA Maxi é a grande e barata."},"takeaway":{"when":"26/10 — trem de volta e voo para Liverpool","text":"O documento já avisa para levar comida nesse trecho. Willys ou Lidl antes da estação, e a água só depois do raio-X em Copenhague."},"ticketsTotal":{"text":"~120 SEK o casal","hasOptional":false}},{"id":9,"name":"Liverpool","country":"Reino Unido","dates":"26–28/10","colorTag":8,"tag":"Precisa de ETA","description":"Albert Dock, museus gratuitos e a Mathew Street dos Beatles.","lat":53.4084,"lng":-2.9916,"cur":"GBP","warn":"Brasileiros precisam de ETA (Autorização Eletrônica de Viagem) para entrar no Reino Unido — verifiquem se já está feita.","logistics":[["Chegada","26/10, voo de Copenhague (~2h15), chegada ~20h30"],["Saída","28/10, trem para Manchester (~40 min)"]],"days":[{"when":"26–28/10","title":"Liverpool","bullets":["Albert Dock — zona portuária revitalizada, gratuita, com museus e restaurantes","Museum of Liverpool e Tate Liverpool — ambos gratuitos","The Beatles Story e o Cavern Club, na Mathew Street","Passeio de barco pelo Rio Mersey — saídas a cada hora, das 10h às 16h"]}],"tickets":[{"name":"Museum of Liverpool / Tate Liverpool","price":"Grátis","each":0},{"name":"The Beatles Story","price":"~17 GBP/pessoa","each":17},{"name":"Cruzeiro no Rio Mersey","price":"~12-15 GBP/pessoa","each":13.5}],"food":["Fish and chips — melhor em pub à beira do porto","Scouse — ensopado de carne típico da cidade, que deu o apelido 'Scousers'","Sunday roast, se o passeio cair num domingo"],"eats":[{"where":"Pub perto do Albert Dock","what":"Fish and chips + bebida, cada","price":"~14-18 GBP/pessoa"},{"where":"Casa de Scouse no centro","what":"Tigela de scouse + pão","price":"~10-12 GBP/pessoa"},{"where":"Greggs","what":"Salgado assado + café, cada","price":"~3-5 GBP/pessoa","cheap":true},{"where":"Tesco ou Sainsbury's 'Meal Deal'","what":"Sanduíche + bebida + snack, cada","price":"~3,50-4 GBP/pessoa","cheap":true}],"markets":{"cheap":["Aldi","Lidl","Asda","Tesco","Sainsbury's","Morrisons"],"snacks":[["Meal Deal (sanduíche + snack + bebida)","3,60-4,50 GBP"],["Greggs — sausage roll","1,30-1,75 GBP"],["Greggs — bacon roll","~2,50 GBP"],["Café de padaria","1,50-2 GBP"],["Água 2 L","0,50-0,90 GBP"]],"tip":"O Meal Deal é o melhor truque do Reino Unido: sanduíche + salgadinho + bebida por menos de 4 libras, em qualquer Tesco, Sainsbury's ou Boots. Almoçar assim os dois sai por ~8 GBP, contra 30 GBP num pub. Com o cartão Clubcard do Tesco cai ainda mais, e é grátis de fazer na hora."},"ticketsTotal":{"text":"~61 GBP o casal","hasOptional":false}},{"id":10,"name":"Manchester","country":"Reino Unido","dates":"28–29/10","colorTag":9,"description":"Northern Quarter, futebol e o Curry Mile.","lat":53.4808,"lng":-2.2426,"cur":"GBP","logistics":[["Chegada","28/10, de trem (40 min desde Liverpool)"],["Saída","29/10, voo para Madri (12h ou 14h35, a confirmar)"]],"days":[{"when":"28–29/10","title":"Manchester","bullets":["Northern Quarter — bairro alternativo com arte de rua, brechós, cafés e bares descolados","Albert Square e a Manchester Town Hall","Catedral de Manchester e Shambles Square","National Football Museum (gratuito)","Opcional: visita externa a Old Trafford, sem gastar com ingresso"]}],"tickets":[{"name":"National Football Museum","price":"Grátis","each":0},{"name":"Old Trafford (tour guiado)","price":"~28 GBP/pessoa (opcional)","each":28,"optional":true}],"food":["Manchester tart — torta de coco e geleia, o doce típico","Curry no 'Curry Mile' (Rusholme) — herança da forte comunidade sul-asiática","Full English breakfast, para começar o dia com energia"],"eats":[{"where":"Federal Cafe Bar (brunch)","what":"Prato de brunch + café, cada","price":"~10-13 GBP/pessoa"},{"where":"Restaurante no Curry Mile","what":"Curry + arroz/naan, para dois","price":"~25-30 GBP"},{"where":"Cafés do Northern Quarter","what":"Sanduíche/prato leve, cada","price":"~8-10 GBP/pessoa"},{"where":"Greggs","what":"Salgado assado + café, cada","price":"~3-5 GBP/pessoa","cheap":true},{"where":"M&S Food ou Tesco 'Meal Deal'","what":"Sanduíche + bebida + snack, cada","price":"~3,50-4,50 GBP/pessoa","cheap":true}],"markets":{"cheap":["Aldi","Lidl","Asda","Tesco","Sainsbury's","M&S Food (mais caro)"],"snacks":[["Meal Deal","3,60-4,50 GBP"],["Greggs — salgado assado","1,30-1,75 GBP"],["Curry Mile — porção para dividir","8-12 GBP"],["Água 2 L","0,50-0,90 GBP"]],"tip":"No Northern Quarter os cafés são bonitos e caros. O mesmo café a duas quadras, fora do circuito, custa metade — e o Curry Mile, em Rusholme, é onde se come muito por pouco."},"takeaway":{"when":"29/10 — voo para Madri","text":"Meal Deal no Tesco antes do aeroporto: dentro do terminal o mesmo sanduíche custa 3 vezes mais."},"ticketsTotal":{"text":"tudo grátis","hasOptional":true}},{"id":11,"name":"Madri","country":"Espanha","dates":"29–30/10","colorTag":10,"description":"Um dia curto e cheio: Plaza Mayor, Retiro e a rota de tapas da Cava Baja.","lat":40.4168,"lng":-3.7038,"cur":"EUR","logistics":[["Saída para Casablanca","30/10, 13:00 — AT973 (T4S), chegada 14:45 em Casablanca (T2)"]],"days":[{"when":"29–30/10","title":"Madri","bullets":["Palácio Real e Plaza Mayor — bons para fotos, mas evitem comer ali","Mercado de San Miguel — tapas variadas","Parque do Retiro — caminhada tranquila à tarde","Bairro de La Latina, na Cava Baja — a rota de tapas mais tradicional","Malasaña ou Chueca à noite — bairros descolados"]}],"tickets":[{"name":"Museu do Prado","price":"15€/pessoa (grátis para menores de 18 e estudantes 18-25)","each":15},{"name":"Palácio Real","price":"~13€/pessoa","each":13},{"name":"Parque do Retiro","price":"Grátis","each":0}],"food":["Tortilla española — omelete de batata","Jamón ibérico e croquetas caseiras","Churros con chocolate — ótimo café da manhã ou lanche noturno","Cocido madrileño — ensopado de grão-de-bico, tradicional de inverno"],"eats":[{"where":"Mercado de San Miguel","what":"2-3 tapas + vinho, para dois","price":"~35-45€"},{"where":"Bares da Cava Baja (La Latina)","what":"Caña + tapa, por parada","price":"~6-8€ (a dois)"},{"where":"El Tigre (Malasaña)","what":"Ração generosa + cerveja","price":"~20-25€ (a dois)"},{"where":"Mercadona","what":"Bocadillo + salada + fruta","price":"~8-10€","cheap":true},{"where":"Panadería/Churrería de bairro","what":"Churros con chocolate, para dois","price":"~6-8€","cheap":true}],"markets":{"cheap":["Dia (o mais barato)","Mercadona","Lidl","Aldi","Ahorramás","Carrefour Express (mais caro)"],"snacks":[["Bocadillo pronto do Mercadona","2,50-3,50 €"],["Porção de tortilla española","2-3 €"],["Churros con chocolate","3-4 € por pessoa"],["Água 1,5 L","0,40-0,70 €"],["Menú del día (almoço completo)","12-15 € por pessoa"]],"tip":"O menú del día é a melhor refeição por real da viagem inteira: entrada, prato, sobremesa, pão e bebida por 12-15 €, no almoço de dia útil. E a regra de ouro de Madri, que o próprio roteiro já dá: não comam na Plaza Mayor."},"takeaway":{"when":"30/10 — voo das 13:00","text":"Bocadillo do Mercadona antes de ir para Barajas. O voo é curto e sem refeição decente."},"ticketsTotal":{"text":"~56 € o casal","hasOptional":false}},{"id":12,"name":"Rabat","country":"Marrocos","dates":"01/11","colorTag":11,"tag":"Bate-volta opcional","description":"Mais arborizada e tranquila que Casablanca, a ~1h de trem.","lat":34.0209,"lng":-6.8416,"cur":"MAD","logistics":[["Ida e volta","01/11, de trem desde Casablanca (~1h cada trecho)"]],"days":[{"when":"01/11","title":"Bate-volta a Rabat (opcional)","bullets":["Avenida Mohammed V — mais arborizada e tranquila que Casablanca","Kasbah des Oudaias e o Jardim Andaluz","Restaurante Bahia — tajine de legumes"]}],"tickets":[{"name":"Kasbah des Oudaias","price":"Grátis para passear","each":0}],"food":[],"eats":[{"where":"Restaurante Bahia","what":"Tajine de legumes, para dois","price":"~102 MAD (~9-10€)","cheap":true}],"markets":{"cheap":["Marjane","Carrefour Market","BIM","Acima"],"snacks":[["Msemen recheado de barraca","5-8 MAD"],["Chá de menta em café local","8-15 MAD"],["Água 1,5 L","6-8 MAD"],["Pastéis marroquinos","3-6 MAD a unidade"]],"tip":"O Restaurante Bahia que o documento indica, com tajine de legumes por ~102 MAD para dois, já é dos melhores negócios da viagem — difícil bater."},"ticketsTotal":{"text":"tudo grátis","hasOptional":false}}],"items":[{"id":101,"title":"Voo AT214 · Guarulhos T2 → Casablanca","notes":"13/10, 00:30","type":"RESERVATION","placeId":1,"done":true},{"id":102,"title":"Voo AT778 · Casablanca → Paris CDG","notes":"14/10, 08:00 — chega 11:55","type":"RESERVATION","placeId":2,"done":true},{"id":103,"title":"Hôtel Aviatic — Rue Brézin, Paris 75014","notes":"Com café da manhã","type":"RESERVATION","placeId":2,"done":true},{"id":104,"title":"Eurostar Paris → Amsterdã","notes":"16/10, a partir de ~06:22, Gare du Nord (Uber até lá)","type":"RESERVATION","placeId":3,"done":true},{"id":105,"title":"Vienna House Easy by Wyndham Amsterdam Airport","notes":"Com café da manhã","type":"RESERVATION","placeId":3,"done":true},{"id":106,"title":"Voo KLM KL1967 · Amsterdã → Zagreb","notes":"20/10, 14:35 — chega 16:25","type":"RESERVATION","placeId":4,"done":true},{"id":107,"title":"Livris Hotel — Rapska 12, Zagreb","notes":"Com café da manhã","type":"RESERVATION","placeId":4,"done":true},{"id":108,"title":"Voo Norwegian D8 3755 · Ljubljana → Copenhague","notes":"23/10, 20:30 — chega 22:20","type":"RESERVATION","placeId":6,"done":true},{"id":109,"title":"Voo AT973 · Madri T4S → Casablanca","notes":"30/10, 13:00 — chega 14:45","type":"RESERVATION","placeId":11,"done":true},{"id":110,"title":"Voo AT215 · Casablanca T1 → Guarulhos","notes":"02/11, 16:35 — chega 22:25","type":"RESERVATION","placeId":1,"done":true},{"id":111,"title":"Studio 410 — R. Paim, 189, Bela Vista","notes":"São Paulo, 07/10 a 13/10, antes de embarcar","type":"RESERVATION","placeId":null,"done":true},{"id":120,"title":"Hospedagem em Copenhague","notes":"Não definida no planejamento original","type":"RESERVATION","placeId":7,"done":false,"flag":true},{"id":121,"title":"Hospedagem em Ljubljana","notes":"Não definida no planejamento original","type":"RESERVATION","placeId":5,"done":false,"flag":true},{"id":122,"title":"Voos do trecho Zagreb–Malmö","notes":"Ainda marcados como 'a comprar'","type":"RESERVATION","placeId":4,"done":false,"flag":true},{"id":123,"title":"Voo Manchester → Madri","notes":"29/10, 12h ou 14h35 — a confirmar e comprar","type":"RESERVATION","placeId":10,"done":false,"flag":true},{"id":124,"title":"ETA do Reino Unido","notes":"Brasileiros precisam da autorização eletrônica para entrar","type":"REMINDER","placeId":9,"done":false,"flag":true},{"id":130,"title":"Museu do Louvre","notes":"Reservar com antecedência · 32€/pessoa","type":"RESERVATION","placeId":2,"done":false},{"id":131,"title":"Catedral de Notre-Dame","notes":"Reservar com 2 dias de antecedência — grátis, mas fila longa sem reserva","type":"RESERVATION","placeId":2,"done":false},{"id":132,"title":"Ônibus Zagreb → Ljubljana","notes":"22/10 após o café, ~2h30 · 90–140 R$ o casal","type":"RESERVATION","placeId":5,"done":false},{"id":133,"title":"Ônibus Ljubljana ↔ Lago Bled","notes":"~1h10 cada trecho — verificar forma de pagamento","type":"RESERVATION","placeId":6,"done":false},{"id":134,"title":"Barco pletna até a Ilha de Bled","notes":"~15€/pessoa, ida e volta","type":"RESERVATION","placeId":6,"done":false},{"id":135,"title":"Trem Copenhague → Malmö","notes":"25/10, final do dia, ~40 min","type":"RESERVATION","placeId":8,"done":false},{"id":136,"title":"Voo Copenhague → Liverpool","notes":"26/10, ~2h15 — chegada ~20h30","type":"RESERVATION","placeId":9,"done":false},{"id":137,"title":"Trem Liverpool → Manchester","notes":"28/10, ~40 min","type":"RESERVATION","placeId":10,"done":false},{"id":138,"title":"Heineken Experience","notes":"19/10 às 16h, com 2 bebidas · ~23€/pessoa","type":"RESERVATION","placeId":3,"done":false},{"id":150,"title":"Passaporte + cópias digitais na nuvem","type":"REMINDER","placeId":null,"done":false},{"id":151,"title":"Cartão Wise e um cartão reserva","notes":"Caso um seja bloqueado","type":"REMINDER","placeId":null,"done":false},{"id":152,"title":"Euros em espécie","notes":"Para taxas de turismo e gorjetas","type":"REMINDER","placeId":null,"done":false},{"id":153,"title":"Tênis confortável e já calçado","notes":"Essencial pela maratona e pelas muitas caminhadas","type":"REMINDER","placeId":null,"done":false},{"id":154,"title":"Roupas em camadas","notes":"De 30°C no Marrocos a ~10°C na Escandinávia","type":"REMINDER","placeId":null,"done":false},{"id":155,"title":"Remédio antialérgico e kit básico","notes":"Analgésico, antitérmico, band-aid","type":"REMINDER","placeId":null,"done":false},{"id":156,"title":"Frascos de viagem e cadeado para a mala","notes":"Shampoo, condicionador, sabonete, pasta de dente","type":"REMINDER","placeId":null,"done":false},{"id":157,"title":"Bandeira do Brasil para a torcida","type":"REMINDER","placeId":null,"done":false},{"id":160,"title":"Descansar as pernas até 18/10","notes":"Nada de treino longo nem comida nova na reta final do tapering","type":"REMINDER","placeId":null,"done":false},{"id":161,"title":"Maratona de Amsterdã — dia inteiro","notes":"18/10. Hidratação, alongamento leve e almoço reforçado","type":"REMINDER","placeId":3,"done":false},{"id":162,"title":"Nos táxis, peça o taxímetro","notes":"Petit taxis e táxis vermelhos de Casablanca","type":"REMINDER","placeId":1,"done":false},{"id":163,"title":"Voltar de Bled a tempo do checkout e do voo","notes":"A volta completa da orla são 6 km — não exagerar","type":"REMINDER","placeId":6,"done":false},{"id":164,"title":"Provar a Kremna Rezina em Bled","notes":"A torta de creme e baunilha da região","type":"REMINDER","placeId":6,"done":false}],"seq":200}</script>
+
+<div class="shell">
+  <header class="topbar">
+    <div class="brand">
+      <h1 id="trip-title">Roteiro Euro 2026</h1>
+      <p class="sub"><b id="trip-who"></b> · <b id="trip-span"></b></p>
+      <p class="route" id="trip-route"></p>
+    </div>
+    <div class="gauge">
+      <svg width="46" height="46" viewBox="0 0 46 46" aria-hidden="true">
+        <circle cx="23" cy="23" r="19" fill="none" stroke="var(--rule)" stroke-width="4"></circle>
+        <circle id="ring" cx="23" cy="23" r="19" fill="none" stroke="var(--teal)" stroke-width="4"
+                stroke-linecap="round" transform="rotate(-90 23 23)"></circle>
+      </svg>
+      <div class="g-txt">
+        <span class="g-num" id="gauge-num">0/0</span>
+        <span class="g-lab">resolvidos</span>
+      </div>
+    </div>
+  </header>
+
+  <nav class="tabs" role="tablist" aria-label="Seções">
+    <button class="tab" role="tab" id="tab-trip" aria-selected="true" aria-controls="view-trip">
+      Roteiro <span class="cnt" id="cnt-cities"></span></button>
+    <button class="tab" role="tab" id="tab-map" aria-selected="false" aria-controls="view-map">Mapa</button>
+    <button class="tab" role="tab" id="tab-check" aria-selected="false" aria-controls="view-check">
+      Checklist <span class="cnt" id="cnt-check"></span></button>
+  </nav>
+
+  <main>
+    <section class="view" id="view-trip" role="tabpanel" aria-labelledby="tab-trip">
+      <details class="intro">
+        <summary>Como este roteiro funciona</summary>
+        <ul id="principles"></ul>
+        <p style="margin:12px 0 0;padding-top:11px;border-top:1px solid var(--rule-soft);
+                  font-size:12.5px;color:var(--ink-3);line-height:1.5">
+          O roteiro, os ingressos e o “onde comer” vêm do documento de vocês.
+          As seções <b style="color:var(--teal)">🚇 passe diário</b>,
+          <b style="color:var(--teal)">🛒 mercados e lanches</b> e
+          <b style="color:var(--amber)">🎒 o que levar no trecho</b> foram acrescentadas depois e
+          aparecem com a borda verde. As tarifas de Paris foram conferidas nas fontes oficiais;
+          os preços de mercado são estimativas.
+        </p>
+      </details>
+      <div class="toolbar">
+        <span class="label" id="trip-legend">🟩 verde = a opção mais barata</span>
+        <button class="btn ghost sm" id="toggle-all">Abrir todas</button>
+      </div>
+      <div id="cities"></div>
+
+      <section class="sec" style="margin-top:22px">
+        <p class="label">Deslocamentos entre as cidades</p>
+        <div class="tblwrap"><table id="legs">
+          <thead><tr><th>Trecho</th><th>Transporte</th><th>Tempo</th><th>Detalhes / custo</th></tr></thead>
+          <tbody></tbody>
+        </table></div>
+        <p style="font-size:11.5px;color:var(--ink-3)">Valores aproximados, sujeitos a variação por data de compra.</p>
+      </section>
+    </section>
+
+    <section class="view" id="view-map" role="tabpanel" aria-labelledby="tab-map" hidden>
+      <div class="mapwrap"><svg id="chart" viewBox="0 0 800 460" role="img"
+        aria-label="Mapa das paradas da viagem, na ordem do roteiro"></svg></div>
+      <div class="mapfoot">
+        <div class="stat"><span class="label">Paradas</span><span class="v" id="s-places">0</span></div>
+        <div class="stat"><span class="label">Do sul ao norte</span><span class="v" id="s-span">—</span></div>
+        <div class="stat"><span class="label">Pendências</span><span class="v" id="s-open">0</span></div>
+        <div class="stat"><span class="label">A resolver já</span><span class="v" id="s-flag">0</span></div>
+      </div>
+      <p class="hint">Os pinos estão na posição geográfica real e numerados na ordem do roteiro — a linha tracejada é o caminho de vocês. No app Android essa tela é o Google Maps de verdade; aqui o mapa é desenhado na hora, porque a prévia roda sem chave de API. Toque num pino para abrir a cidade no roteiro.</p>
+    </section>
+
+    <section class="view" id="view-check" role="tabpanel" aria-labelledby="tab-check" hidden>
+      <div class="filters">
+        <button class="chip" data-f="FLAG" aria-pressed="true">A resolver já</button>
+        <button class="chip" data-f="OPEN" aria-pressed="false">Pendentes</button>
+        <button class="chip" data-f="RESERVATION" aria-pressed="false">Reservas</button>
+        <button class="chip" data-f="REMINDER" aria-pressed="false">Lembretes</button>
+        <button class="chip" data-f="ALL" aria-pressed="false">Todos</button>
+      </div>
+      <ul class="list" id="list"></ul>
+      <div class="actions"><button class="btn" id="add-item">+ Adicionar item</button></div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <span id="sync" class="sync"></span>
+    <span>Montado a partir do <b>Roteiro_Euro_2026.docx</b>. O app Android está no branch
+      <code>claude/android-travel-map-app-vaxaem</code> — Kotlin, Jetpack Compose e Room.</span>
+  </footer>
+</div>
+
+<div class="scrim" id="dlg-item" hidden>
+  <div class="panel" role="dialog" aria-modal="true" aria-labelledby="di-title">
+    <div class="panel-hd"><h2 id="di-title">Novo item</h2><button class="x" data-close aria-label="Fechar">×</button></div>
+    <div class="panel-bd">
+      <label class="field"><span>O que é</span><input type="text" id="di-title-in" placeholder="Ex.: Reservar o jantar de sexta"></label>
+      <label class="field"><span>Detalhe (opcional)</span><input type="text" id="di-notes" placeholder="Horário, preço, endereço"></label>
+      <div class="field"><span>Tipo</span>
+        <div class="seg" id="di-seg">
+          <button data-t="REMINDER" aria-pressed="true">Lembrete</button>
+          <button data-t="RESERVATION" aria-pressed="false">Reserva</button>
+        </div>
+      </div>
+      <label class="field"><span>Cidade (opcional)</span><select id="di-place"></select></label>
+      <p class="err" id="di-err"></p>
+      <div style="display:flex;gap:8px"><button class="btn" id="di-ok">Adicionar</button><button class="btn ghost" data-close>Cancelar</button></div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  /* Captured before anything renders: the pristine served document, used as the
+     template when republishing. Only the state JSON inside it is swapped. */
+  var TEMPLATE = document.documentElement.outerHTML;
+
+  var PALETTE = ["#e8622f","#0fa8b4","#8b5cf6","#e0a010","#e0447a","#12b886",
+                 "#3b6fe0","#d97706","#0d9488","#b45cc4","#c2410c","#0891b2"];
+  var LS_KEY = "roteiro-euro-2026-v2";
+
+  /* Inside the Claude viewer the page runs in a sandboxed iframe that blocks opening
+     a new tab, so tapping a shop copies its search term instead. Opened as a plain
+     file in a browser, the same link just works — so behave differently in each. */
+  var FRAMED = (function(){
+    try { return window.top !== window.self; } catch(e){ return true; }
+  })();
+
+  var state = readEmbeddedState();
+  var artifact = null, publishTimer = null;
+  var filter = "FLAG";
+  var openCities = {};     // id -> true while its section is expanded
+
+  /* ---------------- state ---------------- */
+
+  function readEmbeddedState(){
+    var fallback = {trip:{},places:[],items:[],legs:[],principles:[],seq:1};
+    var base;
+    try { base = JSON.parse(document.getElementById("trip-state").textContent) || fallback; }
+    catch(e){ base = fallback; }
+    try {
+      var raw = localStorage.getItem(LS_KEY);
+      if (raw){
+        var local = JSON.parse(raw);
+        if (local && local.baseSeq === base.seq && local.items){
+          base.items = local.items;      // only the checklist is per-viewer editable
+        }
+      }
+    } catch(e){}
+    return base;
+  }
+
+  function embeddedSeq(){
+    try { return JSON.parse(document.getElementById("trip-state").textContent).seq; }
+    catch(e){ return 0; }
+  }
+
+  function saveLocal(){
+    try {
+      localStorage.setItem(LS_KEY, JSON.stringify({
+        baseSeq: embeddedSeq(), savedAt: Date.now(), items: state.items
+      }));
+    } catch(e){}
+  }
+
+  function docWithState(next){
+    var idx = TEMPLATE.indexOf('id="trip-state"');
+    if (idx < 0) return null;
+    var open = TEMPLATE.indexOf(">", idx);
+    if (open < 0) return null;
+    open += 1;
+    var close = TEMPLATE.indexOf("<\/script>", open);
+    if (close < 0) return null;
+    // escape "<" so text in the state can never end the block early
+    var json = JSON.stringify(next).replace(/</g, "\\u003c");
+    return "<!doctype html>\n" + TEMPLATE.slice(0, open) + json + TEMPLATE.slice(close);
+  }
+
+  function setSync(m){ document.getElementById("sync").textContent = m || ""; }
+
+  function commit(){
+    renderChecklistBits();
+    saveLocal();
+    if (!artifact){ setSync("Salvo neste aparelho."); return; }
+    setSync("Salvando…");
+    if (publishTimer) clearTimeout(publishTimer);
+    publishTimer = setTimeout(publish, 900);
+  }
+
+  function publish(){
+    publishTimer = null;
+    var html = docWithState(state);
+    if (!html){ setSync("Salvo neste aparelho."); return; }
+    artifact.publish(html).then(function(){
+      setSync("Salvo no roteiro — quem abrir o link vê igual.");
+    }).catch(function(err){
+      if (err && err.code === "conflict") return;
+      setSync("Salvo neste aparelho (não deu para atualizar o link).");
+    });
+  }
+
+  /* ---------------- helpers ---------------- */
+
+  function colorOf(p){ return PALETTE[(p.colorTag || 0) % PALETTE.length]; }
+  function placeById(id){
+    for (var i=0;i<state.places.length;i++) if (state.places[i].id === id) return state.places[i];
+    return null;
+  }
+  function indexOfPlace(id){
+    for (var i=0;i<state.places.length;i++) if (state.places[i].id === id) return i;
+    return -1;
+  }
+  function itemsOf(id){ return state.items.filter(function(it){ return it.placeId === id; }); }
+  function esc(s){
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function(c){
+      return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];
+    });
+  }
+  function haversine(a,b){
+    var R=6371,t=Math.PI/180;
+    var dLat=(b.lat-a.lat)*t,dLng=(b.lng-a.lng)*t;
+    var s=Math.sin(dLat/2)*Math.sin(dLat/2)+Math.cos(a.lat*t)*Math.cos(b.lat*t)*Math.sin(dLng/2)*Math.sin(dLng/2);
+    return 2*R*Math.asin(Math.min(1,Math.sqrt(s)));
+  }
+
+  /* ---------------- itinerary ---------------- */
+
+  function cityHTML(p, i){
+    var c = colorOf(p);
+    var open = itemsOf(p.id).filter(function(it){ return !it.done; }).length;
+    var isOpen = !!openCities[p.id];
+    var h = [];
+
+    h.push('<section class="city'+(p.star?" star":"")+(isOpen?" open":"")+'" id="city-'+p.id+'">');
+    h.push('<button class="city-hd" data-city="'+p.id+'" aria-expanded="'+(isOpen?"true":"false")+'" '
+      + 'aria-controls="citybd-'+p.id+'">');
+    h.push('<span class="city-num" style="background:'+c+'">'+(i+1)+'</span>');
+    h.push('<span class="city-t"><span class="n">'+esc(p.name)+'</span><span class="m">'
+      + '<span class="d">'+esc(p.dates||"")+'</span><span>'+esc(p.country||"")+'</span>'
+      + (p.tag ? '<span class="pill'+(p.star?" hot":(p.warn?" warn":""))+'">'+esc(p.tag)+'</span>' : '')
+      + (open ? '<span class="pill">'+open+' pendente'+(open>1?'s':'')+'</span>' : '')
+      + '</span></span>');
+    h.push('<svg class="chev" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">'
+      + '<path d="M6 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.8" '
+      + 'stroke-linecap="round" stroke-linejoin="round"/></svg>');
+    h.push('</button>');
+
+    h.push('<div class="city-bd" id="citybd-'+p.id+'"'+(isOpen?"":" hidden")+'>');
+
+    if (isOpen){
+      h.push('<div class="banner"><canvas width="880" height="220" data-plate="'+p.id+'"></canvas></div>');
+      if (p.description) h.push('<p style="font-size:13.5px;color:var(--ink-2)">'+esc(p.description)+'</p>');
+      if (p.warn) h.push('<p class="warnbox">'+esc(p.warn)+'</p>');
+
+      if (p.logistics && p.logistics.length){
+        h.push('<div class="sec"><p class="label">Chegada, saída e hospedagem</p><dl class="logi">');
+        p.logistics.forEach(function(r){
+          h.push('<dt>'+esc(r[0])+'</dt><dd>'+esc(r[1])+'</dd>');
+        });
+        h.push('</dl></div>');
+      }
+
+      if (p.days && p.days.length){
+        h.push('<div class="sec"><p class="label">O que fazer, dia a dia</p>');
+        p.days.forEach(function(d){
+          h.push('<div class="day'+(d.star?" star":"")+'">');
+          h.push('<div class="day-h"><span class="w">'+esc(d.when)+'</span><span class="t">'+esc(d.title)+'</span></div>');
+          if (d.bullets && d.bullets.length){
+            h.push('<ul>'+d.bullets.map(function(b){ return '<li>'+esc(b)+'</li>'; }).join("")+'</ul>');
+          }
+          if (d.note) h.push('<p class="note">'+esc(d.note)+'</p>');
+          h.push('</div>');
+        });
+        h.push('</div>');
+      }
+
+      if (p.tickets && p.tickets.length){
+        h.push('<div class="sec"><p class="label">🎫 Ingressos principais</p><div class="tblwrap"><table>'
+          + '<thead><tr><th>Atração</th><th style="text-align:right">Preço aprox.</th></tr></thead><tbody>');
+        p.tickets.forEach(function(t){
+          h.push('<tr><td class="name">'+esc(t.name)
+            + (t.optional ? ' <span class="opt">opcional</span>' : '')
+            + '</td><td class="price">'+esc(t.price)+'</td></tr>');
+        });
+        h.push('</tbody></table></div>');
+        if (p.ticketsTotal){
+          h.push('<div class="subtotal"><span>Somando os ingressos'
+            + (p.ticketsTotal.hasOptional ? ', sem os opcionais' : '')
+            + '</span><b>'+esc(p.ticketsTotal.text)+'</b></div>');
+        }
+        h.push('</div>');
+      }
+
+      if (p.food && p.food.length){
+        h.push('<div class="sec"><p class="label">🍽️ Comida típica para provar</p><ul class="foodlist">'
+          + p.food.map(function(f){ return '<li>'+esc(f)+'</li>'; }).join("") + '</ul></div>');
+      }
+
+      if (p.eats && p.eats.length){
+        h.push('<div class="sec"><p class="label">💶 Onde comer (custo-benefício)</p><div class="tblwrap"><table>'
+          + '<thead><tr><th>Onde</th><th>Peça</th><th style="text-align:right">Preço aprox.</th></tr></thead><tbody>');
+        p.eats.forEach(function(e){
+          h.push('<tr'+(e.cheap?' class="cheap"':'')+'><td class="name">'
+            + (e.cheap ? '<span class="cheapmark">'+esc(e.where)+'</span>' : esc(e.where))
+            + '</td><td>'+esc(e.what)+'</td><td class="price">'+esc(e.price)+'</td></tr>');
+        });
+        h.push('</tbody></table></div></div>');
+      }
+
+      if (p.transport){
+        var tr = p.transport;
+        h.push('<div class="added"><p class="label">🚇 Vale a pena o passe diário?</p>');
+        h.push('<p class="verdict">'+esc(tr.verdict)+'</p>');
+        if (tr.rule) h.push('<p class="rule">'+esc(tr.rule)+'</p>');
+        if (tr.fares && tr.fares.length){
+          h.push('<div class="tblwrap"><table><thead><tr><th>Bilhete</th>'
+            + '<th style="text-align:right">Preço 2026</th></tr></thead><tbody>');
+          tr.fares.forEach(function(f){
+            h.push('<tr><td class="name">'+esc(f[0])
+              + (f[2] ? '<br><span class="opt">'+esc(f[2])+'</span>' : '')
+              + '</td><td class="price">'+esc(f[1])+'</td></tr>');
+          });
+          h.push('</tbody></table></div>');
+        }
+        if (tr.plan && tr.plan.length){
+          h.push('<div class="plan">');
+          tr.plan.forEach(function(r){
+            h.push('<div class="planrow"><div class="ph"><span class="pw">'+esc(r[0])
+              + '</span><span class="pd">'+esc(r[1])+'</span></div>'
+              + '<p class="pt">'+esc(r[2])+'</p></div>');
+          });
+          h.push('</div>');
+        }
+        if (tr.total) h.push('<p class="totalline">'+esc(tr.total)+'</p>');
+        if (tr.gotchas && tr.gotchas.length){
+          h.push('<ul class="gotchas">'
+            + tr.gotchas.map(function(g){ return '<li>'+esc(g)+'</li>'; }).join("") + '</ul>');
+        }
+        h.push('<p class="src">Tarifas conferidas na Île-de-France Mobilités e na RATP para 2026. '
+          + 'Confirmem perto da viagem — Paris reajusta em 1º de janeiro.</p></div>');
+      }
+
+      if (p.markets){
+        var m = p.markets;
+        h.push('<div class="added"><p class="label">🛒 Mercados e lanches baratos</p>');
+        if (m.cheap && m.cheap.length){
+          // each chain opens a maps search for that brand in this city, so it finds
+          // the nearest branch wherever they happen to be standing
+          /* The viewer runs the page in a sandbox that blocks opening a new tab, so a
+             plain link does nothing. Tapping copies "<rede> <cidade>" instead, ready to
+             paste into Google Maps; the href stays for viewers that do allow navigation. */
+          var where = p.mapName || p.name;
+          h.push('<div class="chains">' + m.cheap.map(function(c,ci){
+            var brand = c.replace(/\s*\(.*$/, "").trim();
+            var term = brand + " " + where;
+            return '<a class="chain'+(ci===0?" first":"")+'" target="_blank" rel="noopener noreferrer" '
+              + 'href="https://www.google.com/maps/search/?api=1&amp;query='+encodeURIComponent(term)+'" '
+              + 'data-search="'+esc(term)+'" '
+              + 'aria-label="Copiar &quot;'+esc(term)+'&quot; para buscar no mapa">'+esc(c)+'</a>';
+          }).join("") + '</div>');
+          h.push('<p class="manual" id="manual-'+p.id+'"></p>');
+          h.push('<p class="chainhint">' + (FRAMED
+            ? 'Toque numa rede para copiar a busca e colar no Google Maps — ele mostra a mais perto de vocês.'
+            : 'Toque numa rede para abrir no Google Maps a mais perto de vocês.')
+            + ' A primeira, em verde, costuma ser a mais barata.</p>');
+        }
+        if (m.snacks && m.snacks.length){
+          h.push('<div class="tblwrap"><table><thead><tr><th>Lanche</th>'
+            + '<th style="text-align:right">Preço aprox.</th></tr></thead><tbody>');
+          m.snacks.forEach(function(s){
+            h.push('<tr><td class="name">'+esc(s[0])+'</td><td class="price">'+esc(s[1])+'</td></tr>');
+          });
+          h.push('</tbody></table></div>');
+        }
+        if (m.tip) h.push('<p class="tip">'+esc(m.tip)+'</p>');
+        h.push('<p class="src">Estimativa para o fim de 2026, não veio do documento. '
+          + 'Preço de mercado varia de bairro para bairro.</p></div>');
+      }
+
+      if (p.takeaway){
+        h.push('<div class="takeaway"><span class="tw">🎒 '+esc(p.takeaway.when)+'</span>'
+          + '<span class="tt">'+esc(p.takeaway.text)+'</span></div>');
+      }
+
+      h.push('<div class="citylinks">'
+        + '<button class="btn ghost sm" data-goitems="'+p.id+'">Ver os '+itemsOf(p.id).length
+        + ' itens desta cidade</button>'
+        + '<button class="btn ghost sm" data-gomap="'+p.id+'">Ver no mapa</button></div>');
+    }
+
+    h.push('</div></section>');
+    return h.join("");
+  }
+
+  function renderCities(){
+    var host = document.getElementById("cities");
+    host.innerHTML = state.places.map(cityHTML).join("");
+    Array.prototype.forEach.call(host.querySelectorAll("canvas[data-plate]"), function(cv){
+      var p = placeById(Number(cv.getAttribute("data-plate")));
+      if (p) drawPlate(cv, p);
+    });
+    var anyOpen = state.places.some(function(p){ return openCities[p.id]; });
+    document.getElementById("toggle-all").textContent = anyOpen ? "Fechar todas" : "Abrir todas";
+  }
+
+  function renderLegs(){
+    var tb = document.querySelector("#legs tbody");
+    tb.innerHTML = (state.legs || []).map(function(l){
+      return '<tr><td class="name">'+esc(l[0])+'</td><td>'+esc(l[1])+'</td><td>'+esc(l[2])
+        + '</td><td>'+esc(l[3])+'</td></tr>';
+    }).join("");
+  }
+
+  function renderPrinciples(){
+    document.getElementById("principles").innerHTML =
+      (state.principles || []).map(function(s){ return '<li>'+esc(s)+'</li>'; }).join("");
+  }
+
+  /* ---------------- map ---------------- */
+
+  function project(places, w, pad){
+    var mean = places.reduce(function(s,p){return s+p.lat;},0)/places.length;
+    var k = Math.cos(mean*Math.PI/180) || 1;
+    var xs = places.map(function(p){ return p.lng*k; });
+    var ys = places.map(function(p){ return -p.lat; });
+    var x0=Math.min.apply(null,xs), x1=Math.max.apply(null,xs);
+    var y0=Math.min.apply(null,ys), y1=Math.max.apply(null,ys);
+    var dx=x1-x0, dy=y1-y0;
+    if (dx < 1e-9){ dx = 1e-9; x0 -= 5e-10; }
+    if (dy < 1e-9){ dy = 1e-9; y0 -= 5e-10; }
+    var innerW = w - 2*pad;
+    var h = Math.max(w*0.45, Math.min(w*0.92, innerW*(dy/dx) + 2*pad));
+    var s = Math.min(innerW/dx, (h - 2*pad)/dy);
+    var offX = (w - dx*s)/2, offY = (h - dy*s)/2;
+    return { scale:s, height:h,
+      at:function(p){ return {x:(p.lng*k - x0)*s + offX, y:(-p.lat - y0)*s + offY}; } };
+  }
+
+  /* Greedy label placement: try positions around each pin, keep the first that
+     hits nothing already placed. Without it, close cities overprint. */
+  function placeLabels(pts, W, H){
+    var taken = pts.map(function(q){ return {x1:q.x-14,y1:q.y-14,x2:q.x+14,y2:q.y+14}; });
+    var C = [[0,28,"middle"],[0,-20,"middle"],[17,5,"start"],[-17,5,"end"],
+             [15,-13,"start"],[-15,-13,"end"],[15,24,"start"],[-15,24,"end"],
+             [0,40,"middle"],[0,-32,"middle"]];
+    var labels = pts.map(function(q){
+      var w = q.p.name.length*7.9 + 6, best = null;
+      for (var i=0;i<C.length;i++){
+        var x = q.x + C[i][0], y = q.y + C[i][1], anchor = C[i][2];
+        var x1 = anchor === "middle" ? x - w/2 : (anchor === "start" ? x : x - w);
+        var box = {x1:x1,y1:y-12,x2:x1+w,y2:y+4};
+        if (box.x1 < 4 || box.x2 > W-4 || box.y1 < 4 || box.y2 > H-4) continue;
+        var clash = false;
+        for (var j=0;j<taken.length;j++){
+          var o = taken[j];
+          if (!(box.x2<o.x1||box.x1>o.x2||box.y2<o.y1||box.y1>o.y2)){ clash = true; break; }
+        }
+        if (!clash){ best = {x:x,y:y,anchor:anchor,box:box}; break; }
+      }
+      if (!best){
+        var fx=q.x, fy=q.y+28, fx1=fx-w/2;
+        best = {x:fx,y:fy,anchor:"middle",box:{x1:fx1,y1:fy-12,x2:fx1+w,y2:fy+4}};
+      }
+      taken.push(best.box);
+      return best;
+    });
+    return { labels:labels, taken:taken };
+  }
+
+  /* Compass and scale bar go in a corner nothing else occupies. */
+  function freeCorner(W,H,bw,bh,occupied,order){
+    var spots = { bl:{x:10,y:H-bh-8}, br:{x:W-bw-10,y:H-bh-8}, tl:{x:10,y:8}, tr:{x:W-bw-10,y:8} };
+    for (var i=0;i<order.length;i++){
+      var s = spots[order[i]];
+      var b = {x1:s.x,y1:s.y,x2:s.x+bw,y2:s.y+bh}, hit=false;
+      for (var j=0;j<occupied.length;j++){
+        var o = occupied[j];
+        if (!(b.x2<o.x1||b.x1>o.x2||b.y2<o.y1||b.y1>o.y2)){ hit=true; break; }
+      }
+      if (!hit){ occupied.push(b); return s; }
+    }
+    return null;
+  }
+
+  function drawChart(){
+    var svg = document.getElementById("chart");
+    var narrow = (window.innerWidth || 800) < 620;
+    var W = narrow ? 430 : 800, PAD = narrow ? 42 : 66;
+    var ps = state.places;
+    var proj = ps.length ? project(ps, W, PAD) : null;
+    var H = proj ? Math.round(proj.height) : 420;
+    svg.setAttribute("viewBox", "0 0 " + W + " " + H);
+
+    var out = [];
+    out.push('<defs><radialGradient id="glow" cx="50%" cy="45%" r="66%">'
+      + '<stop offset="0%" stop-color="var(--sea-2)"/><stop offset="100%" stop-color="var(--sea)"/>'
+      + '</radialGradient></defs>');
+    out.push('<rect width="'+W+'" height="'+H+'" fill="url(#glow)"/>');
+    for (var gx=0; gx<=W; gx+=50)
+      out.push('<line x1="'+gx+'" y1="0" x2="'+gx+'" y2="'+H+'" stroke="var(--contour)" stroke-width="0.5" opacity="0.3"/>');
+    for (var gy=0; gy<=H; gy+=50)
+      out.push('<line x1="0" y1="'+gy+'" x2="'+W+'" y2="'+gy+'" stroke="var(--contour)" stroke-width="0.5" opacity="0.3"/>');
+
+    if (!ps.length){ svg.innerHTML = out.join(""); return; }
+
+    var pts = ps.map(function(p){ var q = proj.at(p); q.p = p; return q; });
+    var lay = placeLabels(pts, W, H), labels = lay.labels, occupied = lay.taken;
+
+    if (pts.length > 1){
+      var d = pts.map(function(q,i){ return (i?"L":"M")+q.x.toFixed(1)+" "+q.y.toFixed(1); }).join(" ");
+      out.push('<path d="'+d+'" fill="none" stroke="var(--ink-3)" stroke-width="1.5" '
+        + 'stroke-dasharray="5 6" opacity="0.6" stroke-linejoin="round"/>');
+    }
+
+    pts.forEach(function(q,i){
+      var c = colorOf(q.p);
+      var open = itemsOf(q.p.id).filter(function(it){ return !it.done; }).length;
+      var L = labels[i];
+      out.push('<g class="pin-hit" tabindex="0" role="button" data-gomapcity="'+q.p.id+'" '
+        + 'aria-label="'+esc(q.p.name+', parada '+(i+1)+(q.p.dates?', '+q.p.dates:''))+'">');
+      out.push('<circle class="pin-ring" cx="'+q.x.toFixed(1)+'" cy="'+q.y.toFixed(1)+'" r="18" fill="none" '
+        + 'stroke="'+c+'" stroke-width="1.8" opacity="0"/>');
+      if (q.p.star)
+        out.push('<circle cx="'+q.x.toFixed(1)+'" cy="'+q.y.toFixed(1)+'" r="14.5" fill="none" '
+          + 'stroke="'+c+'" stroke-width="1.5" opacity="0.65"/>');
+      out.push('<circle cx="'+q.x.toFixed(1)+'" cy="'+q.y.toFixed(1)+'" r="10.5" fill="'+c+'" '
+        + 'stroke="var(--paper)" stroke-width="2.5"/>');
+      out.push('<text x="'+q.x.toFixed(1)+'" y="'+(q.y+3.6).toFixed(1)+'" text-anchor="middle" '
+        + 'font-family="IBM Plex Mono" font-size="10" font-weight="500" fill="#fff">'+(i+1)+'</text>');
+      if (open){
+        out.push('<circle cx="'+(q.x+10).toFixed(1)+'" cy="'+(q.y-10).toFixed(1)+'" r="6.5" '
+          + 'fill="var(--paper)" stroke="'+c+'" stroke-width="1.4"/>');
+        out.push('<text x="'+(q.x+10).toFixed(1)+'" y="'+(q.y-7.4).toFixed(1)+'" text-anchor="middle" '
+          + 'font-family="IBM Plex Mono" font-size="8.5" fill="var(--ink-2)">'+open+'</text>');
+      }
+      out.push('<text x="'+L.x.toFixed(1)+'" y="'+L.y.toFixed(1)+'" text-anchor="'+L.anchor+'" '
+        + 'font-family="Fraunces, Georgia, serif" font-size="15" font-weight="600" fill="var(--ink)" '
+        + 'stroke="var(--sea)" stroke-width="3.2" paint-order="stroke" stroke-linejoin="round">'
+        + esc(q.p.name)+'</text>');
+      out.push('</g>');
+    });
+
+    var comp = freeCorner(W,H,46,52,occupied,["tr","tl","br","bl"]);
+    if (comp){
+      out.push('<g transform="translate('+(comp.x+23)+','+(comp.y+32)+')" opacity="0.7">'
+        + '<circle r="19" fill="none" stroke="var(--contour)" stroke-width="1"/>'
+        + '<path d="M0 -15 L4 0 L0 4.4 L-4 0 Z" fill="var(--coral)"/>'
+        + '<path d="M0 15 L4 0 L0 -4.4 L-4 0 Z" fill="var(--ink-3)" opacity="0.5"/>'
+        + '<text y="-23" text-anchor="middle" font-family="IBM Plex Mono" font-size="9.5" '
+        + 'fill="var(--ink-3)">N</text></g>');
+    }
+
+    var kmPerPx = 111.32 / proj.scale;
+    var target = (W*0.17) * kmPerPx;
+    var nice = [10,20,50,100,200,250,500,1000,2000].reduce(function(a,b){
+      return Math.abs(b-target) < Math.abs(a-target) ? b : a;
+    });
+    var barPx = nice / kmPerPx;
+    if (barPx > 28 && barPx < W*0.45){
+      var sc = freeCorner(W,H,barPx+14,26,occupied,["bl","br","tl","tr"]);
+      if (sc){
+        var bx = sc.x+7, by = sc.y+20;
+        out.push('<g transform="translate('+bx.toFixed(1)+','+by.toFixed(1)+')">'
+          + '<line x1="0" y1="0" x2="'+barPx.toFixed(1)+'" y2="0" stroke="var(--ink-3)" stroke-width="1.6"/>'
+          + '<line x1="0" y1="-4" x2="0" y2="4" stroke="var(--ink-3)" stroke-width="1.6"/>'
+          + '<line x1="'+barPx.toFixed(1)+'" y1="-4" x2="'+barPx.toFixed(1)+'" y2="4" stroke="var(--ink-3)" stroke-width="1.6"/>'
+          + '<text x="'+(barPx/2).toFixed(1)+'" y="-9" text-anchor="middle" font-family="IBM Plex Mono" '
+          + 'font-size="10" fill="var(--ink-3)" stroke="var(--sea)" stroke-width="3" paint-order="stroke">'
+          + nice+' km</text></g>');
+      }
+    }
+    svg.innerHTML = out.join("");
+  }
+
+  /* ---------------- procedural banner ---------------- */
+
+  function drawPlate(canvas, place){
+    var ctx = canvas.getContext("2d");
+    if (!ctx) return;
+    var w = canvas.width, h = canvas.height, c = colorOf(place);
+    var seed = Math.abs(Math.round(place.lat*997 + place.lng*613 + place.id*31));
+    function rnd(){ seed = (seed*1103515245 + 12345) & 0x7fffffff; return seed/0x7fffffff; }
+
+    var sky = ctx.createLinearGradient(0,0,0,h);
+    sky.addColorStop(0, shade(c,-0.34));
+    sky.addColorStop(0.55, shade(c,0.14));
+    sky.addColorStop(1, shade(c,0.45));
+    ctx.fillStyle = sky; ctx.fillRect(0,0,w,h);
+
+    ctx.globalAlpha = 0.9; ctx.fillStyle = shade(c,0.62);
+    ctx.beginPath(); ctx.arc(w*(0.2+rnd()*0.6), h*(0.3+rnd()*0.2), h*0.16, 0, Math.PI*2); ctx.fill();
+    ctx.globalAlpha = 1;
+
+    for (var layer=0; layer<3; layer++){
+      var base = h*(0.52+layer*0.17), amp = h*(0.2-layer*0.05);
+      var freq = 1.1+rnd()*1.9, phase = rnd()*Math.PI*2;
+      ctx.beginPath(); ctx.moveTo(0,h);
+      for (var x=0; x<=w; x+=4){
+        var t = x/w;
+        ctx.lineTo(x, base - Math.sin(t*Math.PI*freq+phase)*amp - Math.sin(t*Math.PI*freq*2.3+phase)*amp*0.35);
+      }
+      ctx.lineTo(w,h); ctx.closePath();
+      ctx.fillStyle = shade(c, -0.08-layer*0.20);
+      ctx.fill();
+    }
+  }
+
+  function shade(hex, amt){
+    var n = parseInt(hex.slice(1),16), r=(n>>16)&255, g=(n>>8)&255, b=n&255;
+    if (amt >= 0){ r += (255-r)*amt; g += (255-g)*amt; b += (255-b)*amt; }
+    else { r *= (1+amt); g *= (1+amt); b *= (1+amt); }
+    return "rgb("+Math.round(r)+","+Math.round(g)+","+Math.round(b)+")";
+  }
+
+  /* ---------------- checklist ---------------- */
+
+  function itemHTML(it){
+    var p = it.placeId != null ? placeById(it.placeId) : null;
+    var kind = it.type === "RESERVATION" ? "Reserva" : "Lembrete";
+    return '<li class="item type-'+it.type+(it.done?" done":"")+(it.flag?" flag":"")+'">'
+      + '<button class="box" data-toggle="'+it.id+'" role="checkbox" aria-checked="'+(it.done?"true":"false")+'" '
+      +   'aria-label="'+esc(it.title)+'">'
+      +   '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.4l3.2 3.2L13 5" fill="none" '
+      +   'stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>'
+      + '<span class="it-main"><span class="it-t">'+esc(it.title)+'</span>'
+      +   (it.notes ? '<span class="it-n">'+esc(it.notes)+'</span>' : '')
+      +   '<span class="it-m"><span class="kind '+it.type+'">'+kind+'</span>'
+      +     (it.flag && !it.done ? '<span class="warn">a resolver já</span>' : '')
+      +     (p ? '<span class="where"><span class="dot" style="background:'+colorOf(p)+'"></span>'
+      +       (indexOfPlace(p.id)+1)+'. '+esc(p.name)+'</span>' : '')
+      +   '</span></span>'
+      + '<button class="del" data-del="'+it.id+'" aria-label="Remover '+esc(it.title)+'">'
+      +   '<svg width="15" height="15" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 4l8 8M12 4l-8 8" '
+      +   'stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></button></li>';
+  }
+
+  function renderList(){
+    var rows = state.items.filter(function(it){
+      if (filter === "ALL") return true;
+      if (filter === "OPEN") return !it.done;
+      if (filter === "FLAG") return !!it.flag;
+      if (filter.indexOf("CITY:") === 0) return it.placeId === Number(filter.slice(5));
+      return it.type === filter;
+    });
+    rows = rows.slice().sort(function(a,b){
+      if ((a.done?1:0) !== (b.done?1:0)) return (a.done?1:0)-(b.done?1:0);
+      return (b.flag?1:0)-(a.flag?1:0);
+    });
+    var msg = filter === "FLAG"
+      ? "Nada urgente em aberto — tudo o que faltava comprar ou reservar já está resolvido."
+      : "Nada nesse filtro.";
+    document.getElementById("list").innerHTML = rows.length
+      ? rows.map(itemHTML).join("") : '<li class="empty">'+msg+'</li>';
+  }
+
+  /* Everything that reacts to a checkbox, without rebuilding the whole itinerary. */
+  function renderChecklistBits(){
+    var done = state.items.filter(function(i){ return i.done; }).length;
+    var total = state.items.length, open = total - done;
+    var flags = state.items.filter(function(i){ return i.flag && !i.done; }).length;
+
+    document.getElementById("gauge-num").textContent = done + "/" + total;
+    var ring = document.getElementById("ring"), C = 2*Math.PI*19;
+    ring.setAttribute("stroke-dasharray", C.toFixed(2));
+    ring.setAttribute("stroke-dashoffset", (C*(1-(total?done/total:0))).toFixed(2));
+    document.getElementById("cnt-check").textContent = open ? open : "";
+    document.getElementById("s-open").textContent = open;
+    document.getElementById("s-flag").textContent = flags;
+
+    renderList();
+    renderCities();
+    drawChart();
+  }
+
+  function render(){
+    var t = state.trip || {};
+    document.getElementById("trip-title").textContent = t.name || "Meu Roteiro";
+    document.getElementById("trip-who").textContent = t.who || "";
+    document.getElementById("trip-span").textContent = t.span || "";
+    document.getElementById("trip-route").textContent = t.route || "";
+    document.getElementById("cnt-cities").textContent = state.places.length;
+    document.getElementById("s-places").textContent = state.places.length;
+
+    var span = "—";
+    if (state.places.length > 1){
+      var lats = state.places.map(function(p){ return p.lat; });
+      var i1 = lats.indexOf(Math.max.apply(null,lats)), i2 = lats.indexOf(Math.min.apply(null,lats));
+      span = Math.round(haversine(state.places[i2], state.places[i1])) + " km";
+    }
+    document.getElementById("s-span").textContent = span;
+
+    renderPrinciples();
+    renderLegs();
+    renderChecklistBits();
+  }
+
+  /* ---------------- actions ---------------- */
+
+  function toggle(id){
+    for (var i=0;i<state.items.length;i++)
+      if (state.items[i].id === id){ state.items[i].done = !state.items[i].done; break; }
+    commit();
+  }
+  function delItem(id){
+    state.items = state.items.filter(function(it){ return it.id !== id; });
+    commit();
+  }
+  function selectTab(id){
+    document.querySelectorAll(".tab").forEach(function(o){
+      var on = o.id === id;
+      o.setAttribute("aria-selected", on ? "true" : "false");
+      document.getElementById(o.getAttribute("aria-controls")).hidden = !on;
+    });
+  }
+  /* Copy the maps search term. Three layers, because a sandboxed viewer may block
+     each of them: the async Clipboard API, then execCommand on a temp textarea,
+     then simply showing the text so a long-press can select it. */
+  function copySearch(el, term){
+    var done = function(){
+      el.classList.add("copied");
+      setTimeout(function(){ el.classList.remove("copied"); }, 1600);
+    };
+    var manual = function(){
+      var box = el.closest(".added") && el.closest(".added").querySelector(".manual");
+      if (!box) return;
+      box.textContent = term;
+      box.classList.add("show");
+    };
+    var legacy = function(){
+      var ok = false;
+      try {
+        var ta = document.createElement("textarea");
+        ta.value = term;
+        ta.setAttribute("readonly", "");
+        ta.style.position = "fixed";
+        ta.style.opacity = "0";
+        ta.style.top = "0";
+        document.body.appendChild(ta);
+        ta.select();
+        ta.setSelectionRange(0, term.length);
+        ok = document.execCommand("copy");
+        document.body.removeChild(ta);
+      } catch(e){ ok = false; }
+      if (ok) done(); else manual();
+    };
+    try {
+      if (navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(term).then(done).catch(legacy);
+        return;
+      }
+    } catch(e){}
+    legacy();
+  }
+
+  function openCity(id, scroll){
+    openCities[id] = true;
+    renderCities();
+    if (scroll){
+      var el = document.getElementById("city-"+id);
+      if (el) el.scrollIntoView({behavior:"smooth", block:"start"});
+    }
+  }
+
+  /* ---------------- wiring ---------------- */
+
+  document.querySelectorAll(".tab").forEach(function(t){
+    t.addEventListener("click", function(){ selectTab(t.id); });
+  });
+
+  document.querySelectorAll(".chip").forEach(function(c){
+    c.addEventListener("click", function(){
+      filter = c.getAttribute("data-f");
+      document.querySelectorAll(".chip").forEach(function(o){
+        o.setAttribute("aria-pressed", o === c ? "true" : "false");
+      });
+      renderList();
+    });
+  });
+
+  document.getElementById("toggle-all").addEventListener("click", function(){
+    var anyOpen = state.places.some(function(p){ return openCities[p.id]; });
+    openCities = {};
+    if (!anyOpen) state.places.forEach(function(p){ openCities[p.id] = true; });
+    renderCities();
+  });
+
+  document.addEventListener("click", function(e){
+    var t = e.target.closest
+      ? e.target.closest("[data-toggle],[data-del],[data-city],[data-goitems],[data-gomap],[data-gomapcity],[data-close],[data-search]")
+      : null;
+    if (!t) return;
+    // standalone: let the link open the map. Framed: navigation is blocked, so copy.
+    if (t.hasAttribute("data-search")){
+      if (!FRAMED) return;
+      return copySearch(t, t.getAttribute("data-search"));
+    }
+    if (t.hasAttribute("data-toggle")) return toggle(Number(t.getAttribute("data-toggle")));
+    if (t.hasAttribute("data-del"))    return delItem(Number(t.getAttribute("data-del")));
+    if (t.hasAttribute("data-close"))  return (document.getElementById("dlg-item").hidden = true);
+    if (t.hasAttribute("data-city")){
+      var id = Number(t.getAttribute("data-city"));
+      openCities[id] = !openCities[id];
+      return renderCities();
+    }
+    if (t.hasAttribute("data-gomapcity")){
+      selectTab("tab-trip");
+      return openCity(Number(t.getAttribute("data-gomapcity")), true);
+    }
+    if (t.hasAttribute("data-gomap")) return selectTab("tab-map");
+    if (t.hasAttribute("data-goitems")){
+      var pid = Number(t.getAttribute("data-goitems"));
+      filter = "CITY:" + pid;
+      document.querySelectorAll(".chip").forEach(function(o){ o.setAttribute("aria-pressed","false"); });
+      selectTab("tab-check");
+      return renderList();
+    }
+  });
+
+  document.getElementById("chart").addEventListener("keydown", function(e){
+    if (e.key !== "Enter" && e.key !== " ") return;
+    var g = e.target.closest ? e.target.closest("[data-gomapcity]") : null;
+    if (!g) return;
+    e.preventDefault();
+    selectTab("tab-trip");
+    openCity(Number(g.getAttribute("data-gomapcity")), true);
+  });
+
+  document.querySelectorAll(".scrim").forEach(function(s){
+    s.addEventListener("click", function(e){ if (e.target === s) s.hidden = true; });
+  });
+  document.addEventListener("keydown", function(e){
+    if (e.key === "Escape") document.getElementById("dlg-item").hidden = true;
+  });
+
+  var newType = "REMINDER";
+  document.getElementById("add-item").addEventListener("click", function(){
+    newType = "REMINDER";
+    document.getElementById("di-title-in").value = "";
+    document.getElementById("di-notes").value = "";
+    document.getElementById("di-err").textContent = "";
+    document.querySelectorAll("#di-seg button").forEach(function(b){
+      b.setAttribute("aria-pressed", b.getAttribute("data-t") === "REMINDER" ? "true" : "false");
+    });
+    var sel = document.getElementById("di-place");
+    sel.innerHTML = '<option value="">Nenhuma cidade</option>' + state.places.map(function(p,i){
+      return '<option value="'+p.id+'">'+(i+1)+'. '+esc(p.name)+'</option>';
+    }).join("");
+    var dlg = document.getElementById("dlg-item");
+    dlg.hidden = false;
+    document.getElementById("di-title-in").focus();
+  });
+  document.querySelectorAll("#di-seg button").forEach(function(b){
+    b.addEventListener("click", function(){
+      newType = b.getAttribute("data-t");
+      document.querySelectorAll("#di-seg button").forEach(function(o){
+        o.setAttribute("aria-pressed", o === b ? "true" : "false");
+      });
+    });
+  });
+  document.getElementById("di-ok").addEventListener("click", function(){
+    var title = document.getElementById("di-title-in").value.trim();
+    if (!title){ document.getElementById("di-err").textContent = "Escreva o que precisa lembrar."; return; }
+    var raw = document.getElementById("di-place").value;
+    state.items.push({
+      id: state.seq++, title: title,
+      notes: document.getElementById("di-notes").value.trim(),
+      type: newType, placeId: raw ? Number(raw) : null, done: false
+    });
+    document.getElementById("dlg-item").hidden = true;
+    commit();
+  });
+
+  var resizeTimer = null, lastNarrow = (window.innerWidth || 800) < 620;
+  window.addEventListener("resize", function(){
+    if (resizeTimer) clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(function(){
+      var narrow = (window.innerWidth || 800) < 620;
+      if (narrow !== lastNarrow){ lastNarrow = narrow; drawChart(); }
+    }, 180);
+  });
+
+  render();
+  setSync("Salvo neste aparelho.");
+
+  if (window.claude && typeof window.claude.use === "function"){
+    window.claude.use("artifact").then(function(ns){
+      if (!ns) return;
+      artifact = ns;
+      setSync("Este roteiro guarda o que vocês marcarem.");
+    }).catch(function(){});
+  }
+})();
+</script>
+
+</body>
+</html>
