@@ -17,6 +17,10 @@ class TripViewModel(application: Application) : AndroidViewModel(application) {
 
     private val repository = TripRepository(AppDatabase.getInstance(application))
 
+    init {
+        viewModelScope.launch { repository.seedIfEmpty() }
+    }
+
     val places: StateFlow<List<Place>> = repository.places.stateIn(
         viewModelScope, SharingStarted.WhileSubscribed(5_000), emptyList()
     )

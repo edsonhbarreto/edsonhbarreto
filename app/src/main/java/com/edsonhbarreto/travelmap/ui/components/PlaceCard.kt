@@ -82,6 +82,16 @@ fun PlaceCard(place: Place, onClick: () -> Unit) {
                     maxLines = 1,
                     overflow = TextOverflow.Ellipsis
                 )
+                val subtitle = listOf(place.dates, place.country).filter { it.isNotBlank() }
+                if (subtitle.isNotEmpty()) {
+                    Text(
+                        text = subtitle.joinToString(" · "),
+                        style = MaterialTheme.typography.labelMedium,
+                        color = accent,
+                        maxLines = 1,
+                        overflow = TextOverflow.Ellipsis
+                    )
+                }
                 if (place.description.isNotBlank()) {
                     Text(
                         text = place.description,

@@ -29,5 +29,7 @@ data class ChecklistItem(
     val type: ChecklistType,
     val placeId: Long? = null,
     val dateTimeMillis: Long? = null,
-    val isDone: Boolean = false
+    val isDone: Boolean = false,
+    /** Booking gaps flagged in the itinerary as still to buy or confirm. */
+    val isUrgent: Boolean = false
 )

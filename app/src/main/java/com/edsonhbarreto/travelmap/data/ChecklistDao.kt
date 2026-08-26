@@ -10,7 +10,11 @@ import kotlinx.coroutines.flow.Flow
 
 @Dao
 interface ChecklistDao {
-    @Query("SELECT * FROM checklist_items ORDER BY isDone ASC, dateTimeMillis IS NULL, dateTimeMillis ASC, id DESC")
+    /** Pending first, urgent booking gaps at the very top. */
+    @Query(
+        "SELECT * FROM checklist_items " +
+            "ORDER BY isDone ASC, isUrgent DESC, dateTimeMillis IS NULL, dateTimeMillis ASC, id ASC"
+    )
     fun observeAll(): Flow<List<ChecklistItem>>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)

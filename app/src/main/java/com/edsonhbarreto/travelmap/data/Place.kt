@@ -12,9 +12,14 @@ import androidx.room.PrimaryKey
 data class Place(
     @PrimaryKey(autoGenerate = true) val id: Long = 0,
     val name: String,
+    val country: String = "",
+    /** Free text as written in the itinerary, e.g. "16–20/10". */
+    val dates: String = "",
     val description: String = "",
     val latitude: Double,
     val longitude: Double,
     val imageUris: List<String> = emptyList(),
-    val colorTag: Int = 0
+    val colorTag: Int = 0,
+    /** Marks the trip's centrepiece — the Amsterdam Marathon stop. */
+    val highlight: Boolean = false
 )

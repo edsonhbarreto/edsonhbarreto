@@ -63,6 +63,20 @@ fun ChecklistItemRow(
                     style = MaterialTheme.typography.bodyLarge,
                     textDecoration = if (item.isDone) TextDecoration.LineThrough else null
                 )
+                if (item.notes.isNotBlank()) {
+                    Text(
+                        text = item.notes,
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                }
+                if (item.isUrgent && !item.isDone) {
+                    Text(
+                        text = "a resolver já",
+                        style = MaterialTheme.typography.labelSmall,
+                        color = MaterialTheme.colorScheme.error
+                    )
+                }
                 val subtitleParts = buildList {
                     placeName?.let { add(it) }
                     item.dateTimeMillis?.let {

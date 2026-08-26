@@ -4,6 +4,11 @@ App Android nativo (Kotlin + Jetpack Compose) que conecta um mapa aos lugares
 da sua viagem: cada lugar tem fotos, e você acompanha lembretes/reservas com
 checkbox até marcar como concluído.
 
+Na primeira execução o app já abre carregado com o **Roteiro Euro 2026**
+(13/10 a 02/11): as 12 paradas de Casablanca à Escandinávia, as reservas de
+voos e hotéis, a lista do que levar, e as pendências que ainda faltam comprar
+ou confirmar — tudo em `data/TripSeed.kt`, e tudo editável dentro do app.
+
 ## Funcionalidades
 
 - **Mapa** — segure o dedo em qualquer ponto do mapa para adicionar um lugar

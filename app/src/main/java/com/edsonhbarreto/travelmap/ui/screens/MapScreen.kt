@@ -19,7 +19,7 @@ import com.google.maps.android.compose.Marker
 import com.google.maps.android.compose.MarkerState
 import com.google.maps.android.compose.rememberCameraPositionState
 
-private val DefaultCenter = LatLng(-14.235004, -51.92528) // Brasil, zoom out default
+private val DefaultCenter = LatLng(-14.235004, -51.92528) // Brasil, when there is nothing to frame
 
 /** Maps a place color from the palette to the closest Google-Maps marker hue. */
 private fun hueForColorTag(tag: Int): Float {
@@ -35,10 +35,18 @@ fun MapScreen(
 ) {
     var pendingLatLng by remember { mutableStateOf<LatLng?>(null) }
 
+    // Open framed on the whole trip rather than on a single city.
     val cameraPositionState = rememberCameraPositionState {
         position = CameraPosition.fromLatLngZoom(
-            places.firstOrNull()?.let { LatLng(it.latitude, it.longitude) } ?: DefaultCenter,
-            if (places.isEmpty()) 3f else 11f
+            if (places.isEmpty()) DefaultCenter else LatLng(
+                places.sumOf { it.latitude } / places.size,
+                places.sumOf { it.longitude } / places.size
+            ),
+            when {
+                places.isEmpty() -> 3f
+                places.size == 1 -> 11f
+                else -> 4f
+            }
         )
     }
 

@@ -8,6 +8,13 @@ class TripRepository(private val db: AppDatabase) {
 
     suspend fun getPlace(id: Long): Place? = db.placeDao().getById(id)
 
+    /** Loads the Euro 2026 itinerary the first time the app runs, and never again. */
+    suspend fun seedIfEmpty() {
+        if (db.placeDao().count() > 0) return
+        TripSeed.places.forEach { db.placeDao().insert(it) }
+        TripSeed.items.forEach { db.checklistDao().insert(it) }
+    }
+
     suspend fun upsertPlace(place: Place): Long = db.placeDao().insert(place)
     suspend fun deletePlace(place: Place) = db.placeDao().delete(place)
 

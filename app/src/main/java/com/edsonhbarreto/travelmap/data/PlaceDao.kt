@@ -10,11 +10,15 @@ import kotlinx.coroutines.flow.Flow
 
 @Dao
 interface PlaceDao {
-    @Query("SELECT * FROM places ORDER BY id DESC")
+    /** Ascending: the seeded ids follow the order of the itinerary. */
+    @Query("SELECT * FROM places ORDER BY id ASC")
     fun observeAll(): Flow<List<Place>>
 
     @Query("SELECT * FROM places WHERE id = :id")
     suspend fun getById(id: Long): Place?
+
+    @Query("SELECT COUNT(*) FROM places")
+    suspend fun count(): Int
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insert(place: Place): Long
