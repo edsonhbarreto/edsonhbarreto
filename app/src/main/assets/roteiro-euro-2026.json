@@ -201,6 +201,124 @@
         "when": "02/11 — voo das 16:35",
         "text": "Comprem a água só depois do raio-X: o limite de 100 ml vale igual na volta. Levem tâmaras e amêndoas da Medina para o voo."
       },
+      "offbeat": [
+        [
+          "Quartier Habous",
+          "A “medina nova” dos anos 1930, art déco misturado com arquitetura mourisca. Padarias, livrarias e o palácio real ao lado. Muito menos turístico que a medina velha.",
+          "grátis"
+        ],
+        [
+          "Catedral do Sacré-Cœur",
+          "Dessacralizada, art déco branca e vazia por dentro — dá para subir a torre. Estranha e bonita, quase ninguém vai.",
+          "~20 MAD a subida"
+        ],
+        [
+          "Villa des Arts",
+          "Casa art déco virada museu de arte contemporânea marroquina, com jardim.",
+          "grátis ou ~20 MAD"
+        ],
+        [
+          "Marché Central",
+          "Escolhe-se o peixe na banca e o restaurante ao lado grelha na hora. Almoço de peixe fresco pelo preço de um lanche.",
+          "~80-150 MAD os dois"
+        ],
+        [
+          "Corniche de Ain Diab ao pôr do sol",
+          "Caminhada à beira do Atlântico, onde os casablanquenses passam a tarde de sexta.",
+          "grátis"
+        ]
+      ],
+      "bars": [
+        [
+          "Sky 28",
+          "Bar no 28º andar do Twin Center, a melhor vista da cidade. Drink caro, mas um só compensa pela vista.",
+          "~120-180 MAD o drink"
+        ],
+        [
+          "Rick's Café",
+          "A recriação do bar do filme. Turístico e caro para jantar — vão só tomar um drink e ouvir o piano.",
+          "~150-200 MAD o drink"
+        ],
+        [
+          "La Bodega",
+          "Tapas, música ao vivo e público local, perto do Marché Central. Bem mais em conta.",
+          "~250-350 MAD os dois"
+        ]
+      ],
+      "barsNote": "Marrocos é um país muçulmano: bar é coisa de hotel, restaurante licenciado ou bairro específico, não de esquina. O equivalente social é o café de chá de menta, que fica cheio até tarde e custa quase nada.",
+      "cheapEats": [
+        [
+          "Snack da medina (rua Prince Moulay Abdellah)",
+          "Sanduíche de kefta ou frango na chapa, feito na hora",
+          "~25-40 MAD cada"
+        ],
+        [
+          "Quartier Habous — padarias",
+          "Cornes de gazelle, chebakia e outros doces vendidos a peso",
+          "~30-50 MAD o saco"
+        ],
+        [
+          "Marché Central",
+          "Peixe escolhido na banca e grelhado ali mesmo",
+          "~80-150 MAD os dois"
+        ]
+      ],
+      "schedule": [
+        {
+          "day": "13/10 — chegada, conexão",
+          "rows": [
+            [
+              "13:25",
+              "Pouso em Mohammed V. Migração, e depois a Lodging Agency para transporte e hotel"
+            ],
+            [
+              "15h",
+              "Se der tempo e disposição: Quartier Habous, que é perto e tranquilo"
+            ],
+            [
+              "19h",
+              "Jantar leve e dormir cedo — o voo para Paris sai 08:00"
+            ]
+          ]
+        },
+        {
+          "day": "30 e 31/10 — os dias de verdade",
+          "rows": [
+            [
+              "Manhã do 30",
+              "Mesquita Hassan II no primeiro tour do dia, quando a luz entra pelo lado do mar e há menos gente"
+            ],
+            [
+              "Almoço",
+              "Marché Central: peixe escolhido na banca"
+            ],
+            [
+              "Tarde",
+              "Antiga Medina a pé, saindo pela Boulevard des Almohades até a Marina Royale"
+            ],
+            [
+              "Pôr do sol",
+              "Corniche de Ain Diab"
+            ],
+            [
+              "Noite",
+              "Sqala Café Maure, dentro da fortaleza do século 18, com música ao vivo"
+            ],
+            [
+              "31/10, manhã",
+              "Quartier Habous e a Catedral do Sacré-Cœur"
+            ],
+            [
+              "31/10, tarde",
+              "Villa des Arts, ou compras na medina para levar"
+            ],
+            [
+              "31/10, noite",
+              "Sky 28 para a última vista da cidade"
+            ]
+          ]
+        }
+      ],
       "ticketsTotal": {
         "text": "~260 MAD o casal",
         "hasOptional": false
@@ -438,6 +556,154 @@
         ],
         "total": "Somando: ~68 € o casal nos três dias, contra ~76 € se comprassem passe diário todo dia."
       },
+      "offbeat": [
+        [
+          "Coulée verte René-Dumont",
+          "Parque suspenso sobre um viaduto ferroviário, de Bastille a Vincennes — o original que inspirou o High Line de Nova York. E é plano: caminhada boa para quem está poupando as pernas.",
+          "grátis"
+        ],
+        [
+          "Passagens cobertas",
+          "Galerie Vivienne, Passage des Panoramas, Passage Jouffroy: galerias do século 19 com mosaico no chão, livrarias e cafés. Cobertas, curtas e quase sem turista.",
+          "grátis"
+        ],
+        [
+          "Marché d'Aligre",
+          "Mercado de rua onde os parisienses fazem feira de verdade, com o mercado coberto Beauvau ao lado.",
+          "grátis"
+        ],
+        [
+          "Butte-aux-Cailles",
+          "Vilarejo dentro do 13º, casinhas baixas, grafite e bares baratos. A dez minutos de metrô do hotel de vocês.",
+          "grátis"
+        ],
+        [
+          "Père-Lachaise",
+          "O cemitério mais visitado do mundo e ainda assim enorme e silencioso. Peguem o mapa na entrada.",
+          "grátis"
+        ],
+        [
+          "Marché des Enfants Rouges",
+          "O mercado coberto mais antigo de Paris, de 1615, no Marais. Bancas de comida do mundo todo para almoçar barato.",
+          "grátis a entrada"
+        ]
+      ],
+      "bars": [
+        [
+          "Le Baron Rouge",
+          "Ao lado do Marché d'Aligre, vinho tirado direto do barril, gente em pé na calçada com um prato de ostras. Institucional e barato.",
+          "~4-6 € a taça"
+        ],
+        [
+          "Chez Prune",
+          "O café-bar que definiu o Canal Saint-Martin. Cai bem no programa que vocês já têm para a noite do dia 14.",
+          "~6-9 € o drink"
+        ],
+        [
+          "Le Comptoir Général",
+          "Bar-museu escondido na beira do canal, cheio de objetos africanos, plantas e sofás velhos. Não parece um bar.",
+          "~8-12 € o drink"
+        ],
+        [
+          "Bares da Butte-aux-Cailles",
+          "Le Merle Moqueur, Sputnik e vizinhos: cerveja barata e mesa na rua.",
+          "~4-6 € a cerveja"
+        ]
+      ],
+      "cheapEats": [
+        [
+          "Bouillon Chartier ou Bouillon Pigalle",
+          "Comida francesa clássica em salão do século 19, a preço de refeitório — é o segredo mal guardado de Paris. Não aceitam reserva; chegar cedo.",
+          "~15-20 € por pessoa, com entrada e sobremesa"
+        ],
+        [
+          "Chez Alain Miam Miam",
+          "No Marché des Enfants Rouges. Sanduíche gigante feito na frente de vocês, com fila que anda.",
+          "~10-12 € cada"
+        ],
+        [
+          "Marché d'Aligre",
+          "Queijo, pão, fruta e um copo no Baron Rouge — piquenique parisiense pelo preço de um lanche",
+          "~15-20 € os dois"
+        ],
+        [
+          "L'As du Falafel",
+          "Já está no roteiro de vocês, e continua sendo o melhor custo-benefício do Marais",
+          "~16-20 € os dois"
+        ]
+      ],
+      "schedule": [
+        {
+          "day": "14/10 — quarta: chegada e Montmartre",
+          "rows": [
+            [
+              "11:55",
+              "Pouso em CDG (T2B). Bilhete Aéroports de 14 € e RER B direto até Denfert-Rochereau"
+            ],
+            [
+              "13h",
+              "Check-in no Hôtel Aviatic e largar as malas"
+            ],
+            [
+              "13h30",
+              "Almoço rápido no bairro — há padaria boa em toda a Rue Daguerre, a duas quadras"
+            ],
+            [
+              "15h",
+              "Metrô até Abbesses. Sair pela escada em espiral, muro “Je t'aime”, Rue Lepic"
+            ],
+            [
+              "16h30",
+              "Place du Tertre, La Maison Rose, Rue de l'Abreuvoir sem pressa"
+            ],
+            [
+              "17h30",
+              "Sacré-Cœur para o pôr do sol — a cúpula é opcional, são 300 degraus"
+            ],
+            [
+              "19h",
+              "Metrô até République e descer o Canal Saint-Martin a pé"
+            ],
+            [
+              "20h",
+              "Jantar ali mesmo: bistrô do canal ou Chez Prune"
+            ]
+          ]
+        },
+        {
+          "day": "15/10 — quinta: museus, pernas leves",
+          "rows": [
+            [
+              "09h",
+              "Louvre logo na abertura, com ingresso já reservado. Duas horas bastam se escolherem uma ala"
+            ],
+            [
+              "11h30",
+              "Galeries Lafayette: subir ao rooftop, que é grátis, para a vista da Ópera"
+            ],
+            [
+              "12h30",
+              "Almoço no Bouillon Chartier ou num Bouillon mais perto"
+            ],
+            [
+              "14h30",
+              "Avenue de Camoëns para a foto da Torre Eiffel sem fila nenhuma"
+            ],
+            [
+              "16h",
+              "Panthéon e o ingresso Panoramic para o terraço"
+            ],
+            [
+              "17h30",
+              "Descer a pé até o Jardin du Luxembourg — é caminho de volta para o hotel"
+            ],
+            [
+              "20h",
+              "Jantar leve. Comprem o café da manhã de amanhã hoje: o Eurostar sai 6h22"
+            ]
+          ]
+        }
+      ],
       "ticketsTotal": {
         "text": "~80 € o casal",
         "hasOptional": false
@@ -593,6 +859,172 @@
         "when": "20/10 — voo das 14:35 para Zagreb",
         "text": "Montem o almoço no Albert Heijn ou no HEMA antes de ir ao aeroporto: dentro de Schiphol o mesmo broodje custa o dobro."
       },
+      "offbeat": [
+        [
+          "Balsas do IJ, atrás da Centraal",
+          "São de graça, levam bicicleta e cruzam o rio em poucos minutos. A de Buiksloterweg dá o melhor passeio de barco gratuito da cidade.",
+          "grátis"
+        ],
+        [
+          "NDSM Werf",
+          "Estaleiro abandonado virado polo de arte urbana, com o maior mural da Europa e galpões cheios de ateliês. Chega-se pela balsa gratuita.",
+          "grátis"
+        ],
+        [
+          "Begijnhof",
+          "Pátio de casas do século 14 escondido atrás de uma porta no centro, silencioso, com a casa de madeira mais antiga da cidade.",
+          "grátis"
+        ],
+        [
+          "Albert Cuypmarkt",
+          "Mercado de rua de verdade, no De Pijp. Stroopwafel feito na hora, arenque, queijo, roupa barata.",
+          "grátis"
+        ],
+        [
+          "Brouwerij 't IJ",
+          "Cervejaria dentro de um moinho de vento de 1725, na beira leste. Terraço cheio de gente da cidade.",
+          "~5-7 € a cerveja"
+        ],
+        [
+          "Ons' Lieve Heer op Solder",
+          "Uma igreja católica inteira escondida no sótão de uma casa de canal, dos tempos em que a missa era proibida.",
+          "~18 €/pessoa"
+        ]
+      ],
+      "bars": [
+        [
+          "Café Chris",
+          "Aberto em 1624, o bar mais antigo da Jordaan. Os pedreiros da Westerkerk recebiam o pagamento ali.",
+          "~3-5 € a cerveja"
+        ],
+        [
+          "Café 't Smalle",
+          "Brown café clássico com deck na beira do canal — um dos lugares mais bonitos da cidade para uma cerveja.",
+          "~4-5 € a cerveja"
+        ],
+        [
+          "In 't Aepjen",
+          "Casa de madeira do século 15, uma das duas que sobraram. Marinheiros pagavam a conta com macacos, daí o nome.",
+          "~4-6 € a cerveja"
+        ],
+        [
+          "Brouwerij 't IJ",
+          "A cervejaria do moinho, também no item acima. Vale as duas visitas.",
+          "~5-7 € a cerveja"
+        ]
+      ],
+      "cheapEats": [
+        [
+          "Vlaams Friteshuis Vleminckx",
+          "A batata frita mais famosa de Amsterdã, num guichê minúsculo, desde 1887. Fila que anda rápido.",
+          "~4-6 € cada"
+        ],
+        [
+          "Albert Cuypmarkt",
+          "Stroopwafel na chapa, arenque, queijo e frutas — almoço de mercado",
+          "~10-15 € os dois"
+        ],
+        [
+          "Bakers & Roasters",
+          "Brunch farto de inspiração brasileira e neozelandesa. Ótimo para o dia seguinte à maratona.",
+          "~15-20 € por pessoa"
+        ],
+        [
+          "Van Stapele Koekmakerij",
+          "Vendem um produto só: um cookie de chocolate com recheio derretido. Fila constante e vale.",
+          "~2,50 € a unidade"
+        ]
+      ],
+      "schedule": [
+        {
+          "day": "16/10 — quinta: chegada, pernas leves",
+          "rows": [
+            [
+              "~10h",
+              "Chegada na Amsterdam Centraal. Deixar as malas e sair sem bagagem"
+            ],
+            [
+              "11h",
+              "Balsa gratuita atrás da estação, ida e volta, só pelo passeio no rio"
+            ],
+            [
+              "12h30",
+              "Almoço no Foodhallen ou no Albert Cuypmarkt"
+            ],
+            [
+              "14h",
+              "Volta pelos canais devagar: Jordaan, Begijnhof, sem meta de quilômetros"
+            ],
+            [
+              "18h",
+              "Jantar cedo, carboidrato, e dormir cedo"
+            ]
+          ]
+        },
+        {
+          "day": "17/10 — sexta: Zaanse Schans e véspera",
+          "rows": [
+            [
+              "09h",
+              "Trem para Zaandijk Zaanse Schans, uns 20 minutos"
+            ],
+            [
+              "10h–13h",
+              "Moinhos com calma e paradas frequentes. Sentar sempre que der"
+            ],
+            [
+              "14h",
+              "Volta para a cidade, almoço reforçado"
+            ],
+            [
+              "Tarde",
+              "Retirar o kit da maratona, e nada além disso"
+            ],
+            [
+              "19h",
+              "Jantar de massa cedo. Preparar a roupa e o número antes de dormir"
+            ]
+          ]
+        },
+        {
+          "day": "18/10 — domingo: a maratona",
+          "rows": [
+            [
+              "Manhã",
+              "A prova. O dia é dela"
+            ],
+            [
+              "Depois",
+              "Hidratação, alongamento leve e a refeição reforçada do almoço"
+            ],
+            [
+              "Tarde",
+              "Banho, cama, perna para cima. Nada de passeio"
+            ]
+          ]
+        },
+        {
+          "day": "19/10 — segunda: a comemoração",
+          "rows": [
+            [
+              "Manhã",
+              "Brunch sem pressa no Bakers & Roasters ou no Foodhallen"
+            ],
+            [
+              "13h",
+              "Balsa até o NDSM Werf para ver a arte urbana — plano e sem esforço"
+            ],
+            [
+              "16h",
+              "Heineken Experience, com as duas bebidas incluídas"
+            ],
+            [
+              "19h",
+              "Cannibale Royale para o jantar informal, e uma cerveja no 't Smalle depois"
+            ]
+          ]
+        }
+      ],
       "ticketsTotal": {
         "text": "~59 € o casal",
         "hasOptional": false
@@ -737,6 +1169,132 @@
         "when": "22/10 — ônibus de 2h30 para Ljubljana",
         "text": "Passem numa pekarnica antes da rodoviária: burek e água para os dois saem por 6-8 € e o ônibus não tem serviço de bordo."
       },
+      "offbeat": [
+        [
+          "Túnel Grič",
+          "Túnel antiaéreo da Segunda Guerra que atravessa a colina da Cidade Alta. Aberto, iluminado e gratuito — atalho e passeio ao mesmo tempo.",
+          "grátis"
+        ],
+        [
+          "Cemitério de Mirogoj",
+          "Arcadas monumentais cobertas de hera, projetadas pelo mesmo arquiteto da catedral. Um dos cemitérios mais bonitos da Europa e quase vazio.",
+          "grátis"
+        ],
+        [
+          "Art Park Grič",
+          "Parque na encosta tomado por grafite e instalações, com bar ao ar livre no verão.",
+          "grátis"
+        ],
+        [
+          "Feira de antiguidades da Britanski trg",
+          "Domingo de manhã: discos, relógios, medalhas iugoslavas e bugigangas.",
+          "grátis"
+        ],
+        [
+          "Museu dos Anos 80",
+          "Um apartamento iugoslavo dos anos 80 reconstruído, em que se pode sentar, tocar e pôr disco para tocar.",
+          "~7-8 €/pessoa"
+        ]
+      ],
+      "bars": [
+        [
+          "Bacchus Jazz Bar",
+          "Pátio escondido cheio de tralha antiga, luzinhas e jazz. Nada indica de fora que existe.",
+          "~3-4 € a cerveja"
+        ],
+        [
+          "The Garden Brewery",
+          "Cervejaria artesanal com pátio grande, um pouco fora do centro e bem mais barata.",
+          "~3-5 € a cerveja"
+        ],
+        [
+          "Rua Tkalčićeva",
+          "Já está no roteiro de vocês: a rua inteira é bar, do começo ao fim.",
+          "~3-4 € a cerveja"
+        ],
+        [
+          "Vinyl",
+          "Bar de bairro com discos na parede e público local.",
+          "~3-4 € a cerveja"
+        ]
+      ],
+      "cheapEats": [
+        [
+          "Plac Kitchen & Grill",
+          "Bem ao lado do Mercado Dolac, cozinha o que se compra no mercado abaixo",
+          "~20-28 € os dois"
+        ],
+        [
+          "Pekarnica Mlinar ou Pan-Pek",
+          "Burek, štrukli e sanduíche assados na hora, em qualquer esquina",
+          "~6-8 € os dois"
+        ],
+        [
+          "Submarine Burger",
+          "Hambúrguer croata bom e barato, rede local",
+          "~14-18 € os dois"
+        ]
+      ],
+      "schedule": [
+        {
+          "day": "20/10 — noite de chegada",
+          "rows": [
+            [
+              "16:25",
+              "Pouso e traslado ao Livris Hotel"
+            ],
+            [
+              "18h30",
+              "Tkalčićeva ao entardecer, quando acendem as luzes da rua"
+            ],
+            [
+              "20h",
+              "Primeiro jantar croata ali mesmo, e uma cerveja no Bacchus depois"
+            ]
+          ]
+        },
+        {
+          "day": "21/10 — o dia inteiro",
+          "rows": [
+            [
+              "09h",
+              "Mercado Dolac na hora em que os produtores ainda estão montando as bancas"
+            ],
+            [
+              "10h",
+              "Catedral e Praça Ban Jelačić"
+            ],
+            [
+              "11h",
+              "Subir pelo funicular. Chegar antes do meio-dia para o canhão da Torre de Lotrščak"
+            ],
+            [
+              "12h",
+              "Igreja de São Marcos e o Portão de Pedra"
+            ],
+            [
+              "13h",
+              "Almoço no Plac, ao lado do mercado"
+            ],
+            [
+              "14h30",
+              "Museu dos Relacionamentos Terminados e, se sobrar fôlego, o dos Anos 80"
+            ],
+            [
+              "16h30",
+              "Túnel Grič para descer à Cidade Baixa"
+            ],
+            [
+              "18h",
+              "Bonde até Mirogoj, que fecha ao anoitecer — conferir o horário"
+            ],
+            [
+              "20h",
+              "Jantar e cerveja no The Garden Brewery"
+            ]
+          ]
+        }
+      ],
       "ticketsTotal": {
         "text": "~33 € o casal",
         "hasOptional": false
@@ -836,6 +1394,98 @@
         ],
         "tip": "Comprem aqui o que forem levar para Bled. Na beira do lago, os mesmos itens custam de 30% a 50% mais — é o preço da vista."
       },
+      "offbeat": [
+        [
+          "Metelkova Mesto",
+          "Antigo quartel do exército iugoslavo ocupado por artistas nos anos 90 e nunca devolvido. Cada prédio é uma obra, e à noite vira o polo alternativo da cidade.",
+          "grátis"
+        ],
+        [
+          "Mercado central de Plečnik",
+          "As colunatas à beira do rio desenhadas pelo arquiteto que redesenhou Ljubljana. Embaixo, a peixaria.",
+          "grátis"
+        ],
+        [
+          "Parque Tivoli",
+          "Sobe direto do centro. A alameda Jakopič costuma ter exposição de fotos ao ar livre.",
+          "grátis"
+        ],
+        [
+          "Ponte dos Dragões",
+          "O símbolo da cidade, e a lenda diz que os dragões abanam o rabo quando passa uma virgem.",
+          "grátis"
+        ]
+      ],
+      "bars": [
+        [
+          "Metelkova",
+          "Bares dentro do complexo ocupado: os mais baratos e os mais estranhos da cidade.",
+          "~2,50-4 € a cerveja"
+        ],
+        [
+          "Pritličje",
+          "Bar, café e livraria ao lado da prefeitura, aberto até tarde, público misto.",
+          "~3-4 € a cerveja"
+        ],
+        [
+          "Daktari",
+          "Bar boêmio de móveis desencontrados, no centro.",
+          "~3-4 € a cerveja"
+        ],
+        [
+          "Cutty Sark",
+          "Pub simples do centro, onde a cerveja é barata e a cozinha atende até tarde.",
+          "~3 € a cerveja"
+        ]
+      ],
+      "cheapEats": [
+        [
+          "Klobasarna",
+          "Um balcão minúsculo que serve basicamente uma coisa: a linguiça da Carniola com pão. Institucional.",
+          "~6-8 € cada"
+        ],
+        [
+          "Hood Burger",
+          "Hambúrguer esloveno bom e barato, rede local",
+          "~14-18 € os dois"
+        ],
+        [
+          "Odprta Kuhna",
+          "Já está no roteiro. Só funciona nas sextas, de março a outubro — o dia 22 é quarta, então provavelmente não pegam",
+          "~20-25 € os dois"
+        ]
+      ],
+      "schedule": [
+        {
+          "day": "22/10 — quarta: chegada e noite",
+          "rows": [
+            [
+              "Manhã",
+              "Café no Livris e ônibus para Ljubljana, cerca de 2h30"
+            ],
+            [
+              "13h",
+              "Chegada e check-in. Almoço na Klobasarna, que é rápido e barato"
+            ],
+            [
+              "15h",
+              "Centro histórico à beira do Ljubljanica: Ponte Tripla, Ponte dos Dragões, mercado de Plečnik"
+            ],
+            [
+              "16h30",
+              "Funicular até o castelo, ou só a vista de baixo se as pernas pedirem"
+            ],
+            [
+              "18h",
+              "Metelkova ainda com luz, para ver os murais antes de virar bar"
+            ],
+            [
+              "20h",
+              "Jantar em bistrô do centro"
+            ]
+          ]
+        }
+      ],
       "ticketsTotal": {
         "text": "~38 € o casal",
         "hasOptional": false
@@ -923,6 +1573,77 @@
         "when": "23/10 — voo das 20h30",
         "text": "Jantem em Bled ou em Ljubljana antes de seguir. O aeroporto de Ljubljana é pequeno, com poucas opções e preço de aeroporto."
       },
+      "offbeat": [
+        [
+          "Mirante de Ojstrica",
+          "A foto clássica da ilha vista de cima. São 20 minutos de subida curta mas íngreme — pesem contra o voo da noite e as pernas.",
+          "grátis"
+        ],
+        [
+          "Desfiladeiro de Vintgar",
+          "Passarelas de madeira presas na parede do cânion, com o rio verde correndo embaixo. Fica a 4 km de Bled e leva ~1h30 no total.",
+          "~12 €/pessoa"
+        ],
+        [
+          "Remar o próprio barco",
+          "Além da pletna com barqueiro, alugam-se barcos a remo na orla — sai mais barato e é mais divertido.",
+          "~20-25 € a hora, o barco"
+        ]
+      ],
+      "bars": [
+        [
+          "Bares da orla",
+          "Bled é vila de lago: o programa da noite é café ou cerveja olhando a água, não bar.",
+          "~4-5 € a cerveja"
+        ]
+      ],
+      "cheapEats": [
+        [
+          "Padaria no centro de Bled",
+          "Burek e sanduíche por uma fração do preço dos cafés da orla",
+          "~6-9 € os dois"
+        ],
+        [
+          "Slaščičarna Šmon",
+          "Confeitaria da cidade, e há quem diga que a kremna rezina de lá é melhor que a dos hotéis da orla",
+          "~10-14 € os dois"
+        ]
+      ],
+      "schedule": [
+        {
+          "day": "23/10 — quinta: o lago e o voo",
+          "rows": [
+            [
+              "08h",
+              "Ônibus de Ljubljana para Bled, cerca de 1h10. Levem o que comprarem em Ljubljana"
+            ],
+            [
+              "09h30",
+              "Chegada. Se estiverem dispostos, subir Ojstrica logo, antes do calor e do cansaço"
+            ],
+            [
+              "11h",
+              "Barco pletna até a ilha e o sino dos desejos"
+            ],
+            [
+              "13h",
+              "Almoço leve e a kremna rezina olhando o lago"
+            ],
+            [
+              "14h30",
+              "Trecho da orla a pé — a volta completa são 6 km, façam só o pedaço bonito"
+            ],
+            [
+              "16h30",
+              "Voltar, pegar as malas e seguir para o aeroporto"
+            ],
+            [
+              "20:30",
+              "Voo Norwegian D8 3755 para Copenhague"
+            ]
+          ]
+        }
+      ],
       "ticketsTotal": {
         "text": "~30 € o casal",
         "hasOptional": true
@@ -1050,6 +1771,159 @@
         "when": "25/10 — trem para Malmö",
         "text": "Comprem no Netto ou Rema 1000 antes da estação. Do lado sueco tudo fica mais caro ainda."
       },
+      "offbeat": [
+        [
+          "Superkilen",
+          "Praça em Nørrebro montada com objetos trazidos dos países de origem dos moradores: banco do Brasil, luminária de Doha, lixeira inglesa. Urbanismo virado manifesto.",
+          "grátis"
+        ],
+        [
+          "Cemitério de Assistens",
+          "Menos cemitério e mais parque: os dinamarqueses fazem piquenique entre os túmulos de Kierkegaard e Hans Christian Andersen.",
+          "grátis"
+        ],
+        [
+          "Cisternerne",
+          "Antigo reservatório de água subterrâneo, com estalactites e água pingando, usado para instalações artísticas. Frio, escuro e inesquecível.",
+          "~80-100 DKK/pessoa"
+        ],
+        [
+          "Refshaleøen",
+          "Antigo estaleiro industrial que virou o bairro criativo da cidade, onde fica o Reffen. Chega-se de barco-ônibus.",
+          "grátis"
+        ],
+        [
+          "Barco-ônibus 991/992",
+          "Faz parte do transporte público e cruza todo o porto: é o passeio de barco de Copenhague pelo preço da passagem.",
+          "preço de passagem"
+        ],
+        [
+          "Jægersborggade",
+          "Rua de Nørrebro com ceramistas, torrefação, sorveteria e restaurantes pequenos. Onde a cidade come de verdade.",
+          "grátis"
+        ]
+      ],
+      "bars": [
+        [
+          "Mikkeller",
+          "A cervejaria dinamarquesa que ficou famosa no mundo todo. Várias unidades; a da Viktoriagade é a original.",
+          "~55-75 DKK a cerveja"
+        ],
+        [
+          "Warpigs",
+          "Cervejaria e churrasco texano dentro do Kødbyen, em galpão de açougue.",
+          "~60-80 DKK a cerveja"
+        ],
+        [
+          "Brus",
+          "Cervejaria grande em Nørrebro, com cozinha boa e salão descontraído.",
+          "~55-75 DKK a cerveja"
+        ],
+        [
+          "Ved Stranden 10",
+          "Bar de vinhos num apartamento de frente para o canal, poltronas e conversa baixa.",
+          "~75-95 DKK a taça"
+        ]
+      ],
+      "cheapEats": [
+        [
+          "Grød",
+          "Casa especializada em mingau — salgado e doce. Parece estranho e é barato, quente e ótimo em outubro.",
+          "~60-80 DKK cada"
+        ],
+        [
+          "Shawarma da Nørrebrogade",
+          "A rua é cheia de casas de shawarma boas e baratíssimas para o padrão daqui",
+          "~50-70 DKK cada"
+        ],
+        [
+          "Torvehallerne",
+          "Já está no roteiro. Procurem as bancas do fundo, que são mais baratas que as da frente",
+          "~180-220 DKK os dois"
+        ],
+        [
+          "Reffen",
+          "Já está no roteiro. Fecha no fim de outubro para o inverno — confiram antes de ir",
+          "~220-260 DKK os dois"
+        ]
+      ],
+      "schedule": [
+        {
+          "day": "23/10 — chegada tarde",
+          "rows": [
+            [
+              "22:20",
+              "Pouso em Kastrup. Metrô até o centro leva ~15 minutos e roda a noite toda"
+            ],
+            [
+              "23h30",
+              "Check-in e dormir — o dia seguinte é cheio"
+            ]
+          ]
+        },
+        {
+          "day": "24/10 — sexta: o dia inteiro",
+          "rows": [
+            [
+              "08h30",
+              "Café da manhã em padaria de bairro: wienerbrød e café"
+            ],
+            [
+              "09h30",
+              "Nyhavn cedo, antes dos ônibus de turismo chegarem"
+            ],
+            [
+              "10h30",
+              "Amalienborg para a troca da guarda, ~11h30, passando pela Marmorkirken"
+            ],
+            [
+              "12h",
+              "Rosenborg e o parque Kongens Have"
+            ],
+            [
+              "13h",
+              "Almoço no Torvehallerne"
+            ],
+            [
+              "14h30",
+              "Barco-ônibus 991 atravessando o porto até Christianshavn"
+            ],
+            [
+              "15h",
+              "Igreja do Redentor: a subida em espiral por fora da torre, com vista de toda a cidade"
+            ],
+            [
+              "16h",
+              "Christiania a pé, e depois os canais de Christianshavn"
+            ],
+            [
+              "18h",
+              "Metrô até Nørrebro: Superkilen, Assistens e a Jægersborggade"
+            ],
+            [
+              "20h",
+              "Jantar na Jægersborggade e cerveja no Brus"
+            ]
+          ]
+        },
+        {
+          "day": "25/10 — sábado: manhã e trem",
+          "rows": [
+            [
+              "Manhã",
+              "Vesterbro e o Kødbyen, que de dia é galeria e de noite é bar"
+            ],
+            [
+              "Almoço",
+              "Reffen, se ainda estiver aberto na temporada, ou Warpigs"
+            ],
+            [
+              "Fim do dia",
+              "Comprar comida no Netto e pegar o trem para Malmö, ~40 minutos"
+            ]
+          ]
+        }
+      ],
       "ticketsTotal": {
         "text": "~320 DKK o casal",
         "hasOptional": false
@@ -1162,6 +2036,115 @@
         "when": "26/10 — trem de volta e voo para Liverpool",
         "text": "O documento já avisa para levar comida nesse trecho. Willys ou Lidl antes da estação, e a água só depois do raio-X em Copenhague."
       },
+      "offbeat": [
+        [
+          "Ribersborgs Kallbadhus",
+          "Casa de banho de madeira de 1898 sobre o mar, com sauna e escada que desce direto no Öresund. Em outubro é exatamente por isso que se vai — sauna quente, mar gelado.",
+          "~95-115 SEK/pessoa"
+        ],
+        [
+          "Möllevången",
+          "O bairro multicultural de Malmö, com a praça do mercado, quitandas curdas e árabes e os bares mais baratos da cidade.",
+          "grátis"
+        ],
+        [
+          "Folkets Park",
+          "O parque popular mais antigo da Suécia, com casa de répteis, palco e o bar Far i Hatten.",
+          "grátis"
+        ],
+        [
+          "Västra Hamnen",
+          "Bairro construído sobre o antigo porto industrial, todo desenhado para pedestre, com deck de banho de frente para o mar e o Turning Torso ao fundo.",
+          "grátis"
+        ],
+        [
+          "Malmö Konsthall",
+          "Uma das maiores salas de arte contemporânea da Europa, e a entrada é gratuita.",
+          "grátis"
+        ]
+      ],
+      "bars": [
+        [
+          "Far i Hatten",
+          "Dentro do Folkets Park, num prédio de 1893. Público local e preço de bairro.",
+          "~60-80 SEK a cerveja"
+        ],
+        [
+          "Malmö Brewing Co",
+          "Cervejaria com tanques à vista e cozinha simples.",
+          "~70-90 SEK a cerveja"
+        ],
+        [
+          "Bares da Möllevångstorget",
+          "A praça inteira é bar barato, e é onde Malmö sai de verdade.",
+          "~50-70 SEK a cerveja"
+        ]
+      ],
+      "cheapEats": [
+        [
+          "Falafel de Möllevången",
+          "Malmö é a capital sueca do falafel, e as casas da Möllan servem rolo cheio por menos que qualquer lanche do centro. Falafel No.1 e Jalla Jalla são as clássicas.",
+          "~40-60 SEK cada"
+        ],
+        [
+          "Saltimporten Canteen",
+          "Um almoço só por dia, escrito na lousa, num galpão do porto. Muito bom e cheio de gente do trabalho.",
+          "~120-140 SEK cada"
+        ],
+        [
+          "Padaria de bairro",
+          "Kanelbulle e café, a fika obrigatória",
+          "~60-80 SEK os dois"
+        ]
+      ],
+      "schedule": [
+        {
+          "day": "25/10 — sábado: chegada",
+          "rows": [
+            [
+              "Fim do dia",
+              "Trem desde Copenhague, ~40 minutos cruzando a ponte do Öresund"
+            ],
+            [
+              "Noite",
+              "Jantar em Möllevången, que é barato e vivo no sábado"
+            ]
+          ]
+        },
+        {
+          "day": "26/10 — domingo: a cidade a pé",
+          "rows": [
+            [
+              "09h",
+              "Fika de manhã em cafeteria do centro"
+            ],
+            [
+              "10h",
+              "Stortorget, Lilla Torg e a Södergatan, tudo colado"
+            ],
+            [
+              "11h",
+              "Castelo de Malmö e o Slottsträdgården"
+            ],
+            [
+              "12h30",
+              "Almoço de falafel em Möllevången"
+            ],
+            [
+              "14h",
+              "Västra Hamnen a pé, com o Turning Torso e o deck de frente para o mar"
+            ],
+            [
+              "15h",
+              "Se toparem: sauna e mar no Ribersborgs Kallbadhus, que fica no caminho"
+            ],
+            [
+              "Tarde",
+              "Comprar comida no Willys e pegar o trem de volta, calculando o horário do voo"
+            ]
+          ]
+        }
+      ],
       "ticketsTotal": {
         "text": "~120 SEK o casal",
         "hasOptional": false
@@ -1280,6 +2263,142 @@
         ],
         "tip": "O Meal Deal é o melhor truque do Reino Unido: sanduíche + salgadinho + bebida por menos de 4 libras, em qualquer Tesco, Sainsbury's ou Boots. Almoçar assim os dois sai por ~8 GBP, contra 30 GBP num pub. Com o cartão Clubcard do Tesco cai ainda mais, e é grátis de fazer na hora."
       },
+      "offbeat": [
+        [
+          "Another Place, na praia de Crosby",
+          "Cem estátuas de ferro de Antony Gormley plantadas ao longo de três quilômetros de praia, olhando para o mar; a maré cobre e descobre. Trem de ~30 minutos e é de graça. É a coisa mais estranha e mais bonita da região.",
+          "grátis"
+        ],
+        [
+          "St Luke's, a Bombed Out Church",
+          "Bombardeada em 1941 e deixada sem teto de propósito, como memorial. Hoje faz cinema e feira dentro das paredes vazias.",
+          "grátis"
+        ],
+        [
+          "Baltic Triangle",
+          "Armazéns industriais virados cervejarias, mercados e murais gigantes. É onde Liverpool sai hoje, longe da Mathew Street.",
+          "grátis"
+        ],
+        [
+          "Bold Street",
+          "A rua das lojas independentes, sebos e restaurantes de todo canto do mundo. Termina na igreja bombardeada.",
+          "grátis"
+        ],
+        [
+          "Torre da Catedral de Liverpool",
+          "A maior catedral do Reino Unido. Dois elevadores e uma escada levam ao alto da torre, com vista até o País de Gales.",
+          "~7-9 GBP/pessoa"
+        ]
+      ],
+      "bars": [
+        [
+          "The Philharmonic Dining Rooms",
+          "Pub vitoriano tão ornamentado que os banheiros masculinos são tombados. John Lennon dizia que o preço da fama era não poder mais beber ali.",
+          "~4-6 GBP a pinta"
+        ],
+        [
+          "Peter Kavanagh's",
+          "Salinhas de madeira com murais e tralha pendurada no teto, desde 1844.",
+          "~4-5 GBP a pinta"
+        ],
+        [
+          "Ye Cracke",
+          "Pub minúsculo onde Lennon bebia quando era estudante de arte.",
+          "~4-5 GBP a pinta"
+        ],
+        [
+          "Baltic Market",
+          "Mercado de comida de rua dentro de um armazém, com bar no meio. Barato e animado.",
+          "~5-6 GBP a cerveja"
+        ]
+      ],
+      "cheapEats": [
+        [
+          "Baltic Market",
+          "Várias bancas dividindo um galpão: come-se bem por pouco e prova-se de tudo",
+          "~20-28 GBP os dois"
+        ],
+        [
+          "Bakchich, na Bold Street",
+          "Libanês farto e barato, wraps e mezze",
+          "~10-14 GBP por pessoa"
+        ],
+        [
+          "Maggie May's",
+          "Casa de scouse tradicional, o ensopado que deu apelido à cidade",
+          "~10-12 GBP por pessoa"
+        ],
+        [
+          "Meal Deal do Tesco",
+          "Sanduíche, snack e bebida — o almoço mais barato do Reino Unido",
+          "~4 GBP cada"
+        ]
+      ],
+      "schedule": [
+        {
+          "day": "26/10 — domingo: chegada tarde",
+          "rows": [
+            [
+              "~20:30",
+              "Pouso. Conferir se o ETA do Reino Unido já está aprovado antes de embarcar"
+            ],
+            [
+              "22h",
+              "Check-in e uma pinta no pub mais próximo, se ainda estiver aberto"
+            ]
+          ]
+        },
+        {
+          "day": "27/10 — segunda: o dia cheio",
+          "rows": [
+            [
+              "09h",
+              "Albert Dock com a cidade ainda acordando"
+            ],
+            [
+              "10h",
+              "Museum of Liverpool e Tate Liverpool, ambos gratuitos"
+            ],
+            [
+              "12h",
+              "Cruzeiro no Mersey — saídas de hora em hora, das 10h às 16h"
+            ],
+            [
+              "13h30",
+              "Almoço no Baltic Market"
+            ],
+            [
+              "15h",
+              "Baltic Triangle e seus murais, subindo depois pela Bold Street"
+            ],
+            [
+              "16h30",
+              "St Luke's, a igreja bombardeada, no fim da rua"
+            ],
+            [
+              "17h30",
+              "Mathew Street: The Beatles Story e o Cavern Club"
+            ],
+            [
+              "20h",
+              "Jantar e a noite no Philharmonic Dining Rooms"
+            ]
+          ]
+        },
+        {
+          "day": "28/10 — terça: manhã e trem",
+          "rows": [
+            [
+              "09h",
+              "Se acordarem dispostos: trem até Crosby para as estátuas de Gormley na praia, ~30 min"
+            ],
+            [
+              "12h",
+              "Voltar, pegar as malas e o trem para Manchester, ~40 minutos"
+            ]
+          ]
+        }
+      ],
       "ticketsTotal": {
         "text": "~61 GBP o casal",
         "hasOptional": false
@@ -1398,6 +2517,134 @@
         "when": "29/10 — voo para Madri",
         "text": "Meal Deal no Tesco antes do aeroporto: dentro do terminal o mesmo sanduíche custa 3 vezes mais."
       },
+      "offbeat": [
+        [
+          "John Rylands Library",
+          "Biblioteca neogótica de 1900 que parece uma catedral por dentro, construída por uma viúva em memória do marido. Entrada gratuita e é de tirar o fôlego.",
+          "grátis"
+        ],
+        [
+          "Chetham's Library",
+          "A biblioteca pública mais antiga do mundo de língua inglesa, de 1653. Marx e Engels estudavam numa mesa que ainda está lá.",
+          "grátis, com visita guiada"
+        ],
+        [
+          "Castlefield",
+          "Onde a Manchester romana começou e a revolução industrial também: canais, viadutos de ferro enferrujado e ruínas do forte.",
+          "grátis"
+        ],
+        [
+          "Afflecks",
+          "Quatro andares de lojinhas alternativas num prédio antigo do Northern Quarter: brechó, tatuagem, disco, fantasia.",
+          "grátis"
+        ],
+        [
+          "Whitworth Art Gallery",
+          "Galeria dentro de um parque, com um café todo envidraçado sobre as árvores. Gratuita.",
+          "grátis"
+        ],
+        [
+          "Salford Quays e o Lowry",
+          "Docas reconstruídas, com o Imperial War Museum North de Libeskind e o Lowry, ambos gratuitos.",
+          "grátis"
+        ]
+      ],
+      "bars": [
+        [
+          "The Briton's Protection",
+          "Pub de 1806 com lareira, painéis e mais de trezentos uísques.",
+          "~5-6 GBP a pinta"
+        ],
+        [
+          "Peveril of the Peak",
+          "Pub vitoriano isolado no meio de um quarteirão, todo revestido de azulejo verde, na mesma família há décadas.",
+          "~4-5 GBP a pinta"
+        ],
+        [
+          "Port Street Beer House",
+          "A referência de cerveja artesanal do Northern Quarter.",
+          "~5-7 GBP a pinta"
+        ],
+        [
+          "Mackie Mayor",
+          "Mercado vitoriano restaurado, com bancas de comida e bar em mesas comunitárias.",
+          "~5-6 GBP a cerveja"
+        ]
+      ],
+      "cheapEats": [
+        [
+          "This & That",
+          "Cantina de curry escondida num beco, servindo “rice and three” desde os anos 80: arroz e três curries num prato só. Barato e institucional.",
+          "~7-9 GBP cada"
+        ],
+        [
+          "Mackie Mayor",
+          "Várias bancas boas dividindo um salão lindo",
+          "~20-30 GBP os dois"
+        ],
+        [
+          "Bundobust",
+          "Petiscos indianos vegetarianos com cerveja artesanal, tudo em porção pequena e barata",
+          "~18-25 GBP os dois"
+        ],
+        [
+          "Curry Mile, em Rusholme",
+          "Já está no roteiro: a maior concentração de restaurantes sul-asiáticos da Europa",
+          "~25-30 GBP os dois"
+        ]
+      ],
+      "schedule": [
+        {
+          "day": "28/10 — terça: chegada e centro",
+          "rows": [
+            [
+              "Meio-dia",
+              "Trem desde Liverpool, ~40 minutos. Largar as malas"
+            ],
+            [
+              "14h",
+              "John Rylands Library, na Deansgate — reservem tempo, é melhor do que parece"
+            ],
+            [
+              "15h30",
+              "Albert Square, a Town Hall, a catedral e a Shambles Square"
+            ],
+            [
+              "16h30",
+              "Chetham's Library, se o horário de visita bater"
+            ],
+            [
+              "17h30",
+              "Northern Quarter: murais, Afflecks e os sebos"
+            ],
+            [
+              "19h",
+              "Jantar barato no This & That ou no Mackie Mayor"
+            ],
+            [
+              "21h",
+              "Pinta no Peveril of the Peak ou no Briton's Protection"
+            ]
+          ]
+        },
+        {
+          "day": "29/10 — quarta: manhã antes do voo",
+          "rows": [
+            [
+              "09h",
+              "National Football Museum, gratuito, ou Castlefield a pé se preferirem ar livre"
+            ],
+            [
+              "11h",
+              "Old Trafford por fora, se o horário do voo permitir"
+            ],
+            [
+              "12h ou 14h35",
+              "Voo para Madri — confirmem qual, ainda está em aberto no roteiro"
+            ]
+          ]
+        }
+      ],
       "ticketsTotal": {
         "text": "tudo grátis",
         "hasOptional": true
@@ -1521,6 +2768,134 @@
         "when": "30/10 — voo das 13:00",
         "text": "Bocadillo do Mercadona antes de ir para Barajas. O voo é curto e sem refeição decente."
       },
+      "offbeat": [
+        [
+          "Templo de Debod",
+          "Um templo egípcio de verdade, de 2.200 anos, doado pelo Egito e remontado pedra por pedra num parque de Madri. É o melhor pôr do sol da cidade e é de graça.",
+          "grátis"
+        ],
+        [
+          "Rooftop do Círculo de Bellas Artes",
+          "O terraço com a vista mais bonita sobre a Gran Vía, por poucos euros.",
+          "~5-6 €/pessoa"
+        ],
+        [
+          "Lavapiés",
+          "O bairro mais misturado de Madri: bares indianos, senegaleses e tabernas centenárias na mesma quadra. Barato e vivo.",
+          "grátis"
+        ],
+        [
+          "Matadero Madrid",
+          "Antigo matadouro municipal virado centro cultural enorme, com cinema, exposições e galpões abertos. Gratuito.",
+          "grátis"
+        ],
+        [
+          "Malasaña",
+          "O bairro da movida dos anos 80, hoje cheio de brechó, bar de vinil e taberna antiga.",
+          "grátis"
+        ],
+        [
+          "Chocolatería San Ginés",
+          "Aberta desde 1894 e praticamente sem fechar — churros com chocolate às cinco da manhã é tradição de fim de noite madrilena.",
+          "~6-8 € os dois"
+        ]
+      ],
+      "bars": [
+        [
+          "La Venencia",
+          "Bar de xerez de 1929, sem música, sem gorjeta e proibido tirar foto — regra da Guerra Civil que nunca mudou. A conta ainda é escrita a giz no balcão.",
+          "~3-4 € a taça"
+        ],
+        [
+          "Casa Camacho",
+          "Taberna de Malasaña que serve o “yayo”, mistura de gim, vermute e gasosa, em pé no balcão.",
+          "~3-4 € o copo"
+        ],
+        [
+          "Bodega de la Ardosa",
+          "Taberna de 1892, azulejos, vermute de torneira e a melhor tortilla do bairro.",
+          "~3-5 € o copo"
+        ],
+        [
+          "El Tigre",
+          "Já está no roteiro: pede-se a bebida e vem um prato enorme de tapas junto, de graça.",
+          "~20-25 € os dois"
+        ]
+      ],
+      "cheapEats": [
+        [
+          "Bocadillo de calamares",
+          "O lanche símbolo de Madri: sanduíche de lula frita, comido em pé nos bares em volta da Plaza Mayor",
+          "~4-5 € cada"
+        ],
+        [
+          "Casa Julio",
+          "Croquetes considerados os melhores da cidade, num boteco minúsculo de Malasaña",
+          "~12-16 € os dois"
+        ],
+        [
+          "Menú del día",
+          "Entrada, prato, sobremesa, pão e bebida no almoço de dia útil — a melhor refeição por real da viagem",
+          "~12-15 € por pessoa"
+        ],
+        [
+          "Mercado de la Cebada ou Antón Martín",
+          "Mercados de bairro de verdade, sem o preço turístico do San Miguel",
+          "~15-25 € os dois"
+        ]
+      ],
+      "schedule": [
+        {
+          "day": "29/10 — quarta: chegada e noite",
+          "rows": [
+            [
+              "Tarde",
+              "Pouso em Barajas, metrô ou Cercanías até o centro"
+            ],
+            [
+              "17h",
+              "Plaza Mayor e o Palácio Real por fora, só para as fotos"
+            ],
+            [
+              "18h30",
+              "Templo de Debod para o pôr do sol — cheguem uns 30 minutos antes"
+            ],
+            [
+              "20h30",
+              "Rota de tapas na Cava Baja, em La Latina: uma parada por bar, uma caña e uma tapa em cada"
+            ],
+            [
+              "23h",
+              "Terminar em Malasaña, no Casa Camacho ou na Ardosa"
+            ]
+          ]
+        },
+        {
+          "day": "30/10 — quinta: manhã curta antes do voo",
+          "rows": [
+            [
+              "08h30",
+              "Churros con chocolate no San Ginés"
+            ],
+            [
+              "09h30",
+              "Parque do Retiro na hora mais tranquila, com o Palácio de Cristal"
+            ],
+            [
+              "10h30",
+              "Se der: Prado, ou o rooftop do Círculo de Bellas Artes para a última vista"
+            ],
+            [
+              "11h30",
+              "Bocadillo de calamares para a estrada e seguir para o aeroporto"
+            ],
+            [
+              "13:00",
+              "Voo AT973 para Casablanca, do T4S"
+            ]
+          ]
+        }
+      ],
       "ticketsTotal": {
         "text": "~56 € o casal",
         "hasOptional": false
@@ -1597,6 +2972,78 @@
         ],
         "tip": "O Restaurante Bahia que o documento indica, com tajine de legumes por ~102 MAD para dois, já é dos melhores negócios da viagem — difícil bater."
       },
+      "offbeat": [
+        [
+          "Chellah",
+          "Necrópole merínida construída sobre uma cidade romana, com muralhas, jardim selvagem e centenas de cegonhas nidificando nas ruínas. É surreal e quase ninguém vai.",
+          "~70 MAD/pessoa"
+        ],
+        [
+          "Kasbah des Oudaias",
+          "Já está no roteiro. Vale entrar pelas ruelas pintadas de azul e branco até a plataforma sobre o oceano.",
+          "grátis"
+        ],
+        [
+          "Café Maure, dentro da Kasbah",
+          "Terraço com chá de menta e amêndoas olhando a foz do rio, cheio de família marroquina no fim da tarde.",
+          "~15-25 MAD o chá"
+        ],
+        [
+          "Salé, do outro lado do rio",
+          "Atravessa-se de barquinho a remo por alguns dirrãs. Cidade irmã de Rabat, sem turista nenhum.",
+          "~5-10 MAD a travessia"
+        ]
+      ],
+      "bars": [
+        [
+          "Rabat é cidade administrativa e discreta",
+          "Vida noturna aqui é café e chá de menta até tarde, não bar. Para beber, os hotéis grandes são a opção.",
+          ""
+        ]
+      ],
+      "cheapEats": [
+        [
+          "Restaurante Bahia",
+          "Já está no roteiro: tajine de legumes para dois por cerca de 102 MAD, um dos melhores negócios da viagem",
+          "~102 MAD os dois"
+        ],
+        [
+          "Barracas da medina de Rabat",
+          "Espetinhos, harira e pão na hora",
+          "~40-70 MAD os dois"
+        ]
+      ],
+      "schedule": [
+        {
+          "day": "01/11 — sábado: bate-volta",
+          "rows": [
+            [
+              "08h30",
+              "Trem de Casablanca, cerca de 1 hora. Saem com frequência"
+            ],
+            [
+              "10h",
+              "Kasbah des Oudaias, o Jardim Andaluz e o Café Maure na plataforma"
+            ],
+            [
+              "12h",
+              "Descer pela Avenida Mohammed V até a medina"
+            ],
+            [
+              "13h",
+              "Almoço no Restaurante Bahia"
+            ],
+            [
+              "15h",
+              "Chellah e as cegonhas — o ponto alto do dia"
+            ],
+            [
+              "17h30",
+              "Trem de volta a Casablanca"
+            ]
+          ]
+        }
+      ],
       "ticketsTotal": {
         "text": "tudo grátis",
         "hasOptional": false
