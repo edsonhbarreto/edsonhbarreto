@@ -340,7 +340,8 @@
       ],
       "markets": {
         "cheap": [
-          "Lidl e Aldi (os mais baratos)",
+          "Lidl (o mais barato)",
+          "Aldi",
           "Franprix",
           "G20",
           "Monoprix",
@@ -846,6 +847,7 @@
       "country": "Eslovênia",
       "dates": "23/10",
       "colorTag": 5,
+      "mapName": "Bled",
       "description": "O dia no lago, e à noite já é aeroporto.",
       "lat": 46.3683,
       "lng": 14.1146,
